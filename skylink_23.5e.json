@@ -2,7 +2,7 @@
   "schema": 1,
   "package": "skylink_23.5e",
   "name": "Skylink SK/CZ 23.5E - TEST 5",
-  "generated": "2026-09-08T00:00:00Z",
+  "generated": "2026-09-08T11:35:13Z",
   "picons": [
     {
       "name": "Markiza HD",
@@ -40,11 +40,46 @@
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_19_1328_CA2_3_EB0000_0_0_0.png"
     },
     {
-  "name": "JOJ Sport 2 HD",
-  "service_reference": "1:0:19:490:76C0:16E:A00000:0:0:0:",
-  "file": "1_0_19_490_76C0_16E_A00000_0_0_0.png",
-  "sha256": "68f86c572821408ac8a548fc642eaafac4ca76610311568ba41cb1844ca58dc1",
-  "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_19_490_76C0_16E_A00000_0_0_0.png"
+      "name": "JOJ Sport 2 HD",
+      "service_reference": "1:0:19:490:76C0:16E:A00000:0:0:0:",
+      "file": "1_0_19_490_76C0_16E_A00000_0_0_0.png",
+      "sha256": "68f86c572821408ac8a548fc642eaafac4ca76610311568ba41cb1844ca58dc1",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_19_490_76C0_16E_A00000_0_0_0.png"
+    },
+    {
+      "name": "3sat HD",
+      "service_reference": "1:0:1:2B8E:3F2:1:C00000:0:0:0:",
+      "file": "1_0_1_2B8E_3F2_1_C00000_0_0_0.png",
+      "sha256": "c9789db0c7b8e9582aeadc7813b9dc0374a99ee79e1b3e659d1faea0bfb40dac",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_1_2B8E_3F2_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Al Jazeera English HD",
+      "service_reference": "1:0:1:13A7:3EA:1:C00000:0:0:0:",
+      "file": "1_0_1_13A7_3EA_1_C00000_0_0_0.png",
+      "sha256": "f0093660d3af71292dab8f5bcc9634c1df2b8e723c9fc2bf51b703abf6988b9d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_1_13A7_3EA_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Arte HD",
+      "service_reference": "1:0:1:283E:3FB:1:C00000:0:0:0:",
+      "file": "1_0_1_283E_3FB_1_C00000_0_0_0.png",
+      "sha256": "cc6bc36ce172284629dd4a46b3ce5c1ae69187cfd6ebabe5eeff4e1c62b2dfb4",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_1_283E_3FB_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "BBC News",
+      "service_reference": "1:0:1:1389:3EA:1:C00000:0:0:0:",
+      "file": "1_0_1_1389_3EA_1_C00000_0_0_0.png",
+      "sha256": "33e6c41c5a2b5bfc358ed33895beb1b09028d6679b4804f9b1352fa5e74c81a2",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_1_1389_3EA_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "CANAL+ Action",
+      "service_reference": "1:0:1:3736:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3736_C8E_3_EB0000_0_0_0.png",
+      "sha256": "88f3586c04164af34d26bed1973d6d32a8cda541cd2e1f2bfefcb3ef1aa0bba0",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_1_3736_C8E_3_EB0000_0_0_0.png"
     }
   ]
 }

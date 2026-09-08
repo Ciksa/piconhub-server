@@ -6,8 +6,8 @@
   "picons": [
     {
       "name": "Markiza HD",
-      "service_reference": "1:0:19:3731:C8E:3:EB0000:0:0:0:",
-      "file": "1_0_19_3731_C8E_3_EB0000_0_0_0.png",
+      "service_reference": "1:0:1:3731:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3731_C8E_3_EB0000_0_0_0.png",
       "sha256": "f2f91d4d1139431d79c54d32f129e92ed6d74b2a24c8aa545600bfd2dcd5dad1",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_19_3731_C8E_3_EB0000_0_0_0.png"
     },

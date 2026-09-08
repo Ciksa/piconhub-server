@@ -38,6 +38,13 @@
       "file": "1_0_19_1328_CA2_3_EB0000_0_0_0.png",
       "sha256": "7e3a1067fd6635b435592885626be2bb06d7f1d154a27c858c2575ce214cfddb",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_19_1328_CA2_3_EB0000_0_0_0.png"
+    },
+    {
+  "name": "JOJ Sport 2 HD",
+  "service_reference": "1:0:19:490:76C0:16E:A00000:0:0:0:",
+  "file": "1_0_19_490_76C0_16E_A00000_0_0_0.png",
+  "sha256": "68f86c572821408ac8a548fc642eaafac4ca76610311568ba41cb1844ca58dc1",
+  "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/1_0_19_490_76C0_16E_A00000_0_0_0.png"
     }
   ]
 }

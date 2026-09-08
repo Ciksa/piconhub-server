@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "package": "skylink_23.5e",
+  "name": "Skylink SK/CZ 23.5E - TEST 5",
+  "generated": "2026-09-08T00:00:00Z",
+  "picons": [
+    {
+      "name": "Markiza HD",
+      "service_reference": "1:0:19:3731:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_19_3731_C8E_3_EB0000_0_0_0.png",
+      "sha256": "0fc61e4ade1b2f0c1042c72bf8b704b5a820c7112e3f5fa73ee86bcafb6b33d3",
+      "url": "https://raw.githubusercontent.com/USERNAME/piconhub-server/main/picons/1_0_19_3731_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "TV JOJ HD",
+      "service_reference": "1:0:19:3398:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_19_3398_C9D_3_EB0000_0_0_0.png",
+      "sha256": "1aec35f9f07d96676a2e7fde27f7f0da3c945279e308244c31789a26ef37fd01",
+      "url": "https://raw.githubusercontent.com/USERNAME/piconhub-server/main/picons/1_0_19_3398_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "RTVS SPORT HD",
+      "service_reference": "1:0:19:3C3F:C90:3:EB0000:0:0:0:",
+      "file": "1_0_19_3C3F_C90_3_EB0000_0_0_0.png",
+      "sha256": "ff6c67a899528ea6a291c56cc6adedd99fd3145312d64a8ca68e6211e290bf4d",
+      "url": "https://raw.githubusercontent.com/USERNAME/piconhub-server/main/picons/1_0_19_3C3F_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 1 HD",
+      "service_reference": "1:0:19:3393:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_19_3393_C9D_3_EB0000_0_0_0.png",
+      "sha256": "84c2e1d9b4090d763ed6d58ef0094e3ef08115dcef36bc4dc5921c80ebd418fe",
+      "url": "https://raw.githubusercontent.com/USERNAME/piconhub-server/main/picons/1_0_19_3393_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "TA3 HD",
+      "service_reference": "1:0:19:1328:CA2:3:EB0000:0:0:0:",
+      "file": "1_0_19_1328_CA2_3_EB0000_0_0_0.png",
+      "sha256": "7e3a1067fd6635b435592885626be2bb06d7f1d154a27c858c2575ce214cfddb",
+      "url": "https://raw.githubusercontent.com/USERNAME/piconhub-server/main/picons/1_0_19_1328_CA2_3_EB0000_0_0_0.png"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "generated": "2026-09-08T00:00:00Z",
+  "packages": [
+    {
+      "id": "skylink_23.5e",
+      "name": "Skylink SK/CZ 23.5E - TEST 5",
+      "manifest": "https://raw.githubusercontent.com/USERNAME/piconhub-server/main/skylink_23.5e.json"
+    }
+  ]
+}

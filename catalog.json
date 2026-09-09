@@ -68,6 +68,44 @@
                          "default_style":  "transparent",
                          "expected_services":  226,
                          "membership":  "Provided SRP set; FastScan not yet verified"
+                     },
+                     {
+                         "id":  "sat_19.2e",
+                         "name":  "Astra 19.2E",
+                         "expected_services":  1561,
+                         "styles":  {
+                                        "transparent":  {
+                                                            "name":  "Transparentne",
+                                                            "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/sat_19.2e/transparent.json"
+                                                        },
+                                        "white":  {
+                                                      "name":  "Biely podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/sat_19.2e/white.json"
+                                                  },
+                                        "black":  {
+                                                      "name":  "Cierny podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/sat_19.2e/black.json"
+                                                  }
+                                    }
+                     },
+                     {
+                         "id":  "sat_13.0e",
+                         "name":  "Hotbird 13.0E",
+                         "expected_services":  1003,
+                         "styles":  {
+                                        "transparent":  {
+                                                            "name":  "Transparentne",
+                                                            "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/sat_13.0e/transparent.json"
+                                                        },
+                                        "white":  {
+                                                      "name":  "Biely podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/sat_13.0e/white.json"
+                                                  },
+                                        "black":  {
+                                                      "name":  "Cierny podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/sat_13.0e/black.json"
+                                                  }
+                                    }
                      }
                  ],
     "news_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/news.json",

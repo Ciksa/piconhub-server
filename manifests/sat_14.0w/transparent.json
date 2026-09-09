@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "package_id": "sat_14.0w",
+  "name": "Satellite 14W",
+  "style": "transparent",
+  "resolution": "220x132",
+  "membership": "Ciefp Motor 75E-34W supplied SRP set; existing PiconHub set merged where available",
+  "picons": [
+    {
+      "file": "1_0_1_1_1_FFFF_D842ADE_0_0_0.png",
+      "service_reference": "1:0:1:1:1:FFFF:D842ADE:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_14.0w/transparent/1_0_1_1_1_FFFF_D842ADE_0_0_0.png",
+      "sha256": "1a1ef8ffe6cc7be8b3d75bd9bac4ab0dd760d283d210750afedf0ee3438a96ce"
+    }
+  ]
+}

@@ -1,0 +1,802 @@
+{
+  "schema": 1,
+  "package_id": "sat_26.0e",
+  "name": "Satellite 26E",
+  "style": "white",
+  "resolution": "220x132",
+  "membership": "Ciefp Motor 75E-34W supplied SRP set; existing PiconHub set merged where available",
+  "picons": [
+    {
+      "file": "1_0_16_2_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:16:2:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_2_1A_88_1040000_0_0_0.png",
+      "sha256": "d3b228a5f325fb120fd8d1aa7525eede3fa2ab335c8cc7348d42810007da9eac"
+    },
+    {
+      "file": "1_0_16_36_1FD_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:16:36:1FD:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_36_1FD_2BE_1040000_0_0_0.png",
+      "sha256": "5e8c1091760bc845d5e7308e9ed6bddb81d3f598283b0449a2352f995ab69141"
+    },
+    {
+      "file": "1_0_16_3_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:16:3:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_3_1A_88_1040000_0_0_0.png",
+      "sha256": "2594f185871d5dd3c9453f52cb8aec7cf77a5ba33fe49f2f6652fa5e9577128d"
+    },
+    {
+      "file": "1_0_16_5_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:16:5:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_5_1A_88_1040000_0_0_0.png",
+      "sha256": "8ce4a33e83b83f6e7a33c6376678eaa8fdbe5d56cc07aebd2618d52e1d38eb42"
+    },
+    {
+      "file": "1_0_16_6_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:16:6:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_6_1A_88_1040000_0_0_0.png",
+      "sha256": "810e43167aadc12d516c7fdccc07cde9edc63af05a8b41a4603ac0c40b9f2209"
+    },
+    {
+      "file": "1_0_16_7_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:16:7:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_7_1A_88_1040000_0_0_0.png",
+      "sha256": "fd22a2fb32a2da62d7d07be173f142f9a3b47c4deb1cddf2b27efde6345ac6aa"
+    },
+    {
+      "file": "1_0_16_8_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:16:8:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_8_1A_88_1040000_0_0_0.png",
+      "sha256": "e27cadd0a022e8a26ddaa734eb407eb6319418c6e2c172f0512a276e6210ac6b"
+    },
+    {
+      "file": "1_0_16_A_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:16:A:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_A_1A_88_1040000_0_0_0.png",
+      "sha256": "2af9215a6e23f68bc5c394ef00d99f6a36e0c6077056778233f4a0f8474cc710"
+    },
+    {
+      "file": "1_0_16_B_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:16:B:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_B_1A_88_1040000_0_0_0.png",
+      "sha256": "ea684202e2ae63d3f136ab32342ddec3e16eee3b5313fdcded99de706bf4f1d5"
+    },
+    {
+      "file": "1_0_16_C_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:16:C:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_C_1A_88_1040000_0_0_0.png",
+      "sha256": "939a2c415a4fe4b046dd1a815923a9f8b68eb7e45822fa10aea0356bc0c228b0"
+    },
+    {
+      "file": "1_0_16_D_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:16:D:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_16_D_1A_88_1040000_0_0_0.png",
+      "sha256": "b541b78d4a6f7dfb38b23854bc0a5b74e1d56f5dc258d1fe86bd03721d2b70a1"
+    },
+    {
+      "file": "1_0_19_10_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:19:10:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_10_1A_88_1040000_0_0_0.png",
+      "sha256": "189c1fd3b0f10503222f6f935f6d545657d3a53bce9860603d135c454a047798"
+    },
+    {
+      "file": "1_0_19_10_1FF_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:10:1FF:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_10_1FF_2BE_1040000_0_0_0.png",
+      "sha256": "b51ba7768d4f669c203c32a8bd00a39493fbe947ee06dbb300f05741a318d78f"
+    },
+    {
+      "file": "1_0_19_11_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:19:11:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_11_1A_88_1040000_0_0_0.png",
+      "sha256": "c394328620b31f3ce41444b7ac6a8675d4f6dbf085d4e3e3179bf67c76491cf3"
+    },
+    {
+      "file": "1_0_19_11_1FF_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:11:1FF:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_11_1FF_2BE_1040000_0_0_0.png",
+      "sha256": "ac3caffeb6c26470477f9a07af8b1e03075914efc2f09d7834c7c4799fb2c223"
+    },
+    {
+      "file": "1_0_19_12_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:19:12:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_12_1A_88_1040000_0_0_0.png",
+      "sha256": "4acf6ecba5b623153c11b8e6a2d845473cd1af4df8922d829b56603e6fcdcde4"
+    },
+    {
+      "file": "1_0_19_17_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:19:17:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_17_1A_88_1040000_0_0_0.png",
+      "sha256": "564ff2ae0dd0b5fbca7a40ba53b5b5bf2161d7960904da42d52144341d11bee0"
+    },
+    {
+      "file": "1_0_19_18E2_1A_1A_1040000_0_0_0.png",
+      "service_reference": "1:0:19:18E2:1A:1A:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_18E2_1A_1A_1040000_0_0_0.png",
+      "sha256": "0b3df56b2e03a8877f966f98b31744078a4318ac9053dc81f50b7f08372387b2"
+    },
+    {
+      "file": "1_0_19_18_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:19:18:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_18_1A_88_1040000_0_0_0.png",
+      "sha256": "6daf3f085e9be870069b40e108d551f4fa4916428d5b9d70f7eda7be304db696"
+    },
+    {
+      "file": "1_0_19_1_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:19:1:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_1_1A_88_1040000_0_0_0.png",
+      "sha256": "fef68fd820d851ea4bb71df9774f06b06429ca3e4c7bd57fd256563a6140b89d"
+    },
+    {
+      "file": "1_0_19_1_1FC_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:1:1FC:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_1_1FC_2BE_1040000_0_0_0.png",
+      "sha256": "c09874cd3c4d008e27e89459b4d2635aa18a87969bffc0d79e8ced736e1e9b51"
+    },
+    {
+      "file": "1_0_19_1_202_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:1:202:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_1_202_2BE_1040000_0_0_0.png",
+      "sha256": "c2630d3889d342e91c33a1bf71606a6c11b0dff2a9e2673a8fd6884f3dd6ee66"
+    },
+    {
+      "file": "1_0_19_253_1F6_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:253:1F6:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_253_1F6_2BE_1040000_0_0_0.png",
+      "sha256": "16836f14fc02a5f4c9419d6dd335df02f78bd34f5cc5f2a56a6072f397f21aea"
+    },
+    {
+      "file": "1_0_19_2_1FC_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:2:1FC:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_2_1FC_2BE_1040000_0_0_0.png",
+      "sha256": "fa0c8106be874da32cb2b3f333fa13d5e2d3ef8b6d20ece9aaf2cc0fd56be772"
+    },
+    {
+      "file": "1_0_19_2_202_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:2:202:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_2_202_2BE_1040000_0_0_0.png",
+      "sha256": "8f901987643744de3851d0a45ec8564fe8ed49dd0e2002c7646298b94034826c"
+    },
+    {
+      "file": "1_0_19_3_1FC_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:3:1FC:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_3_1FC_2BE_1040000_0_0_0.png",
+      "sha256": "6b7ae00c723b2f93bd879014bf73bfc5db71e16c757dbbe0c062ab0f77f0f5bd"
+    },
+    {
+      "file": "1_0_19_3_1FF_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:3:1FF:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_3_1FF_2BE_1040000_0_0_0.png",
+      "sha256": "e9c357aa538c2b2fe297a46dfa1905f42e5f00f1c7233dcc44dacbb36eb9b766"
+    },
+    {
+      "file": "1_0_19_44D_7594_77E_1040000_0_0_0.png",
+      "service_reference": "1:0:19:44D:7594:77E:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_44D_7594_77E_1040000_0_0_0.png",
+      "sha256": "4b702958d8274bda37537929e6544f8836424c70870e5645fe59524725352e34"
+    },
+    {
+      "file": "1_0_19_44E_7594_77E_1040000_0_0_0.png",
+      "service_reference": "1:0:19:44E:7594:77E:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_44E_7594_77E_1040000_0_0_0.png",
+      "sha256": "4d179257b5e9a88b64a700e3e055950b4944971b562c3417f9fe4ef0d0670772"
+    },
+    {
+      "file": "1_0_19_44F_7594_77E_1040000_0_0_0.png",
+      "service_reference": "1:0:19:44F:7594:77E:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_44F_7594_77E_1040000_0_0_0.png",
+      "sha256": "82bd7b8c9853e937fe8e486d3ff47acbf5ea17b156af792dfa182764e73b756c"
+    },
+    {
+      "file": "1_0_19_450_7594_77E_1040000_0_0_0.png",
+      "service_reference": "1:0:19:450:7594:77E:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_450_7594_77E_1040000_0_0_0.png",
+      "sha256": "ac0a9615616964fcf99e980905bff8a0a45658555cb54648ee6a0f59acbd41c4"
+    },
+    {
+      "file": "1_0_19_451_7594_77E_1040000_0_0_0.png",
+      "service_reference": "1:0:19:451:7594:77E:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_451_7594_77E_1040000_0_0_0.png",
+      "sha256": "104e5c73de490621961d0563b3cf00fcb99ba3650a573aca708ccb3ded4a45ba"
+    },
+    {
+      "file": "1_0_19_488_1A_1A_1040000_0_0_0.png",
+      "service_reference": "1:0:19:488:1A:1A:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_488_1A_1A_1040000_0_0_0.png",
+      "sha256": "b674431f7d5265f6657524ab54670144b76b6997b4959009bc4a64812aa1dc4d"
+    },
+    {
+      "file": "1_0_19_5141_820_E0_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5141:820:E0:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5141_820_E0_1040000_0_0_0.png",
+      "sha256": "27c21ed1e52a532e0c32ab5838cad7813463e04a1193e8651113af971352900e"
+    },
+    {
+      "file": "1_0_19_5142_820_E0_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5142:820:E0:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5142_820_E0_1040000_0_0_0.png",
+      "sha256": "21bf45dee12e8dae4f87088614d3b90f764d37a56f57b3c643107e852c069b35"
+    },
+    {
+      "file": "1_0_19_5143_820_E0_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5143:820:E0:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5143_820_E0_1040000_0_0_0.png",
+      "sha256": "af9c9af724df28cd6961705e25eb1280969634bd34945f0fed487909c54dd030"
+    },
+    {
+      "file": "1_0_19_5144_820_E0_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5144:820:E0:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5144_820_E0_1040000_0_0_0.png",
+      "sha256": "f307edf4bdf4544f5747aee14810fd1c0421b3d3720d4db1d3641c449dfd1693"
+    },
+    {
+      "file": "1_0_19_5145_820_E0_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5145:820:E0:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5145_820_E0_1040000_0_0_0.png",
+      "sha256": "7151b7784877d75b9bc7bbaf245382ae2e5644b3addc91d330c9a52a7de20b38"
+    },
+    {
+      "file": "1_0_19_5146_820_E0_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5146:820:E0:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5146_820_E0_1040000_0_0_0.png",
+      "sha256": "6f013837ba8768a605c9c6f7c163c614cdc06e405fade88b337edbce41ed5a2e"
+    },
+    {
+      "file": "1_0_19_5147_820_E0_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5147:820:E0:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5147_820_E0_1040000_0_0_0.png",
+      "sha256": "d59b9bd7f272b3d4b841d2193c6dfd4510136d988fc4444ae50f5fbbd9dfb555"
+    },
+    {
+      "file": "1_0_19_5148_820_E0_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5148:820:E0:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5148_820_E0_1040000_0_0_0.png",
+      "sha256": "7e08152d28b7ecc7cb53c277152404163611198f194f254743c269cb75e4e34b"
+    },
+    {
+      "file": "1_0_19_5149_820_E0_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5149:820:E0:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5149_820_E0_1040000_0_0_0.png",
+      "sha256": "17bbc5b93cb4ff39b8b886f6529afaf79cbc27f1121d7b621c7bb1855fb25d45"
+    },
+    {
+      "file": "1_0_19_5_1FA9_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5:1FA9:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5_1FA9_2BE_1040000_0_0_0.png",
+      "sha256": "dbe57d92f11e530ad02959735989c24005122108069d30cbbba53df6576b02e6"
+    },
+    {
+      "file": "1_0_19_5_1FC_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:5:1FC:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_5_1FC_2BE_1040000_0_0_0.png",
+      "sha256": "ecedabe3e0d3156fd720384b552fc19a149040f52b5ac6d83eb4e1bf617a511d"
+    },
+    {
+      "file": "1_0_19_66_13F7_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:66:13F7:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_66_13F7_2BE_1040000_0_0_0.png",
+      "sha256": "baa8c19bc4aa1babd171815bcfe87f9c96ba261cc7bd30ec08ed23bdb8d0baf9"
+    },
+    {
+      "file": "1_0_19_67_13F7_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:67:13F7:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_67_13F7_2BE_1040000_0_0_0.png",
+      "sha256": "5f861bc2b0c6d708ffb826c5431642ea603edff336f5796ee4a7aa651e8003a6"
+    },
+    {
+      "file": "1_0_19_6D_13F7_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:6D:13F7:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_6D_13F7_2BE_1040000_0_0_0.png",
+      "sha256": "ae272b25896e61cf2601ca0013d26acaf149293c40a10daea4a1f7024dbe72bd"
+    },
+    {
+      "file": "1_0_19_6_1FC_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:6:1FC:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_6_1FC_2BE_1040000_0_0_0.png",
+      "sha256": "71e3556d7462e771993a6e990b12f3e518b1d6ade9bda0bcb6ee0a0377885fee"
+    },
+    {
+      "file": "1_0_19_70A_1FA_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:70A:1FA:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_70A_1FA_2BE_1040000_0_0_0.png",
+      "sha256": "62c98f4cb387b37102ee3c666206dffcc415e6fc96fabc49ff6791e8e11319c6"
+    },
+    {
+      "file": "1_0_19_7_1FA9_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:7:1FA9:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_7_1FA9_2BE_1040000_0_0_0.png",
+      "sha256": "f5015f65bc0e15d260b076d3b9e824279121471beb5db725108f38e94e943955"
+    },
+    {
+      "file": "1_0_19_7_1FC_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:7:1FC:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_7_1FC_2BE_1040000_0_0_0.png",
+      "sha256": "a9cc62cc014b87adc4a23fe835ab6544b041931ef8b7a9e5cb9eb0618a3a9c8d"
+    },
+    {
+      "file": "1_0_19_8_1FC_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:8:1FC:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_8_1FC_2BE_1040000_0_0_0.png",
+      "sha256": "a059bb97f89c08d779bb0cc5452855bfc8343a0bef1a997bfff97cf986eb0efb"
+    },
+    {
+      "file": "1_0_19_B_1F9_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:B:1F9:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_B_1F9_2BE_1040000_0_0_0.png",
+      "sha256": "7cc0bfa66ab7e2fbf954b9a5d2c259c699e561fab1b7e14c54fd9a55bfc32eef"
+    },
+    {
+      "file": "1_0_19_C_1F7_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:C:1F7:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_C_1F7_2BE_1040000_0_0_0.png",
+      "sha256": "78a9f74bf9c0d06ded3ea3a0d7eb4547b0ffd6f0d662bcfbcfe0d8dba8a65f8d"
+    },
+    {
+      "file": "1_0_19_D66_1A_1A_1040000_0_0_0.png",
+      "service_reference": "1:0:19:D66:1A:1A:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_D66_1A_1A_1040000_0_0_0.png",
+      "sha256": "31e1c333afb400c4b4597fd7533719bd6fe10c5e6ea972bfd38a3188b9c75366"
+    },
+    {
+      "file": "1_0_19_D_1F7_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:19:D:1F7:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_D_1F7_2BE_1040000_0_0_0.png",
+      "sha256": "68894f3d33ddf7d7435da422e186ae7bf2a8ad3c7ff2dda877a2168c95d07afb"
+    },
+    {
+      "file": "1_0_19_F_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:19:F:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_19_F_1A_88_1040000_0_0_0.png",
+      "sha256": "0ad9684400ac8808761cbe4ad26e8941ec5a0bba5918b3c7a32a833a9d698d59"
+    },
+    {
+      "file": "1_0_1_11_1137_21AC_1040000_0_0_0.png",
+      "service_reference": "1:0:1:11:1137:21AC:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_11_1137_21AC_1040000_0_0_0.png",
+      "sha256": "8fc86529a2a2b70a4c4056fa5a05944c001f03082236b96d79a1e7722bf72dc2"
+    },
+    {
+      "file": "1_0_1_134_1FE_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:134:1FE:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_134_1FE_2BE_1040000_0_0_0.png",
+      "sha256": "4baf0ef3b5a9353b9b5b19b3e613ede0d66502d2cf9e3f9c860dd1aafe7be5d5"
+    },
+    {
+      "file": "1_0_1_135_1FE_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:135:1FE:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_135_1FE_2BE_1040000_0_0_0.png",
+      "sha256": "e9f113cb5060674ee536f7e7d73431b5e6d37862ad54107ac041697368b0af9b"
+    },
+    {
+      "file": "1_0_1_14_1137_21AC_1040000_0_0_0.png",
+      "service_reference": "1:0:1:14:1137:21AC:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_14_1137_21AC_1040000_0_0_0.png",
+      "sha256": "23eaec19299e9c7f69dfddd51ba72913d6e035f5174694757c7844ce3a998e86"
+    },
+    {
+      "file": "1_0_1_15E2_1A_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:15E2:1A:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_15E2_1A_2BE_1040000_0_0_0.png",
+      "sha256": "bb319800f524a21870f90e2d26bb069c53be4da5d17c0a84d8ec6bacd727f69a"
+    },
+    {
+      "file": "1_0_1_15E3_1A_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:15E3:1A:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_15E3_1A_2BE_1040000_0_0_0.png",
+      "sha256": "8db48af4f2a06f8093057ea498365d519d27db4bc6e1ccd20869adbe14f02643"
+    },
+    {
+      "file": "1_0_1_15E4_1A_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:15E4:1A:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_15E4_1A_2BE_1040000_0_0_0.png",
+      "sha256": "9eb1f6f97cc72e59fcd4e3490d7b1b7c44cd6635c90f2b5b64dece24a98b9fae"
+    },
+    {
+      "file": "1_0_1_15E5_1A_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:15E5:1A:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_15E5_1A_2BE_1040000_0_0_0.png",
+      "sha256": "cc3a84ffb4499b5af43270fc51266484009f514b8172bde17ccbf56b197680db"
+    },
+    {
+      "file": "1_0_1_15E7_1A_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:15E7:1A:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_15E7_1A_2BE_1040000_0_0_0.png",
+      "sha256": "e97ba0acfe5c772e5c46973839a5b253dfb94d9fb7105e142f2ef53157c45410"
+    },
+    {
+      "file": "1_0_1_15_1_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:15:1:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_15_1_2BE_1040000_0_0_0.png",
+      "sha256": "8f3e98bcdae992da32aa033aa06f7b234b0bdbcb7c2a9a62585a7e45f4ab98b5"
+    },
+    {
+      "file": "1_0_1_16_1_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:16:1:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_16_1_2BE_1040000_0_0_0.png",
+      "sha256": "99b054482eac8ca2a58835523650f14aa924f8aa9b641ce9559dfc97bad261bd"
+    },
+    {
+      "file": "1_0_1_17_1FD_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:17:1FD:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_17_1FD_2BE_1040000_0_0_0.png",
+      "sha256": "fb4c367028ecf7b3f905038d05c4131698e72693e9d78a38de19782f52125d76"
+    },
+    {
+      "file": "1_0_1_17_1_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:17:1:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_17_1_2BE_1040000_0_0_0.png",
+      "sha256": "88f953ec3c28f37dcd6f0aec51b274db2dc4aeb0fbe873e2d3692b7dd7681fe8"
+    },
+    {
+      "file": "1_0_1_18_1_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:18:1:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_18_1_2BE_1040000_0_0_0.png",
+      "sha256": "c57086bd2a61847350fbd0109f0f864a7253ed03271b5db35fce9cd338ef9b5f"
+    },
+    {
+      "file": "1_0_1_193_12D_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:193:12D:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_193_12D_2BE_1040000_0_0_0.png",
+      "sha256": "ad388af29979d839fd8b151684ad329d9d5153574cb6f78704f441466d7de713"
+    },
+    {
+      "file": "1_0_1_19_1_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:19:1:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_19_1_2BE_1040000_0_0_0.png",
+      "sha256": "b9990492a1ca3f55b917cd069290014a212462c16df2c5a19bf47f87148501e9"
+    },
+    {
+      "file": "1_0_1_1A_1_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:1A:1:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_1A_1_2BE_1040000_0_0_0.png",
+      "sha256": "aef870a64875d4bd964ca29e61788b317099c9a80e150ac1a7bf76b775c2d773"
+    },
+    {
+      "file": "1_0_1_1B_208_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:1B:208:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_1B_208_2BE_1040000_0_0_0.png",
+      "sha256": "4bb33cc7ca9eb2c819a4304a54156d08882a3ab725048c2d567daee31cf17d94"
+    },
+    {
+      "file": "1_0_1_1C_1_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:1C:1:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_1C_1_2BE_1040000_0_0_0.png",
+      "sha256": "e99acf90fe767226c3ac6d9b75fc7da2f73ba69e4fe69c5e20166b65802b10f7"
+    },
+    {
+      "file": "1_0_1_1D_1_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:1D:1:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_1D_1_2BE_1040000_0_0_0.png",
+      "sha256": "3b854f68a0d38ed931d511c78c8d727dcd5f9b81708e7cb4592dda92b50f3a36"
+    },
+    {
+      "file": "1_0_1_1E_1_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:1E:1:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_1E_1_2BE_1040000_0_0_0.png",
+      "sha256": "811fd964c17def5727e0ad48dc25c94721e3d6156d727c3746aeaffac43f2c29"
+    },
+    {
+      "file": "1_0_1_1E_22C_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:1E:22C:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_1E_22C_2BE_1040000_0_0_0.png",
+      "sha256": "6c919aefe2d086093e21ca594897447a3ab065012d1ec3e1989ca3e0147804fd"
+    },
+    {
+      "file": "1_0_1_1_1BC0_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:1:1BC0:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_1_1BC0_2BE_1040000_0_0_0.png",
+      "sha256": "71bc2d76a8e902769efb68d6b2106b8a3ec65583bc6fb8a9df72dd2d87abd91c"
+    },
+    {
+      "file": "1_0_1_1_1F7_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:1:1F7:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_1_1F7_2BE_1040000_0_0_0.png",
+      "sha256": "c8be5c0095427b15feb4200f967f7e60bbf54b77b31cf35e8cb0e220bfe2d318"
+    },
+    {
+      "file": "1_0_1_1_1FA9_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:1:1FA9:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_1_1FA9_2BE_1040000_0_0_0.png",
+      "sha256": "b38afac3e1cbf75c0b0a5e506cc4f43c294b7fbf67a26383835849c92ed43fd0"
+    },
+    {
+      "file": "1_0_1_1_22B_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:1:22B:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_1_22B_2BE_1040000_0_0_0.png",
+      "sha256": "b1ffbb6f959f3d6d07c2e1f84d943eba0d08b6af7e69dfa9b8b80b93dcc49c9c"
+    },
+    {
+      "file": "1_0_1_20C_2_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:20C:2:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_20C_2_2BE_1040000_0_0_0.png",
+      "sha256": "0ce32c3c6e07d9feebdfc611541d9e3b43674dadd11815f0a9ff82ed90aaa38d"
+    },
+    {
+      "file": "1_0_1_20D_2_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:20D:2:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_20D_2_2BE_1040000_0_0_0.png",
+      "sha256": "2fadda35db90701dd45f25fdec42e87386eb649b7421c93ef6d89a8997c03062"
+    },
+    {
+      "file": "1_0_1_251_1F6_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:251:1F6:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_251_1F6_2BE_1040000_0_0_0.png",
+      "sha256": "dce1ae2095c52a9a58f209e4f9225e7ecaaeec19b0eede1c305cc07985750616"
+    },
+    {
+      "file": "1_0_1_255_1F6_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:255:1F6:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_255_1F6_2BE_1040000_0_0_0.png",
+      "sha256": "465579d7330145e9dccb4d8718fd08a953c4b36c168a8de30dec57bd1656590b"
+    },
+    {
+      "file": "1_0_1_2A_1FD_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:2A:1FD:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_2A_1FD_2BE_1040000_0_0_0.png",
+      "sha256": "22afd4bb3943e955bafc446d26cd9ff7871580b7498f5d7b2a76b5f5f644e3b8"
+    },
+    {
+      "file": "1_0_1_2_1BC0_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:2:1BC0:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_2_1BC0_2BE_1040000_0_0_0.png",
+      "sha256": "924abc2237ca435121f044ad9c4358e174a594f2e4d9a1e73864a1d79afc6a87"
+    },
+    {
+      "file": "1_0_1_3_1F7_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:3:1F7:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_3_1F7_2BE_1040000_0_0_0.png",
+      "sha256": "dce2bd28461673f73d23ceb2724b89c71c6fca9dfd55cdb22792e1f5805e7ee3"
+    },
+    {
+      "file": "1_0_1_3_1FA9_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:3:1FA9:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_3_1FA9_2BE_1040000_0_0_0.png",
+      "sha256": "fb00ee1c73ab2f8a4573d790b64213b100b4000922cd00914c256a46dbe927ff"
+    },
+    {
+      "file": "1_0_1_3_202_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:3:202:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_3_202_2BE_1040000_0_0_0.png",
+      "sha256": "20e94e0de318c86d0312a13b679ca4cbe982a4fd42fc15a5c5e86937912c7f24"
+    },
+    {
+      "file": "1_0_1_3_22B_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:3:22B:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_3_22B_2BE_1040000_0_0_0.png",
+      "sha256": "7095402845ded426aaf8f3b4145e72eb689c5fdb6b7adfe4196a5a7b1b4a4991"
+    },
+    {
+      "file": "1_0_1_3_3_1_1040000_0_0_0.png",
+      "service_reference": "1:0:1:3:3:1:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_3_3_1_1040000_0_0_0.png",
+      "sha256": "9cd92a0675e71432caaf6c0180f1a5c84b312ad38b79e496bca6883cbf04849f"
+    },
+    {
+      "file": "1_0_1_46_22C_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:46:22C:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_46_22C_2BE_1040000_0_0_0.png",
+      "sha256": "01beb1e8dd865df5b57f1d7224fd8d425683b372c145de59c8c2317b6db57583"
+    },
+    {
+      "file": "1_0_1_4_202_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:4:202:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_4_202_2BE_1040000_0_0_0.png",
+      "sha256": "80116065254d99f1f142af6d3eba1a7f3af09b753c464075c3d3e4d88c4b2e98"
+    },
+    {
+      "file": "1_0_1_4_22B_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:4:22B:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_4_22B_2BE_1040000_0_0_0.png",
+      "sha256": "85d104d0f0b8eba93a79a45573f3ea9d66a396cf39dae745ef6248ed9feb4822"
+    },
+    {
+      "file": "1_0_1_4_3_1_1040000_0_0_0.png",
+      "service_reference": "1:0:1:4:3:1:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_4_3_1_1040000_0_0_0.png",
+      "sha256": "5363143aaa4a741d7d039145426734d52b3e19c309d0a37ad030939671be4a3e"
+    },
+    {
+      "file": "1_0_1_50_22C_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:50:22C:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_50_22C_2BE_1040000_0_0_0.png",
+      "sha256": "a12c7a5f3e6e0b580cd3a08a59433251506febbc8377ea1c28e2891b92ba7036"
+    },
+    {
+      "file": "1_0_1_5A_22C_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:5A:22C:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_5A_22C_2BE_1040000_0_0_0.png",
+      "sha256": "1bd75351ab1da5321e1091d51a87cca80d6857488884ef5f527c9521c01c73c7"
+    },
+    {
+      "file": "1_0_1_5_1BC0_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:5:1BC0:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_5_1BC0_2BE_1040000_0_0_0.png",
+      "sha256": "586299e12af5c92e27af1324d96e909519f8c80c1316034e9d157d6dd69d96c7"
+    },
+    {
+      "file": "1_0_1_5_22B_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:5:22B:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_5_22B_2BE_1040000_0_0_0.png",
+      "sha256": "0a7a8a64b6f82c0651279a27b51f5aa2f3538a7ea2ca2256a511f6d51d2fbb5b"
+    },
+    {
+      "file": "1_0_1_6_1BC0_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:6:1BC0:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_6_1BC0_2BE_1040000_0_0_0.png",
+      "sha256": "a2362239f83d225eef1480a57b337283431b55bad492adba8a0b9b306c5647de"
+    },
+    {
+      "file": "1_0_1_6_1F7_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:6:1F7:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_6_1F7_2BE_1040000_0_0_0.png",
+      "sha256": "5f0fe609533a541c8f3f5f79bcdbb6b652ed3f77c5664d402b2417309bfe1c75"
+    },
+    {
+      "file": "1_0_1_6_1FA9_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:6:1FA9:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_6_1FA9_2BE_1040000_0_0_0.png",
+      "sha256": "d67b8f6a09a0b585ff6cc9f9c6012ee2e66450c5cb72cb17207f55f340fa18fc"
+    },
+    {
+      "file": "1_0_1_6_202_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:6:202:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_6_202_2BE_1040000_0_0_0.png",
+      "sha256": "5e2cf731df461ad0c01baefe138d974ddc0394237c8c5783bb7e17ac2e00d5ad"
+    },
+    {
+      "file": "1_0_1_70B_1FA_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:70B:1FA:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_70B_1FA_2BE_1040000_0_0_0.png",
+      "sha256": "dfe4b9b1ab3e7d9e5fc7e873c467d15f9a7cf91bb2a4df1605dffe7d941ee605"
+    },
+    {
+      "file": "1_0_1_70C_1FA_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:70C:1FA:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_70C_1FA_2BE_1040000_0_0_0.png",
+      "sha256": "470ab308bf0a654310bd0458b9db5539a11765dce75ae79d8652e577a6299cf2"
+    },
+    {
+      "file": "1_0_1_70D_1FA_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:70D:1FA:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_70D_1FA_2BE_1040000_0_0_0.png",
+      "sha256": "b2ea9dea2ebd63d9d4b8ccca4347c38110271d49024407078769d2a006e80087"
+    },
+    {
+      "file": "1_0_1_729_1FA_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:729:1FA:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_729_1FA_2BE_1040000_0_0_0.png",
+      "sha256": "efd2d9eb7dea1f50ffc3eaebe6ef102c1f7e0efe3d8b3af3661b83017c922736"
+    },
+    {
+      "file": "1_0_1_72D_1FA_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:72D:1FA:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_72D_1FA_2BE_1040000_0_0_0.png",
+      "sha256": "28f63028bd149c763daa13c4e3aa4a79e1da5d9e0ed094a9273f0e6f950c27fd"
+    },
+    {
+      "file": "1_0_1_733_1FA_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:733:1FA:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_733_1FA_2BE_1040000_0_0_0.png",
+      "sha256": "9e237560b1123b67ee2dd30f4683f5a30c643a7ceecdba33d9ad7256f6d4c1d8"
+    },
+    {
+      "file": "1_0_1_73A_1FA_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:73A:1FA:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_73A_1FA_2BE_1040000_0_0_0.png",
+      "sha256": "f191ad70ebf3511362ce27ada4ccf77e298aed30f4f466ed57bb483885eca944"
+    },
+    {
+      "file": "1_0_1_73B_12D_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:73B:12D:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_73B_12D_2BE_1040000_0_0_0.png",
+      "sha256": "aa0ea4d4949089761540447fe5ba349a503dad46bf5dcb685af1760ee059e663"
+    },
+    {
+      "file": "1_0_1_73C_12D_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:73C:12D:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_73C_12D_2BE_1040000_0_0_0.png",
+      "sha256": "fabd4511d98308414b427480c5466918e7503cdc80eac429ac7e961ceea65212"
+    },
+    {
+      "file": "1_0_1_7DA_2_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:7DA:2:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_7DA_2_2BE_1040000_0_0_0.png",
+      "sha256": "5bec81a62ebf1209b7a3f3ae528eab5a8ab30a3416c8e757ea002709c09bf505"
+    },
+    {
+      "file": "1_0_1_7DB_2_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:7DB:2:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_7DB_2_2BE_1040000_0_0_0.png",
+      "sha256": "46ae21dd26e9a873fccbdbdd6b96d2cb7d09bc33e4d14a57f7973e7e9dc93131"
+    },
+    {
+      "file": "1_0_1_7_1BC0_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:7:1BC0:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_7_1BC0_2BE_1040000_0_0_0.png",
+      "sha256": "a50fb7129f60aacfff6f9c1285d3928d26b0a1bd71ff3a56c64b6dcfc8e4c71e"
+    },
+    {
+      "file": "1_0_1_84_1A_88_1040000_0_0_0.png",
+      "service_reference": "1:0:1:84:1A:88:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_84_1A_88_1040000_0_0_0.png",
+      "sha256": "7653e60058669a23c48ea6e01f5062dd7c92b226b6baffe8f4fadcec75f1b3d4"
+    },
+    {
+      "file": "1_0_1_8FE_2_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:8FE:2:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_8FE_2_2BE_1040000_0_0_0.png",
+      "sha256": "de753de7ac36ff3a99457c420e99297ea09ea70ce13854a08efe0bb0f634bcab"
+    },
+    {
+      "file": "1_0_1_8_1FA9_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:8:1FA9:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_8_1FA9_2BE_1040000_0_0_0.png",
+      "sha256": "747f755d12ead38e5fe94c7beae1f7595b44a9d41cba5a27d6453eb3a9a03f48"
+    },
+    {
+      "file": "1_0_1_9_1BC0_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:9:1BC0:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_9_1BC0_2BE_1040000_0_0_0.png",
+      "sha256": "c3bd43b397e7a997e510ed490644c11a3eddff3562e1be228aab6700c5d32176"
+    },
+    {
+      "file": "1_0_1_A29_1A_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:A29:1A:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_A29_1A_2BE_1040000_0_0_0.png",
+      "sha256": "ef20e344b7e87a1bcb5440ec970ae3f5a08734661010661355a38674df8e91ae"
+    },
+    {
+      "file": "1_0_1_A2A_1A_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:A2A:1A:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_A2A_1A_2BE_1040000_0_0_0.png",
+      "sha256": "ace7cb501d96226848652795e0525513e2676f30db4acda0e1dbfc69ab8b9e42"
+    },
+    {
+      "file": "1_0_1_A2B_1A_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:A2B:1A:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_A2B_1A_2BE_1040000_0_0_0.png",
+      "sha256": "c78c025d529c865efb893ecb9e70b5c4511654c033a44adb2a14df0c9f9f99a6"
+    },
+    {
+      "file": "1_0_1_A2C_1A_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:A2C:1A:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_A2C_1A_2BE_1040000_0_0_0.png",
+      "sha256": "03cb391cdc7b95a6e86d5d36316582635d57f33af432d852adb5b9f34fc17b77"
+    },
+    {
+      "file": "1_0_1_A2D_1A_2BE_1040000_0_0_0.png",
+      "service_reference": "1:0:1:A2D:1A:2BE:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_A2D_1A_2BE_1040000_0_0_0.png",
+      "sha256": "0150619da4fed8892b0deb442b805d0f91b00b4b774791750e99bca3d38df0c3"
+    },
+    {
+      "file": "1_0_1_BA4_1A_1A_1040000_0_0_0.png",
+      "service_reference": "1:0:1:BA4:1A:1A:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_BA4_1A_1A_1040000_0_0_0.png",
+      "sha256": "8886256b172ac620d5aac7288d9cba340e124ba6ad4fb1827e654c5d7cc1029b"
+    },
+    {
+      "file": "1_0_1_C_1137_21AC_1040000_0_0_0.png",
+      "service_reference": "1:0:1:C:1137:21AC:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_C_1137_21AC_1040000_0_0_0.png",
+      "sha256": "c0de5d8c4ce79d7dd59805468e7386f7c492f158c3b1ccae0efc634c710cc9ea"
+    },
+    {
+      "file": "1_0_1_D02_1A_1A_1040000_0_0_0.png",
+      "service_reference": "1:0:1:D02:1A:1A:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_D02_1A_1A_1040000_0_0_0.png",
+      "sha256": "e5648d28f642040bc26922505efdf6ccbb4436ae66088785b6c54a90ed9d8107"
+    },
+    {
+      "file": "1_0_1_D2A_1A_1A_1040000_0_0_0.png",
+      "service_reference": "1:0:1:D2A:1A:1A:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_D2A_1A_1A_1040000_0_0_0.png",
+      "sha256": "a4edc024cce760d9566d9b352c84ffaf27a5fb169b4065576f71d3dd3070b674"
+    },
+    {
+      "file": "1_0_1_F_1137_21AC_1040000_0_0_0.png",
+      "service_reference": "1:0:1:F:1137:21AC:1040000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_26.0e/white/1_0_1_F_1137_21AC_1040000_0_0_0.png",
+      "sha256": "bd90242a687757d1e18d9a4afaceebb7cf29c2ff3fa18215baca96a314a56be6"
+    }
+  ]
+}

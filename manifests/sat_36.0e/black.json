@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "package_id": "sat_36.0e",
+  "name": "Satellite 36E",
+  "style": "black",
+  "resolution": "220x132",
+  "membership": "Ciefp Motor 75E-34W supplied SRP set; existing PiconHub set merged where available",
+  "picons": [
+    {
+      "file": "1_0_19_12C3_37_1_1680000_0_0_0.png",
+      "service_reference": "1:0:19:12C3:37:1:1680000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_36.0e/black/1_0_19_12C3_37_1_1680000_0_0_0.png",
+      "sha256": "b1fa03757102bc566d8f584c8b31334b293fb918362d550baeb66c320fda914a"
+    },
+    {
+      "file": "1_0_19_12C4_37_1_1680000_0_0_0.png",
+      "service_reference": "1:0:19:12C4:37:1:1680000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_36.0e/black/1_0_19_12C4_37_1_1680000_0_0_0.png",
+      "sha256": "4336e344d5c6506abbf1fe74a4f8b0391766c2d5e852ea4092b4670c614e9d0c"
+    },
+    {
+      "file": "1_0_19_1_1_539_1680000_0_0_0.png",
+      "service_reference": "1:0:19:1:1:539:1680000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_36.0e/black/1_0_19_1_1_539_1680000_0_0_0.png",
+      "sha256": "04fe1e79514d21a00e6a78963428e1d15f8f55eb9cf403804d527105f73d1c45"
+    },
+    {
+      "file": "1_0_19_2_1_539_1680000_0_0_0.png",
+      "service_reference": "1:0:19:2:1:539:1680000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_36.0e/black/1_0_19_2_1_539_1680000_0_0_0.png",
+      "sha256": "80acc7adeaeb624d34e545de6c7cfa884b082307b8b8fdc87551430da2916264"
+    },
+    {
+      "file": "1_0_19_5_1_539_1680000_0_0_0.png",
+      "service_reference": "1:0:19:5:1:539:1680000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_36.0e/black/1_0_19_5_1_539_1680000_0_0_0.png",
+      "sha256": "2bf3c19c1b7948ae8d72e961c9a0688fe4b1f228feda88a98857f28b4b17bb5e"
+    },
+    {
+      "file": "1_0_1_1_1_1_1682D4F_0_0_0.png",
+      "service_reference": "1:0:1:1:1:1:1682D4F:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_36.0e/black/1_0_1_1_1_1_1682D4F_0_0_0.png",
+      "sha256": "7e865549cc9ee2d1c27ca32ee588f67c66ef2f1cde4d1baabb23dc76e7279345"
+    },
+    {
+      "file": "1_0_1_1_1_FFFF_168ACF4_0_0_0.png",
+      "service_reference": "1:0:1:1:1:FFFF:168ACF4:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_36.0e/black/1_0_1_1_1_FFFF_168ACF4_0_0_0.png",
+      "sha256": "ae55597bb72d06cae1b5302f0f0bd2a2e62b4852b802add95dd1ffd7117e6db3"
+    },
+    {
+      "file": "1_0_1_3EC_37_1_1680000_0_0_0.png",
+      "service_reference": "1:0:1:3EC:37:1:1680000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_36.0e/black/1_0_1_3EC_37_1_1680000_0_0_0.png",
+      "sha256": "10a3d4279d6d4681f102d8eb0679631d6fc9c1ae98b784145096e6762c4b9356"
+    },
+    {
+      "file": "1_0_1_3F1_37_1_1680000_0_0_0.png",
+      "service_reference": "1:0:1:3F1:37:1:1680000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_36.0e/black/1_0_1_3F1_37_1_1680000_0_0_0.png",
+      "sha256": "00e397cece2a01b97bf762078c45e34d1a59f39353c1c75763c02f8daf268913"
+    },
+    {
+      "file": "1_0_1_69_F5_1_1680000_0_0_0.png",
+      "service_reference": "1:0:1:69:F5:1:1680000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_36.0e/black/1_0_1_69_F5_1_1680000_0_0_0.png",
+      "sha256": "931770ba53befe180dd3671b4632989b88f299a2af30169b6ced6cc2a0b59c71"
+    }
+  ]
+}

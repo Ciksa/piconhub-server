@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "package_id": "sat_8.0w",
+  "name": "Satellite 8W",
+  "style": "white",
+  "resolution": "220x132",
+  "membership": "Ciefp Motor 75E-34W supplied SRP set; existing PiconHub set merged where available",
+  "picons": [
+    {
+      "file": "1_0_2_190_1BC_1_DC00000_0_0_0.png",
+      "service_reference": "1:0:2:190:1BC:1:DC00000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_8.0w/white/1_0_2_190_1BC_1_DC00000_0_0_0.png",
+      "sha256": "ab8b1d13b4f17932e406ec4d386d41d1a9113cbfefbec4b268de44e47a52399a"
+    },
+    {
+      "file": "1_0_2_191_1BC_1_DC00000_0_0_0.png",
+      "service_reference": "1:0:2:191:1BC:1:DC00000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_8.0w/white/1_0_2_191_1BC_1_DC00000_0_0_0.png",
+      "sha256": "6342daac5c7e43c9ce074f202dd52a1134ef1638816408b3343a9489a19bac61"
+    },
+    {
+      "file": "1_0_2_192_1BC_1_DC00000_0_0_0.png",
+      "service_reference": "1:0:2:192:1BC:1:DC00000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/sat_8.0w/white/1_0_2_192_1BC_1_DC00000_0_0_0.png",
+      "sha256": "e232a5270266f034d6564b725cb07f6a9116fd9dfa55e44069bc2855f785662a"
+    }
+  ]
+}

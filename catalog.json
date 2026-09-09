@@ -8,5 +8,6 @@
       "name": "Skylink SK/CZ 23.5E - TEST 5",
       "manifest": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/skylink_23.5e.json"
     }
-  ]
+  ],
+  "news_url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/news.json"
 }

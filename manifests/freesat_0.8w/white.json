@@ -1,0 +1,1366 @@
+{
+  "schema": 1,
+  "package_id": "freesat_0.8w",
+  "name": "FreeSAT 0.8°W",
+  "style": "white",
+  "resolution": "220x132",
+  "membership": "Provided SRP set; FastScan not yet verified",
+  "picons": [
+    {
+      "file": "1_0_16_177D_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:177D:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_177D_AF6_BB_E080000_0_0_0.png",
+      "sha256": "f8bbe849d7f0be5bc14c826b7522309683b6386a02ab3ef1ab8563b0cb475475"
+    },
+    {
+      "file": "1_0_16_1781_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:1781:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_1781_AF6_BB_E080000_0_0_0.png",
+      "sha256": "e8b7744536b5839eade4c5a7725cd4d70457db21116bbfbc8f8759a9749645d1"
+    },
+    {
+      "file": "1_0_16_1784_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:1784:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_1784_AF6_BB_E080000_0_0_0.png",
+      "sha256": "1beb79513633c320222da25bbf41cf2b09b82a24ac108f4cb450a98b7fc38d3d"
+    },
+    {
+      "file": "1_0_16_1785_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:1785:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_1785_AF6_BB_E080000_0_0_0.png",
+      "sha256": "de66697bd6929baa93f7693a0ea0120a4f52d885844cc0312ba3c398ef4c7d85"
+    },
+    {
+      "file": "1_0_16_1786_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:1786:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_1786_AF6_BB_E080000_0_0_0.png",
+      "sha256": "26fe6686f999ebb07d608060920da8d332fac12bd21ba4f9d6aa80ddfbf2ee08"
+    },
+    {
+      "file": "1_0_16_1B72_AF7_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:1B72:AF7:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_1B72_AF7_BB_E080000_0_0_0.png",
+      "sha256": "90fb66c1de486b0dd80ecd53d16ea29ae308144340b5f6847b969498b74ff408"
+    },
+    {
+      "file": "1_0_16_1F4C_AF8_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:1F4C:AF8:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_1F4C_AF8_BB_E080000_0_0_0.png",
+      "sha256": "674f4071c82c495522c1b7d5925ecf4214ad571b3c5840f4cbfcde7c1ada14da"
+    },
+    {
+      "file": "1_0_16_2337_AF9_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:2337:AF9:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_2337_AF9_BB_E080000_0_0_0.png",
+      "sha256": "bd865ea869a502862c458fd7fd6844938e846550f3d0c60c116e943b4e87e27f"
+    },
+    {
+      "file": "1_0_16_233B_AF9_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:233B:AF9:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_233B_AF9_BB_E080000_0_0_0.png",
+      "sha256": "edfb55b3c5d72fb5e8af9b3c5d99394e597928576328bf17f00bd7e3df38fdc5"
+    },
+    {
+      "file": "1_0_16_233F_AF9_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:233F:AF9:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_233F_AF9_BB_E080000_0_0_0.png",
+      "sha256": "cf0612306cd184d06828c5fb36502520c47c58ebec866357705fa0551ee0454f"
+    },
+    {
+      "file": "1_0_16_2342_AF9_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:2342:AF9:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_2342_AF9_BB_E080000_0_0_0.png",
+      "sha256": "76c0e051caf2ed08f7f25f87c9778804287fc8521ab836a16481e8f8bc1ad604"
+    },
+    {
+      "file": "1_0_16_2B03_AFB_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:2B03:AFB:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_2B03_AFB_BB_E080000_0_0_0.png",
+      "sha256": "7c3299050122e62016b3c92862e380fe2f6e908d06f451437529ea5122caeea6"
+    },
+    {
+      "file": "1_0_16_2B0C_AFB_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:2B0C:AFB:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_2B0C_AFB_BB_E080000_0_0_0.png",
+      "sha256": "082a7337ce20fc09480ab7e0939ae0f10774ef5613ac380957237810483c7ccc"
+    },
+    {
+      "file": "1_0_16_2B0E_AFB_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:2B0E:AFB:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_2B0E_AFB_BB_E080000_0_0_0.png",
+      "sha256": "da9f85c4f910e4e137ee3c7d887d0c1478c136fdcb9fdbf46516c31b418096f3"
+    },
+    {
+      "file": "1_0_16_7A48_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:16:7A48:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_7A48_2CB_600_E080000_0_0_0.png",
+      "sha256": "e9512597731b51c45ae4a78ccfbae20f566f52748d832f3c1753384eeb1d2389"
+    },
+    {
+      "file": "1_0_16_7A4A_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:16:7A4A:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_7A4A_2CB_600_E080000_0_0_0.png",
+      "sha256": "d363d8d1bd5dbde5fc273fe40f2614549bab204122e11b8abf0f73c0b9bb90eb"
+    },
+    {
+      "file": "1_0_16_7A4B_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:16:7A4B:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_7A4B_2CB_600_E080000_0_0_0.png",
+      "sha256": "d5cc6775560f93056ded3196c7a37300523c1d3fe06a2e5afe839d6f65b40c43"
+    },
+    {
+      "file": "1_0_16_7A4D_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:16:7A4D:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_7A4D_2CB_600_E080000_0_0_0.png",
+      "sha256": "76ae9c3c673fa7574030b02de60a490521adc61ea2774e1fd93a05de40b5f063"
+    },
+    {
+      "file": "1_0_16_7A52_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:16:7A52:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_7A52_2CB_600_E080000_0_0_0.png",
+      "sha256": "97f60ee287c0a12592ce293eb1ca36603555db88560ac5a625ca81ca16719b3f"
+    },
+    {
+      "file": "1_0_16_7AAF_2CC_600_E080000_0_0_0.png",
+      "service_reference": "1:0:16:7AAF:2CC:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_7AAF_2CC_600_E080000_0_0_0.png",
+      "sha256": "5ea0d7702e500a537ba29206f4cd810330e18ce599c9aa6fa28ac865854ef80a"
+    },
+    {
+      "file": "1_0_16_7E4_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:7E4:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_7E4_AF2_BB_E080000_0_0_0.png",
+      "sha256": "9d5480e75cbc376b72e8d7ed55740a2dab75e38749140e182dc802cf7fdf4529"
+    },
+    {
+      "file": "1_0_16_7E5_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:7E5:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_7E5_AF2_BB_E080000_0_0_0.png",
+      "sha256": "6eb5846a47d079e38f724549c002c24d612f50dd0e8bed759f76b16254a1b621"
+    },
+    {
+      "file": "1_0_16_7E7_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:7E7:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_7E7_AF2_BB_E080000_0_0_0.png",
+      "sha256": "956e8dbc85d184752abf496f816937bc228d13f3b77e31fd0648db75832b0b31"
+    },
+    {
+      "file": "1_0_16_FAD_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:FAD:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_FAD_AF4_BB_E080000_0_0_0.png",
+      "sha256": "6de581088fa1b8b8464b9f40b9d28a6202c6a922a719717471a6387a61eaec47"
+    },
+    {
+      "file": "1_0_16_FB1_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:FB1:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_FB1_AF4_BB_E080000_0_0_0.png",
+      "sha256": "3904912133eb785189ba3c57e5a2f41304a482826c5aed4740b24f4b08d777e7"
+    },
+    {
+      "file": "1_0_16_FB2_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:FB2:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_FB2_AF4_BB_E080000_0_0_0.png",
+      "sha256": "b1404e5e7799aece84f309ce79ef8e3e93d029dd95b89363687576987a61fea1"
+    },
+    {
+      "file": "1_0_16_FB7_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:16:FB7:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_16_FB7_AF4_BB_E080000_0_0_0.png",
+      "sha256": "561c4a8404ad3322a99810bd75b30a6ee6b922754e9f4c67f3bbb3f476582d96"
+    },
+    {
+      "file": "1_0_19_1780_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:1780:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_1780_AF6_BB_E080000_0_0_0.png",
+      "sha256": "cf78ac999d7cfa2a43c020bb6570ac132f905fc1cc27bb2a6c8f15641d763842"
+    },
+    {
+      "file": "1_0_19_1783_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:1783:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_1783_AF6_BB_E080000_0_0_0.png",
+      "sha256": "2accb84e8c36dca7845d0416db0a613242c3e69472a575d8cd28817c06e76093"
+    },
+    {
+      "file": "1_0_19_1788_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:1788:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_1788_AF6_BB_E080000_0_0_0.png",
+      "sha256": "f053c985ff87f6d795c7a2a66e901a11a9b58a9eba12e3725e37a074993af298"
+    },
+    {
+      "file": "1_0_19_1789_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:1789:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_1789_AF6_BB_E080000_0_0_0.png",
+      "sha256": "c18c2215f90661204cf9f4f8daee60ce974f8bf27c196c6dfba81466e1d943bb"
+    },
+    {
+      "file": "1_0_19_178E_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:178E:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_178E_AF6_BB_E080000_0_0_0.png",
+      "sha256": "367247fec72d24ee73f062d02c0683bae163bd3fb63a43cc4a480a4af93aa887"
+    },
+    {
+      "file": "1_0_19_178F_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:178F:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_178F_AF6_BB_E080000_0_0_0.png",
+      "sha256": "69f807e33f5ef23d912faf8b358fcf2272e20b79e0b5a01cdf3507b6cbc96243"
+    },
+    {
+      "file": "1_0_19_1B63_AF7_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:1B63:AF7:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_1B63_AF7_BB_E080000_0_0_0.png",
+      "sha256": "1cc5ea08394771f0f00ff43de01bb08b1a60112be1974a678df7409905d136fe"
+    },
+    {
+      "file": "1_0_19_1B70_AF7_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:1B70:AF7:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_1B70_AF7_BB_E080000_0_0_0.png",
+      "sha256": "71cbf9184265cf3eb66e5c7e4a4eb305723f2a6a173a8b268df1e6885bd06e78"
+    },
+    {
+      "file": "1_0_19_1B74_AF7_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:1B74:AF7:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_1B74_AF7_BB_E080000_0_0_0.png",
+      "sha256": "92b2ef65d688feb5bf0491819b8a21cdf7f35917d6235c828354d86a536830f7"
+    },
+    {
+      "file": "1_0_19_1F4E_AF8_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:1F4E:AF8:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_1F4E_AF8_BB_E080000_0_0_0.png",
+      "sha256": "70a54cbfcbff9c476a4704991dd351d072a326c2b0b236f2824bc43d75b3d66f"
+    },
+    {
+      "file": "1_0_19_1F4F_AF8_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:1F4F:AF8:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_1F4F_AF8_BB_E080000_0_0_0.png",
+      "sha256": "b641b955546bad3bdd06fe16f842085908f853e28203dc31d145f6a9bf4f6d4a"
+    },
+    {
+      "file": "1_0_19_2334_AF9_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:2334:AF9:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_2334_AF9_BB_E080000_0_0_0.png",
+      "sha256": "6cf06d3c92f93784f34cf288c60ec03f880a575628e5ea842659e26d02f43a77"
+    },
+    {
+      "file": "1_0_19_2335_AF9_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:2335:AF9:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_2335_AF9_BB_E080000_0_0_0.png",
+      "sha256": "6ffef81888b3b08d789359541e4526fe5fe804f6b24668b2c862135a173575f4"
+    },
+    {
+      "file": "1_0_19_2343_AF9_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:2343:AF9:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_2343_AF9_BB_E080000_0_0_0.png",
+      "sha256": "fe05276a1231e65fcb29f29411762b4b8e1a2b426d656e10cdb6cb8923a60d08"
+    },
+    {
+      "file": "1_0_19_2B06_AFB_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:2B06:AFB:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_2B06_AFB_BB_E080000_0_0_0.png",
+      "sha256": "d4676175765b1b1ad4fbb176dd36dd54633ee463ad2a42d5a1441693bb7ac340"
+    },
+    {
+      "file": "1_0_19_3F3_AF1_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:3F3:AF1:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_3F3_AF1_BB_E080000_0_0_0.png",
+      "sha256": "44398407958586209822101a9f8d891967a4dfe5b664ba556d2371175a30cdad"
+    },
+    {
+      "file": "1_0_19_3F8_AF1_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:3F8:AF1:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_3F8_AF1_BB_E080000_0_0_0.png",
+      "sha256": "bdaeae772de0225eeafa936080f077dc411f3fb349b6c8f6052be7b581af9045"
+    },
+    {
+      "file": "1_0_19_5C8_4_1_E080000_0_0_0.png",
+      "service_reference": "1:0:19:5C8:4:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_5C8_4_1_E080000_0_0_0.png",
+      "sha256": "97fdd31608eafb0e4d48f44a207e7fbf3c938a37988508e09793f016fb701eb6"
+    },
+    {
+      "file": "1_0_19_5D2_4_1_E080000_0_0_0.png",
+      "service_reference": "1:0:19:5D2:4:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_5D2_4_1_E080000_0_0_0.png",
+      "sha256": "07d4913819be242d84d79f25a28b43f09fe00c40b00ccccc417dd71ab67145c8"
+    },
+    {
+      "file": "1_0_19_7725_2C1_600_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7725:2C1:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7725_2C1_600_E080000_0_0_0.png",
+      "sha256": "8642bcfc46e650af450c99d62528bbb4782b959b68d8383e090686f69dc37e60"
+    },
+    {
+      "file": "1_0_19_7726_2C1_600_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7726:2C1:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7726_2C1_600_E080000_0_0_0.png",
+      "sha256": "5c4f1e7fb6889e358732ffba2f3e4f8a5b53b23e05881a16246087890646721d"
+    },
+    {
+      "file": "1_0_19_7812_2C3_600_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7812:2C3:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7812_2C3_600_E080000_0_0_0.png",
+      "sha256": "f40ce25bbd613264134ec1d4a268439de11c91af648e13350bbf1105d754c891"
+    },
+    {
+      "file": "1_0_19_7AB7_2CC_600_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7AB7:2CC:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7AB7_2CC_600_E080000_0_0_0.png",
+      "sha256": "c04d034deb0b354fadda69f65d6003cf10a73315595b0a578483fa817d3c9405"
+    },
+    {
+      "file": "1_0_19_7AB9_2CC_600_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7AB9:2CC:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7AB9_2CC_600_E080000_0_0_0.png",
+      "sha256": "a12b0b1ec192eb00c2b4dbd91e6e61121599364384f03bbb242441a4b1063f44"
+    },
+    {
+      "file": "1_0_19_7ABB_2CC_600_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7ABB:2CC:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7ABB_2CC_600_E080000_0_0_0.png",
+      "sha256": "a3822eed1140b8961c3c544f238ebe04f7b18db78bad34737150a9226a29ba7e"
+    },
+    {
+      "file": "1_0_19_7DB_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7DB:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7DB_AF2_BB_E080000_0_0_0.png",
+      "sha256": "8b65458910dd2fa65826a83b05553fbf7dd61c2cc1368ec4a4b126684dbbf7e2"
+    },
+    {
+      "file": "1_0_19_7DC_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7DC:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7DC_AF2_BB_E080000_0_0_0.png",
+      "sha256": "0131d11baaac89985b07c52d5941bf4ff3854a5385c56fbea74424a6d1ba18f6"
+    },
+    {
+      "file": "1_0_19_7DE_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7DE:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7DE_AF2_BB_E080000_0_0_0.png",
+      "sha256": "e9b197072c638a648454ff8f557701d1d15eadc4a045a88d79939571e2473a5d"
+    },
+    {
+      "file": "1_0_19_7DF_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7DF:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7DF_AF2_BB_E080000_0_0_0.png",
+      "sha256": "d646130bc09bb91ca4566882882db7ab32fe07d1d727c93cd51d5570a285e805"
+    },
+    {
+      "file": "1_0_19_7E0_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7E0:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7E0_AF2_BB_E080000_0_0_0.png",
+      "sha256": "4dde09119e0e22ae45e59de4bce8b82597af53a277ec867112c259c7bfcf3198"
+    },
+    {
+      "file": "1_0_19_7E1_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:7E1:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_7E1_AF2_BB_E080000_0_0_0.png",
+      "sha256": "ff2de7790c4275a7c2772fcff323961df5be63d6f9d636da3ffb35050f9b9d8c"
+    },
+    {
+      "file": "1_0_19_FAC_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:FAC:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_FAC_AF4_BB_E080000_0_0_0.png",
+      "sha256": "9d1789e3e2f27048e750b07bc3dd3d7c546b1ca185160b37bd1932b35ca91a2a"
+    },
+    {
+      "file": "1_0_19_FB4_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:FB4:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_FB4_AF4_BB_E080000_0_0_0.png",
+      "sha256": "f6330e8c45d228669b7eb7f904a5b22262ec68be9f4fe76793316cb9d62310b6"
+    },
+    {
+      "file": "1_0_19_FBA_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:19:FBA:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_19_FBA_AF4_BB_E080000_0_0_0.png",
+      "sha256": "a9c75acce5af32d269594adef16318a2874f3d987910d9cc0e8db95df0422898"
+    },
+    {
+      "file": "1_0_1_1004_5_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:1004:5:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_1004_5_1_E080000_0_0_0.png",
+      "sha256": "66ccbace6ad085e3b1cce9e88716ec09524f9c442220c4f89037fcb627335a16"
+    },
+    {
+      "file": "1_0_1_1770_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:1770:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_1770_7_1_E080000_0_0_0.png",
+      "sha256": "776b55a102dd0dd2ff1c118033004d82640c24b99a4962b01e3a9fd945efc969"
+    },
+    {
+      "file": "1_0_1_177A_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:177A:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_177A_7_1_E080000_0_0_0.png",
+      "sha256": "3422e337a58137396c6ee81e43accdd721bc31c60d635e695be6c0d151244b24"
+    },
+    {
+      "file": "1_0_1_177B_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:177B:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_177B_AF6_BB_E080000_0_0_0.png",
+      "sha256": "d4cc66707ab61d3827cef4bdf3f97d9335652696569053b719998d35f6fe5059"
+    },
+    {
+      "file": "1_0_1_177C_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:177C:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_177C_AF6_BB_E080000_0_0_0.png",
+      "sha256": "af0710a8380d1c550d3497fb2aa4a234d6291043104624c5407fb7b43fcf6d57"
+    },
+    {
+      "file": "1_0_1_1782_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:1782:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_1782_AF6_BB_E080000_0_0_0.png",
+      "sha256": "90d65975b46a48c4be7d0d4fcd10b1808ecf3f85dd137efb660341c2e9c4ee97"
+    },
+    {
+      "file": "1_0_1_1787_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:1787:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_1787_AF6_BB_E080000_0_0_0.png",
+      "sha256": "cb40db47fd44584311db466d7b8d24a97dcc3993e875a4fac4efc1a49d0982a5"
+    },
+    {
+      "file": "1_0_1_178C_AF6_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:178C:AF6:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_178C_AF6_BB_E080000_0_0_0.png",
+      "sha256": "d71b222be643bbb02f5e0fe478a7b73211aed0c093877f5407a7d349b4a1dfb8"
+    },
+    {
+      "file": "1_0_1_1B6E_AF7_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:1B6E:AF7:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_1B6E_AF7_BB_E080000_0_0_0.png",
+      "sha256": "38a506364d153164218349ebc843311dce748220be5db9cd750193294d6f089c"
+    },
+    {
+      "file": "1_0_1_1B6F_AF7_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:1B6F:AF7:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_1B6F_AF7_BB_E080000_0_0_0.png",
+      "sha256": "2fd8a8429eb6a1e9b1b8e3d27715d75e6ebd8b5bba2e3876ee8d2310d5583df4"
+    },
+    {
+      "file": "1_0_1_1F4B_AF8_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:1F4B:AF8:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_1F4B_AF8_BB_E080000_0_0_0.png",
+      "sha256": "4389e6987b1bb76a5c78abf20fde54bfd8888a00248559700ea3477c02730fbe"
+    },
+    {
+      "file": "1_0_1_1F9_1B_2C0_E080000_0_0_0.png",
+      "service_reference": "1:0:1:1F9:1B:2C0:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_1F9_1B_2C0_E080000_0_0_0.png",
+      "sha256": "81a3206658668e2a0533913498528d15e62fc4d5a3618b70199034dc4ed23ca8"
+    },
+    {
+      "file": "1_0_1_1FA_1B_2C0_E080000_0_0_0.png",
+      "service_reference": "1:0:1:1FA:1B:2C0:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_1FA_1B_2C0_E080000_0_0_0.png",
+      "sha256": "59f23c468f5647ccfa096146660e227a6fcdf292325925ba477772ffc87aaff8"
+    },
+    {
+      "file": "1_0_1_207_14_46_E080000_0_0_0.png",
+      "service_reference": "1:0:1:207:14:46:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_207_14_46_E080000_0_0_0.png",
+      "sha256": "6dd21b2af2da6f3457aec156bfdf9f6b8d9aa14deedd04bbff65719b2c87c86e"
+    },
+    {
+      "file": "1_0_1_2336_AF9_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:2336:AF9:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_2336_AF9_BB_E080000_0_0_0.png",
+      "sha256": "850e4631901c2884b622839b0d1d803ebd43e8a422bfa395e15a8c65da486607"
+    },
+    {
+      "file": "1_0_1_233C_AF9_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:233C:AF9:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_233C_AF9_BB_E080000_0_0_0.png",
+      "sha256": "8afcd4041099f798553ca437053bedd6dceeeb893d7a197862d40ec8f337f50b"
+    },
+    {
+      "file": "1_0_1_2B04_AFB_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:2B04:AFB:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_2B04_AFB_BB_E080000_0_0_0.png",
+      "sha256": "438d955219f7a5446c33af5c0b57577faf308a4fed76ab4698b042d23f67834e"
+    },
+    {
+      "file": "1_0_1_3E9_1_1_E08318F_0_0_0.png",
+      "service_reference": "1:0:1:3E9:1:1:E08318F:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3E9_1_1_E08318F_0_0_0.png",
+      "sha256": "75dabec000d2d52be4ebf66be1caae5e409bb6c2b739139d36ea19b434ce90a5"
+    },
+    {
+      "file": "1_0_1_3EB_2_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:3EB:2:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3EB_2_1_E080000_0_0_0.png",
+      "sha256": "3ec9ade706c6478ed17d7d40466855cb09af9d11c613bf79267b00fabcdb8577"
+    },
+    {
+      "file": "1_0_1_3EE_1_1_E08318F_0_0_0.png",
+      "service_reference": "1:0:1:3EE:1:1:E08318F:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3EE_1_1_E08318F_0_0_0.png",
+      "sha256": "73dbcee487537eb53f1e3987578a2fef9d50b16414a1883f8a229667daca6496"
+    },
+    {
+      "file": "1_0_1_3F1_1_1_E08318F_0_0_0.png",
+      "service_reference": "1:0:1:3F1:1:1:E08318F:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F1_1_1_E08318F_0_0_0.png",
+      "sha256": "7e4b289f76f65f4663fdc59a06f0f8f02519655ce01a34e144a8a0f4ac68de0e"
+    },
+    {
+      "file": "1_0_1_3F2_1_1_E08318F_0_0_0.png",
+      "service_reference": "1:0:1:3F2:1:1:E08318F:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F2_1_1_E08318F_0_0_0.png",
+      "sha256": "71d1892676cb5ebcbafc01ca645992b21e2fb59e9f0228670aa90f37931cfc51"
+    },
+    {
+      "file": "1_0_1_3F3_1_1_E08318F_0_0_0.png",
+      "service_reference": "1:0:1:3F3:1:1:E08318F:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F3_1_1_E08318F_0_0_0.png",
+      "sha256": "c6325cbe392e60271b82a2addb665c0e15e7270675f2218cc018fe139ef37412"
+    },
+    {
+      "file": "1_0_1_3F4_2_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:3F4:2:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F4_2_1_E080000_0_0_0.png",
+      "sha256": "3f3a5e3fb169c9310048890b27e51b68796bdbf4982c2e5840fe38573f1ebc6a"
+    },
+    {
+      "file": "1_0_1_3F4_AF1_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:3F4:AF1:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F4_AF1_BB_E080000_0_0_0.png",
+      "sha256": "82be1a6cb5e074162309ff4a4e7b32cfcf81b968b0bd9782b34eab9e7ed2cbe0"
+    },
+    {
+      "file": "1_0_1_3F5_AF1_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:3F5:AF1:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F5_AF1_BB_E080000_0_0_0.png",
+      "sha256": "b689db22a144a7634474ceb44757da984b8f2ade7376a5ffe8349c5e51e9166d"
+    },
+    {
+      "file": "1_0_1_3F6_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:3F6:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F6_7_1_E080000_0_0_0.png",
+      "sha256": "5cf6f7c22a8239beb897714045b7516e65fd02b2a6870131ece9cce80cc5370c"
+    },
+    {
+      "file": "1_0_1_3F6_AF1_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:3F6:AF1:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F6_AF1_BB_E080000_0_0_0.png",
+      "sha256": "dc514225330fe4ca24e748fc6ef4ef71e9efe440accf6d51768d679980de2b8d"
+    },
+    {
+      "file": "1_0_1_3F7_AF1_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:3F7:AF1:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F7_AF1_BB_E080000_0_0_0.png",
+      "sha256": "6129badacb4cc63556a9adee9f06123151eedf9cafc973ad1c1fb567ddedd389"
+    },
+    {
+      "file": "1_0_1_3F9_1_1_E08318F_0_0_0.png",
+      "service_reference": "1:0:1:3F9:1:1:E08318F:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F9_1_1_E08318F_0_0_0.png",
+      "sha256": "634dce1818b0116b9ed27b7f797e81aa95c63b66ea5415d37fc666fc97279470"
+    },
+    {
+      "file": "1_0_1_3F9_AF1_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:3F9:AF1:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3F9_AF1_BB_E080000_0_0_0.png",
+      "sha256": "f92326504896497f1f6caec429b882ef23cca0db488ab54937bcdd453e9c6de0"
+    },
+    {
+      "file": "1_0_1_3FA_AF1_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:3FA:AF1:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3FA_AF1_BB_E080000_0_0_0.png",
+      "sha256": "9f1c0030eb5b255213c77a147f7c622a0be1c5145c4ac33c9913d5dbb26a0f38"
+    },
+    {
+      "file": "1_0_1_3FB_1_1_E08318F_0_0_0.png",
+      "service_reference": "1:0:1:3FB:1:1:E08318F:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3FB_1_1_E08318F_0_0_0.png",
+      "sha256": "e318b6d9aa67b4d0e1b88637fb7ab8ddcda557a311fb0a1178cff0157d380ed1"
+    },
+    {
+      "file": "1_0_1_3FC_AF1_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:3FC:AF1:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3FC_AF1_BB_E080000_0_0_0.png",
+      "sha256": "a7171192ed5091fc2ed423cdebf1e3b2dbc520531088164df221304e16491b87"
+    },
+    {
+      "file": "1_0_1_3FF_2_1_E0831B3_0_0_0.png",
+      "service_reference": "1:0:1:3FF:2:1:E0831B3:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_3FF_2_1_E0831B3_0_0_0.png",
+      "sha256": "e77993d95098c6be503302b6c734f7980af9e859e3c3e88f4367d906b12bd533"
+    },
+    {
+      "file": "1_0_1_400_AF1_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:400:AF1:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_400_AF1_BB_E080000_0_0_0.png",
+      "sha256": "298183a734ea1d89488b6e136cc76a5b72a6e2f819ee07b3c9b5dd248bc0b785"
+    },
+    {
+      "file": "1_0_1_401_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:401:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_401_C_1_E080000_0_0_0.png",
+      "sha256": "20d352d6097dbbd21fc2a1f67306b497ecd84a7db6adddda7ae9d0776f7b125b"
+    },
+    {
+      "file": "1_0_1_403_2_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:403:2:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_403_2_1_E080000_0_0_0.png",
+      "sha256": "54000fab59c85bdf6b34db0bb80b648fe8993208922668bbeea2ebc626d60f6b"
+    },
+    {
+      "file": "1_0_1_406_2_1_E0831B3_0_0_0.png",
+      "service_reference": "1:0:1:406:2:1:E0831B3:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_406_2_1_E0831B3_0_0_0.png",
+      "sha256": "34416806554fe08767c87b98d87725c83060b30676dafcb2be5f9d3de595aa0f"
+    },
+    {
+      "file": "1_0_1_407_3_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:407:3:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_407_3_1_E080000_0_0_0.png",
+      "sha256": "3bc5aefd8edf467eb3cf33774aa94b74dec61a5d8bee0d01428c96f7e0d057bf"
+    },
+    {
+      "file": "1_0_1_408_2_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:408:2:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_408_2_1_E080000_0_0_0.png",
+      "sha256": "1ba566647e6100ce0a57cd1d64cf6ff6df1382340cff08cead5be866a59c0d0a"
+    },
+    {
+      "file": "1_0_1_409_2_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:409:2:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_409_2_1_E080000_0_0_0.png",
+      "sha256": "2a7821a287649f1c3f45b79aec09dd5ad46fdf8aab5f46d0c200e752ae8af396"
+    },
+    {
+      "file": "1_0_1_40C_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:40C:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_40C_C_1_E080000_0_0_0.png",
+      "sha256": "bc7e248e5a1cf4712b6a58ba5400c48adde49d8dfe5564c2601164ea8eecec85"
+    },
+    {
+      "file": "1_0_1_41A_3_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:41A:3:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_41A_3_1_E080000_0_0_0.png",
+      "sha256": "ab3e44ad108e47bc82b987bbf54fac295d838962b98a558120f742f793d60652"
+    },
+    {
+      "file": "1_0_1_424_3_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:424:3:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_424_3_1_E080000_0_0_0.png",
+      "sha256": "a9833e32fe45f22636896301a62d50c38d75c44b2d07a4a2ac3f350040c0a753"
+    },
+    {
+      "file": "1_0_1_45F4_4_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:45F4:4:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_45F4_4_1_E080000_0_0_0.png",
+      "sha256": "d37abbd4efeff3504ec6520fad034d84bfbb8182630d6b18ef80d811b0b8822c"
+    },
+    {
+      "file": "1_0_1_45F5_4_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:45F5:4:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_45F5_4_1_E080000_0_0_0.png",
+      "sha256": "902c616573524f86391305b9743646e1c184ee3e2862e2883c880e45a5b29b53"
+    },
+    {
+      "file": "1_0_1_45FA_4_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:45FA:4:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_45FA_4_1_E080000_0_0_0.png",
+      "sha256": "b7f7dc6e511e5e0a88b348d2206bf109aeb003507e17a8e5300b359a15dd45e7"
+    },
+    {
+      "file": "1_0_1_492_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:492:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_492_7_1_E080000_0_0_0.png",
+      "sha256": "504226a304ed89e43e3d117a479cea8b50d86d55530626e5263c8f447be6ca3c"
+    },
+    {
+      "file": "1_0_1_4BA_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:4BA:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_4BA_7_1_E080000_0_0_0.png",
+      "sha256": "80216351af4ae62880b0805de7c09e4219dccb3f2722112f40fc29ba63819a1f"
+    },
+    {
+      "file": "1_0_1_4C4_4_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:4C4:4:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_4C4_4_1_E080000_0_0_0.png",
+      "sha256": "08ad4a009cd5d824719bd79a9f2257a9a7514648c35e106c638ee0908b395814"
+    },
+    {
+      "file": "1_0_1_54E_2_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:54E:2:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_54E_2_1_E080000_0_0_0.png",
+      "sha256": "284d8658c9f8064f17d25df1b113e05bb4154631e1c20a703172acf0966d4964"
+    },
+    {
+      "file": "1_0_1_564_3_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:564:3:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_564_3_1_E080000_0_0_0.png",
+      "sha256": "0015cfab02da764af4779aa2b997d162a88fbe79d983c819c78c7f622f0b87d3"
+    },
+    {
+      "file": "1_0_1_582_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:582:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_582_7_1_E080000_0_0_0.png",
+      "sha256": "561b0e12a8a5f87e06940aa93c2a6b7cb4741000b0f1ab633877f88a1c8b89a5"
+    },
+    {
+      "file": "1_0_1_58C_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:58C:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_58C_7_1_E080000_0_0_0.png",
+      "sha256": "5e8cc05a00ad5e79a76ed79509a5e33f4359b9a2d1eb2ad64182ae0fd4b9fad9"
+    },
+    {
+      "file": "1_0_1_596_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:596:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_596_C_1_E080000_0_0_0.png",
+      "sha256": "2445cfdd60f0cbda19ed01e88cdcc70a550fee26ffdc9f0da08de359af02cdae"
+    },
+    {
+      "file": "1_0_1_5AA_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:5AA:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_5AA_C_1_E080000_0_0_0.png",
+      "sha256": "aec2cd0ddfa6ecc138c6bd2ebe8465b0283772872003d2804781d46975a7d3d8"
+    },
+    {
+      "file": "1_0_1_5E8_4_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:5E8:4:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_5E8_4_1_E080000_0_0_0.png",
+      "sha256": "c7407d892deb6c2f057222e7f1c7be398e13efd3631c3e21c25870b13ece6a53"
+    },
+    {
+      "file": "1_0_1_5F0_3_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:5F0:3:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_5F0_3_1_E080000_0_0_0.png",
+      "sha256": "03ae5ee03fe7c190089ff7ee468b249792599749f29ce15c3ac375d6194f1b87"
+    },
+    {
+      "file": "1_0_1_5FA_3_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:5FA:3:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_5FA_3_1_E080000_0_0_0.png",
+      "sha256": "cafc736839f3711dc449f8ccb461ff6e1d526af43f060fa2a03d9d3da88869e8"
+    },
+    {
+      "file": "1_0_1_618_5_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:618:5:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_618_5_1_E080000_0_0_0.png",
+      "sha256": "f1c78fd759248e712877f75528c5ba4817ad59f4962f5be42244f364e8f709fd"
+    },
+    {
+      "file": "1_0_1_62C_2_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:62C:2:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_62C_2_1_E080000_0_0_0.png",
+      "sha256": "8cd28e04b646e9d01664b11c3daa8038ca15087ebc3bac2c515256fbaf54e364"
+    },
+    {
+      "file": "1_0_1_7596_2BD_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7596:2BD:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7596_2BD_600_E080000_0_0_0.png",
+      "sha256": "ede7562cd05010635e1c6b6ec2719e7e1e1d2ddadcfd2f2a03047dc0eea81deb"
+    },
+    {
+      "file": "1_0_1_759F_2BD_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:759F:2BD:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_759F_2BD_600_E080000_0_0_0.png",
+      "sha256": "d709637775fa36deccb8441f4dab5e6b371068662697d2417ac0b248ba4f914a"
+    },
+    {
+      "file": "1_0_1_75A3_2BD_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:75A3:2BD:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_75A3_2BD_600_E080000_0_0_0.png",
+      "sha256": "29164337e0f1dc638d11b401bc41748ba272d1f87385b4579c689464c244d32b"
+    },
+    {
+      "file": "1_0_1_75A4_2BD_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:75A4:2BD:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_75A4_2BD_600_E080000_0_0_0.png",
+      "sha256": "082381ded5dda7e6309814845c140ad82b2fd7df2440c984fc1725d2d1774d72"
+    },
+    {
+      "file": "1_0_1_75B4_2BD_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:75B4:2BD:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_75B4_2BD_600_E080000_0_0_0.png",
+      "sha256": "a643a0e5552b47b1f52101e641651c73d7dd05616823fe254c5142532690a1ff"
+    },
+    {
+      "file": "1_0_1_75B9_2BD_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:75B9:2BD:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_75B9_2BD_600_E080000_0_0_0.png",
+      "sha256": "e968a39dc905b2e916de9ad2c3e60808a69933a8319b7434d7181c3119bee3b0"
+    },
+    {
+      "file": "1_0_1_75BA_2BD_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:75BA:2BD:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_75BA_2BD_600_E080000_0_0_0.png",
+      "sha256": "bc19a3a91c7db520f731ee3d8e5627d158be7102754f66c50fd4090d64acfb9a"
+    },
+    {
+      "file": "1_0_1_75BB_2BD_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:75BB:2BD:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_75BB_2BD_600_E080000_0_0_0.png",
+      "sha256": "f5471b9910b1f1c8901020a677b260fdf534dcb6e95edd290c58908385bcc951"
+    },
+    {
+      "file": "1_0_1_76CF_2C0_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:76CF:2C0:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_76CF_2C0_600_E080000_0_0_0.png",
+      "sha256": "2ca02bade14e8ecc81d69e74feedf510b2e822c8afb3cfadb37c21675fe82506"
+    },
+    {
+      "file": "1_0_1_76DA_2C0_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:76DA:2C0:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_76DA_2C0_600_E080000_0_0_0.png",
+      "sha256": "3aa19835d046d95ae4a671dcfa43babf3e9429d2e3655183d0a67f39f48dc581"
+    },
+    {
+      "file": "1_0_1_7728_2C1_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7728:2C1:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7728_2C1_600_E080000_0_0_0.png",
+      "sha256": "b8a46165b39067ac363ee2ff06a4859eb19eb29d7c80cd24b807bab43264a760"
+    },
+    {
+      "file": "1_0_1_7733_2C1_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7733:2C1:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7733_2C1_600_E080000_0_0_0.png",
+      "sha256": "26c42c2ccc2bdd3b29862a9e41abab212e14580c778c7c685b61b925feebbadd"
+    },
+    {
+      "file": "1_0_1_7734_2C1_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7734:2C1:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7734_2C1_600_E080000_0_0_0.png",
+      "sha256": "debdb12fff7ab638e1405ecf4afc950774ab3f81e1d3bacd847806ba56c9ad0f"
+    },
+    {
+      "file": "1_0_1_7735_2C1_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7735:2C1:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7735_2C1_600_E080000_0_0_0.png",
+      "sha256": "584ad67b228d224f863648c7aaeacd6cc067902d39df071f47db0a41c4bcd7dc"
+    },
+    {
+      "file": "1_0_1_77A7_2C2_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:77A7:2C2:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_77A7_2C2_600_E080000_0_0_0.png",
+      "sha256": "53ed75db98519204eaacf533d2df63e47cf0ccaacd923d9f48e8c35f7c743489"
+    },
+    {
+      "file": "1_0_1_77A9_2C2_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:77A9:2C2:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_77A9_2C2_600_E080000_0_0_0.png",
+      "sha256": "04bfbb30415a1086131dbe840056bfcd37d9f4672a79a9c52291db87a5c8cdce"
+    },
+    {
+      "file": "1_0_1_77B2_2C2_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:77B2:2C2:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_77B2_2C2_600_E080000_0_0_0.png",
+      "sha256": "292af849d004b14eb7996b7fcd1192cbfd47fcf7a63c8b01dd500664e5add09d"
+    },
+    {
+      "file": "1_0_1_77F1_2C3_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:77F1:2C3:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_77F1_2C3_600_E080000_0_0_0.png",
+      "sha256": "a8ccb53fffa0d7a117c8b427c4eea3aa35fe56e1b70b2d1ef5affddd715d2802"
+    },
+    {
+      "file": "1_0_1_77F3_2C3_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:77F3:2C3:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_77F3_2C3_600_E080000_0_0_0.png",
+      "sha256": "43584b86a2b2762eabad7201dc25146c26320ecb097d175cb7f4148a04137e51"
+    },
+    {
+      "file": "1_0_1_77F4_2C3_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:77F4:2C3:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_77F4_2C3_600_E080000_0_0_0.png",
+      "sha256": "25650810e9aa6e95c9aaa985223fcef83c8f4f80bb56c50354f6f931a81c0803"
+    },
+    {
+      "file": "1_0_1_77F6_2C3_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:77F6:2C3:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_77F6_2C3_600_E080000_0_0_0.png",
+      "sha256": "34264969e4a4896bbb3d82a69815fd9f49db80c7927fe69baf1d88f680b38802"
+    },
+    {
+      "file": "1_0_1_77F9_2C3_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:77F9:2C3:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_77F9_2C3_600_E080000_0_0_0.png",
+      "sha256": "83d8b9c633be1d4852b6d806129737c812ea804f8e0da01f7438f6cba9c40a2a"
+    },
+    {
+      "file": "1_0_1_780E_2C3_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:780E:2C3:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_780E_2C3_600_E080000_0_0_0.png",
+      "sha256": "57503d7cccffe365842346ce9b6c84d3fc5c31c9d7ebaa2b4ac9ae0c58900ede"
+    },
+    {
+      "file": "1_0_1_7810_2C3_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7810:2C3:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7810_2C3_600_E080000_0_0_0.png",
+      "sha256": "42d9a7d640d8e3c030a1333961a84e750a71d55e8b91b988809e98e6cbf81804"
+    },
+    {
+      "file": "1_0_1_78BB_2C5_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:78BB:2C5:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_78BB_2C5_600_E080000_0_0_0.png",
+      "sha256": "2bf53298b5eec8c6f0a8c2da59eb978d9b50451a05f2b20cf4caab8c44f345bb"
+    },
+    {
+      "file": "1_0_1_78BD_2C5_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:78BD:2C5:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_78BD_2C5_600_E080000_0_0_0.png",
+      "sha256": "e64d3575bf722e8ace39827178d1be71a47420c8adc3ecc14660031340639f90"
+    },
+    {
+      "file": "1_0_1_78C0_2C5_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:78C0:2C5:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_78C0_2C5_600_E080000_0_0_0.png",
+      "sha256": "6d042f67e44405706b1ea825cf6831445177976a8379cf0357bbe01b24025950"
+    },
+    {
+      "file": "1_0_1_78C2_2C5_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:78C2:2C5:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_78C2_2C5_600_E080000_0_0_0.png",
+      "sha256": "0876da274b2f1bd868c6d0853b2f2e929f8e2d6ae7f8080516ac170f63606571"
+    },
+    {
+      "file": "1_0_1_78C3_2C5_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:78C3:2C5:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_78C3_2C5_600_E080000_0_0_0.png",
+      "sha256": "eda10aa0ebaf26a7c87ed3963f769cf7e1ae157e78b959a23f6617d72802c8e6"
+    },
+    {
+      "file": "1_0_1_78C5_2C5_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:78C5:2C5:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_78C5_2C5_600_E080000_0_0_0.png",
+      "sha256": "c136ef833a301396fed467443fe97257f0e278593e62a675ccff5e4c8d4ac803"
+    },
+    {
+      "file": "1_0_1_78C7_2C5_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:78C7:2C5:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_78C7_2C5_600_E080000_0_0_0.png",
+      "sha256": "370620ad7f4be89797f3985ab2aa4b20cf13d804a4ae051dee8125f9c7086ee0"
+    },
+    {
+      "file": "1_0_1_78C8_2C5_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:78C8:2C5:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_78C8_2C5_600_E080000_0_0_0.png",
+      "sha256": "032e3b0c41ba37c050d161ec7d1b82489bfa130a456d4fcbe96c9296bcbea152"
+    },
+    {
+      "file": "1_0_1_78CD_2C5_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:78CD:2C5:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_78CD_2C5_600_E080000_0_0_0.png",
+      "sha256": "1ffe83abf523cd2c03b9eb3d0ab0d3d7380e850ebc96bc36c44acf817c55476d"
+    },
+    {
+      "file": "1_0_1_7987_2C7_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7987:2C7:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7987_2C7_600_E080000_0_0_0.png",
+      "sha256": "94b54340482827220b7563b7c2d290747a95ea36dec646ae889a4963c49d8baa"
+    },
+    {
+      "file": "1_0_1_798C_2C7_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:798C:2C7:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_798C_2C7_600_E080000_0_0_0.png",
+      "sha256": "82727d2c284491fc75b0db43a61f5716a87294ac32b15cd698ee2dcae7e70a42"
+    },
+    {
+      "file": "1_0_1_798D_2C7_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:798D:2C7:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_798D_2C7_600_E080000_0_0_0.png",
+      "sha256": "ef98fcd31b16a205719ddfc3e5956527c0fa0a0a99fa99bce098bec30264e738"
+    },
+    {
+      "file": "1_0_1_798E_2C7_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:798E:2C7:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_798E_2C7_600_E080000_0_0_0.png",
+      "sha256": "c97efc3349a3cbf05aca8e0b674911860f44120238b4d01b74fb51b4614fdf18"
+    },
+    {
+      "file": "1_0_1_7998_2C7_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7998:2C7:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7998_2C7_600_E080000_0_0_0.png",
+      "sha256": "951a2f6645d0a44504d6b4349f25e66f3119339e41ec67106006d1c6d05152da"
+    },
+    {
+      "file": "1_0_1_799F_2C7_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:799F:2C7:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_799F_2C7_600_E080000_0_0_0.png",
+      "sha256": "d98a01ab3f292602081df7ede8ee2f0e95f1677938632720816f32d08388a36c"
+    },
+    {
+      "file": "1_0_1_79A7_2C7_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:79A7:2C7:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_79A7_2C7_600_E080000_0_0_0.png",
+      "sha256": "0aa03f890bebe94470ffbe71f70fb0673e1fcf85dd70dfa31119b6a05b704148"
+    },
+    {
+      "file": "1_0_1_79E2_2C8_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:79E2:2C8:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_79E2_2C8_600_E080000_0_0_0.png",
+      "sha256": "830467e827a2bf8ddd5362c29c0a366d267328528362ca43a96b8710a29c83fe"
+    },
+    {
+      "file": "1_0_1_79E3_2C8_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:79E3:2C8:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_79E3_2C8_600_E080000_0_0_0.png",
+      "sha256": "19093590dbd5f5980872e92935555731cd5fed5be5d3054ba8042ac9ef0b431b"
+    },
+    {
+      "file": "1_0_1_79EE_2C8_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:79EE:2C8:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_79EE_2C8_600_E080000_0_0_0.png",
+      "sha256": "470cede5fe13858e425ee8c5f31df11672fc775c3f0eeffa52adaeb78f6b9d56"
+    },
+    {
+      "file": "1_0_1_79EF_2C8_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:79EF:2C8:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_79EF_2C8_600_E080000_0_0_0.png",
+      "sha256": "94292e7d37c862ccb2a92bbf61f9eb6c15e893b54a0b96d25a6e6bd3ccdaab23"
+    },
+    {
+      "file": "1_0_1_79F3_2C8_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:79F3:2C8:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_79F3_2C8_600_E080000_0_0_0.png",
+      "sha256": "e0fb01aead26d3b5ff75f912a5238f88ce8c87685107a6346cedd83fa90fcc36"
+    },
+    {
+      "file": "1_0_1_7A06_2C8_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7A06:2C8:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7A06_2C8_600_E080000_0_0_0.png",
+      "sha256": "8703bf2a124476828bc6356b65266792583e827ba7e4e845cee322d288b0906d"
+    },
+    {
+      "file": "1_0_1_7A46_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7A46:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7A46_2CB_600_E080000_0_0_0.png",
+      "sha256": "5e85fbd4b54e1a0cdb0b94a775ea93aa26a6b6d7924d02f46f9ddca9d596d161"
+    },
+    {
+      "file": "1_0_1_7A49_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7A49:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7A49_2CB_600_E080000_0_0_0.png",
+      "sha256": "7b1d84f7c085317b9b2d6fe0ced3c6cdfd6015da98f5a5ebb4ac23329ed5987a"
+    },
+    {
+      "file": "1_0_1_7A4C_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7A4C:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7A4C_2CB_600_E080000_0_0_0.png",
+      "sha256": "0c31cf6ffb5e3519b008275b8325829787f71d833b457d632093da5477fc8fe3"
+    },
+    {
+      "file": "1_0_1_7A4F_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7A4F:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7A4F_2CB_600_E080000_0_0_0.png",
+      "sha256": "b28f7e81795ede8c5385210699d64e5ad4d880a305fc6a267dd9efb5d6efc132"
+    },
+    {
+      "file": "1_0_1_7A53_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7A53:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7A53_2CB_600_E080000_0_0_0.png",
+      "sha256": "ec91f9c43957fabaff59c8206468895f60e7df4b504c04f1e7f4ad47940cd704"
+    },
+    {
+      "file": "1_0_1_7A54_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7A54:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7A54_2CB_600_E080000_0_0_0.png",
+      "sha256": "0f92c6126e474465a5151d4e75218efa030bc3545943f7198fb721aabbd00918"
+    },
+    {
+      "file": "1_0_1_7A58_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7A58:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7A58_2CB_600_E080000_0_0_0.png",
+      "sha256": "09c5542b4787d3813118168c5ab2b90e141f37429d9a2360b100849da97c9ac7"
+    },
+    {
+      "file": "1_0_1_7A5F_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7A5F:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7A5F_2CB_600_E080000_0_0_0.png",
+      "sha256": "a5295400ad9b5913cdadda406b1d2d18594f3ec44ac47f8cc644dbfd594887de"
+    },
+    {
+      "file": "1_0_1_7A61_2CB_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7A61:2CB:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7A61_2CB_600_E080000_0_0_0.png",
+      "sha256": "bcc4455fe3652daf317687e1215e6b1d141e052453bc45f655aa03be710b6b57"
+    },
+    {
+      "file": "1_0_1_7AAA_2CC_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7AAA:2CC:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7AAA_2CC_600_E080000_0_0_0.png",
+      "sha256": "5121189e498bac8300f382b80a4268b27095943e8e736443c63d3294adf332b1"
+    },
+    {
+      "file": "1_0_1_7AAD_2CC_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7AAD:2CC:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7AAD_2CC_600_E080000_0_0_0.png",
+      "sha256": "b78ae81125941233a3b5fc71cdb817c394b4941105d9ceb9bf185b4c9640baa6"
+    },
+    {
+      "file": "1_0_1_7AAE_2CC_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7AAE:2CC:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7AAE_2CC_600_E080000_0_0_0.png",
+      "sha256": "bf5f1d44a8fab11edbb25694b4cbb33eda2f448649518a194ef9614fa0bc9c0e"
+    },
+    {
+      "file": "1_0_1_7AB4_2CC_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7AB4:2CC:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7AB4_2CC_600_E080000_0_0_0.png",
+      "sha256": "fca0c95f692c5f412ec1b74b1238f196de564a3d9e18bd7de2be43c4de57c5de"
+    },
+    {
+      "file": "1_0_1_7AB5_2CC_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7AB5:2CC:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7AB5_2CC_600_E080000_0_0_0.png",
+      "sha256": "2d59c71b27e1e96a6db4aa29b41534646dd3a5dfa96fcfbcb4d9abf7d447e783"
+    },
+    {
+      "file": "1_0_1_7AB6_2CC_600_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7AB6:2CC:600:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7AB6_2CC_600_E080000_0_0_0.png",
+      "sha256": "8cfffb697723ede4645a6cbc711d2059cd4cb5e070be9b0b7b9c6790e14e88f8"
+    },
+    {
+      "file": "1_0_1_7DD_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7DD:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7DD_AF2_BB_E080000_0_0_0.png",
+      "sha256": "6af4ca8f30ce6ad312575e2fe9c993d90a7d8fcc19257bf5cb35e8a5a25d5875"
+    },
+    {
+      "file": "1_0_1_7E2_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7E2:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7E2_AF2_BB_E080000_0_0_0.png",
+      "sha256": "f3f66ac00b3724dc8513a09a69422007fada7b7f7f9ee760f6062a0d05c1a8c2"
+    },
+    {
+      "file": "1_0_1_7E3_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7E3:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7E3_AF2_BB_E080000_0_0_0.png",
+      "sha256": "6ba45d17993ee12e51d888bf1c333b98e4bf70494cac43d96b993247bed9161f"
+    },
+    {
+      "file": "1_0_1_7E8_AF2_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7E8:AF2:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7E8_AF2_BB_E080000_0_0_0.png",
+      "sha256": "e003d3ee804e7d61aa34c9429ff0539d7d587063cdce85a2598021231348ad68"
+    },
+    {
+      "file": "1_0_1_7ED_14_46_E080000_0_0_0.png",
+      "service_reference": "1:0:1:7ED:14:46:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_7ED_14_46_E080000_0_0_0.png",
+      "sha256": "3db1607c9e95d854e7c4f21796300c27182ad706f82e1d078223ae2b3325406c"
+    },
+    {
+      "file": "1_0_1_A28_5_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:A28:5:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_A28_5_1_E080000_0_0_0.png",
+      "sha256": "11374295aedb07f1203c8246cb65dd808257dd21a38e3093527d52dd17e463f3"
+    },
+    {
+      "file": "1_0_1_A82_4_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:A82:4:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_A82_4_1_E080000_0_0_0.png",
+      "sha256": "ccd1eb81c022c8bf7746e31d8cc4b6383afee7c2930fa288f82fbdc43c0b94e3"
+    },
+    {
+      "file": "1_0_1_A96_3_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:A96:3:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_A96_3_1_E080000_0_0_0.png",
+      "sha256": "294c3db423867a16d741cc64c57f2f2dc32127281c3a4fd912bb7949e02967fe"
+    },
+    {
+      "file": "1_0_1_B22_C_1_E082E7C_0_0_0.png",
+      "service_reference": "1:0:1:B22:C:1:E082E7C:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_B22_C_1_E082E7C_0_0_0.png",
+      "sha256": "d366ee22e293ac78cdc0a5a8b96afd1da55ca35df68c4b29c91097ab97f561c8"
+    },
+    {
+      "file": "1_0_1_B50_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:B50:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_B50_7_1_E080000_0_0_0.png",
+      "sha256": "60dec4bd895e096d64b183ce8c7c58879f3b06b70b05a29ba5b54664715a5f76"
+    },
+    {
+      "file": "1_0_1_B60_14_46_E080000_0_0_0.png",
+      "service_reference": "1:0:1:B60:14:46:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_B60_14_46_E080000_0_0_0.png",
+      "sha256": "540a85d44981f670676a56469e6b01d7306b351ee89156327d4192b504529089"
+    },
+    {
+      "file": "1_0_1_B77_5_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:B77:5:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_B77_5_1_E080000_0_0_0.png",
+      "sha256": "0ac8623abb42456a1d54c3de7f68fdf136ae267e92982c2f3ad29030b7c0156a"
+    },
+    {
+      "file": "1_0_1_B86_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:B86:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_B86_7_1_E080000_0_0_0.png",
+      "sha256": "30fec6ace3805e78e52dc7c0e56521fa79bcdedb8adfaabfbcd259c5d9d6436a"
+    },
+    {
+      "file": "1_0_1_B87_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:B87:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_B87_7_1_E080000_0_0_0.png",
+      "sha256": "647226e7fe9cf986360e6512e4c5696b4fa3a7c064fa342d789ef0d56e240855"
+    },
+    {
+      "file": "1_0_1_BAE_7_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:BAE:7:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_BAE_7_1_E080000_0_0_0.png",
+      "sha256": "f4c9803d119d0ce1456a339f85a46c298eddeb6ae981ce83de9c36188061cb3f"
+    },
+    {
+      "file": "1_0_1_C30_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:C30:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_C30_C_1_E080000_0_0_0.png",
+      "sha256": "61f12106e1314b08274718375e8f2f158ed975d4073802bf06cb5253701df0c4"
+    },
+    {
+      "file": "1_0_1_C4E_5_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:C4E:5:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_C4E_5_1_E080000_0_0_0.png",
+      "sha256": "fe7f2e4b8b350933fa0a6ef253eed4594518937e979eaec587cb8c517ecf104e"
+    },
+    {
+      "file": "1_0_1_CC6_4_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:CC6:4:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_CC6_4_1_E080000_0_0_0.png",
+      "sha256": "663951550b42db47eca63862f1fc1ecb143724153f735852fd1a9168d5aecb4d"
+    },
+    {
+      "file": "1_0_1_CEE_3_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:CEE:3:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_CEE_3_1_E080000_0_0_0.png",
+      "sha256": "c55de5acb5405509c6caf77f730a4abf3c1c4c93ef3c38e05505c72b862e42e0"
+    },
+    {
+      "file": "1_0_1_D16_3_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:D16:3:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_D16_3_1_E080000_0_0_0.png",
+      "sha256": "7d3ac7503031cd2e85942fa7681f15d0ac21340f5a0618753151b4aea817eab8"
+    },
+    {
+      "file": "1_0_1_D2A_1_1_E08318F_0_0_0.png",
+      "service_reference": "1:0:1:D2A:1:1:E08318F:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_D2A_1_1_E08318F_0_0_0.png",
+      "sha256": "0326ea095e4cf3452932962bc90be4bfddb0ecfb49d3dca03b04a10ddaf4dadc"
+    },
+    {
+      "file": "1_0_1_D34_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:D34:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_D34_C_1_E080000_0_0_0.png",
+      "sha256": "3f45ad1c29b3184b49511de89d5bfd51d875b351801d81144646e6e491303ea3"
+    },
+    {
+      "file": "1_0_1_D48_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:D48:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_D48_C_1_E080000_0_0_0.png",
+      "sha256": "4017fdbe227603771aa091752111a04293edc2871f651d928c3f895b5c115c7f"
+    },
+    {
+      "file": "1_0_1_D52_2_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:D52:2:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_D52_2_1_E080000_0_0_0.png",
+      "sha256": "0b6e4e304cfc8ff6ae047682ca17ac8fa0d1dc9bb556c78697e02c14b191d791"
+    },
+    {
+      "file": "1_0_1_D7A_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:D7A:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_D7A_C_1_E080000_0_0_0.png",
+      "sha256": "04a8067344846732d8d695b35ab1fd8812f11506af0fcfdfea2ed6d6739ee4cc"
+    },
+    {
+      "file": "1_0_1_D84_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:D84:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_D84_C_1_E080000_0_0_0.png",
+      "sha256": "816932a50eed3935f89036d25982da4f0950efa82f4834321147fa60131099da"
+    },
+    {
+      "file": "1_0_1_D8E_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:D8E:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_D8E_C_1_E080000_0_0_0.png",
+      "sha256": "dc72312f13da33199cc02717fddee24bc0e83602d24e3890e7a72b864ec7e0b0"
+    },
+    {
+      "file": "1_0_1_DAC_4_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:DAC:4:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_DAC_4_1_E080000_0_0_0.png",
+      "sha256": "dbe2709b13dc12ee2fb7ffc31a9d9acf7d1086e74b9d42dc537dc916caf96501"
+    },
+    {
+      "file": "1_0_1_DB6_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:DB6:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_DB6_C_1_E080000_0_0_0.png",
+      "sha256": "d4f69eb45fe7cea7cc22c84de167fcae1aee27bcd4c67ebd8a58c1f4146b7c81"
+    },
+    {
+      "file": "1_0_1_DC0_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:DC0:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_DC0_C_1_E080000_0_0_0.png",
+      "sha256": "b936642d510f8b12d3cc849cbc5d7cee6cc5838f2c4daa6062ac825a7b063919"
+    },
+    {
+      "file": "1_0_1_DDE_C_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:DDE:C:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_DDE_C_1_E080000_0_0_0.png",
+      "sha256": "2fe5942a8eb0e2a25e998184beb01ce9b028fa14b67134e16fe80856e123ce5a"
+    },
+    {
+      "file": "1_0_1_FAE_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FAE:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FAE_AF4_BB_E080000_0_0_0.png",
+      "sha256": "d7c637064c2060578e2bcc49836087cf13b0fc597cecf2351bb1c779e65e32c7"
+    },
+    {
+      "file": "1_0_1_FAF_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FAF:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FAF_AF4_BB_E080000_0_0_0.png",
+      "sha256": "60fb4b8c284bd9c60bf07ec6020a134ef7f4e62f26c5b5347a8b6b8d8e3f9df9"
+    },
+    {
+      "file": "1_0_1_FB3_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FB3:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FB3_AF4_BB_E080000_0_0_0.png",
+      "sha256": "ae0a75941f0877e83214261e8d5a09e511f08e811f82b910d3ae27998cb18d6c"
+    },
+    {
+      "file": "1_0_1_FB6_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FB6:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FB6_AF4_BB_E080000_0_0_0.png",
+      "sha256": "11374295aedb07f1203c8246cb65dd808257dd21a38e3093527d52dd17e463f3"
+    },
+    {
+      "file": "1_0_1_FB8_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FB8:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FB8_AF4_BB_E080000_0_0_0.png",
+      "sha256": "73ddb504988e5d01ff7ee7ab275c67857569dd188cb4f430a6dff5d402d760ec"
+    },
+    {
+      "file": "1_0_1_FB9_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FB9:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FB9_AF4_BB_E080000_0_0_0.png",
+      "sha256": "3e080e8a2cc1b881208e1ed392aecc9ae62ce47458fe0d7cc2118e517a8018cb"
+    },
+    {
+      "file": "1_0_1_FBB_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FBB:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FBB_AF4_BB_E080000_0_0_0.png",
+      "sha256": "1845a0b41a4980d8df936535676cf0b359229c36c8e1fc6bc7698331b43ed0ee"
+    },
+    {
+      "file": "1_0_1_FBC_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FBC:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FBC_AF4_BB_E080000_0_0_0.png",
+      "sha256": "a95c13f8c8df326a0d33952642902749a927b4dd6c7022c71b315be46a858a77"
+    },
+    {
+      "file": "1_0_1_FC1_AF4_BB_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FC1:AF4:BB:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FC1_AF4_BB_E080000_0_0_0.png",
+      "sha256": "26d41b9476fe50afb971361d423aa63d7058ffe6c1f42bf700c7a4b3c7282723"
+    },
+    {
+      "file": "1_0_1_FE6_D_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FE6:D:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FE6_D_1_E080000_0_0_0.png",
+      "sha256": "19fbf2f8f025c781c4f09ff6f002aa0ffce46dfb128f812d8e01a57a6aaf883f"
+    },
+    {
+      "file": "1_0_1_FFA_D_1_E080000_0_0_0.png",
+      "service_reference": "1:0:1:FFA:D:1:E080000:0:0:0:",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/freesat_0.8w/white/1_0_1_FFA_D_1_E080000_0_0_0.png",
+      "sha256": "72f0378f15a0b3b61282a4c3acce25014e3f6131045204b9186411ba3a94a57f"
+    }
+  ]
+}

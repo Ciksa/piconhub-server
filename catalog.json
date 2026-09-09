@@ -24,6 +24,50 @@
                          "default_style":  "transparent",
                          "expected_services":  255,
                          "membership":  "FastScan CZ + SK"
+                     },
+                     {
+                         "id":  "antiksat_16.0e",
+                         "name":  "AntikSAT 16.0E",
+                         "manifest":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/antiksat_16.0e/transparent.json",
+                         "styles":  {
+                                        "transparent":  {
+                                                            "name":  "Transparentne",
+                                                            "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/antiksat_16.0e/transparent.json"
+                                                        },
+                                        "white":  {
+                                                      "name":  "Biely podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/antiksat_16.0e/white.json"
+                                                  },
+                                        "black":  {
+                                                      "name":  "Cierny podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/antiksat_16.0e/black.json"
+                                                  }
+                                    },
+                         "default_style":  "transparent",
+                         "expected_services":  108,
+                         "membership":  "Provided SRP set; FastScan not yet verified"
+                     },
+                     {
+                         "id":  "freesat_0.8w",
+                         "name":  "FreeSAT 0.8W",
+                         "manifest":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/freesat_0.8w/transparent.json",
+                         "styles":  {
+                                        "transparent":  {
+                                                            "name":  "Transparentne",
+                                                            "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/freesat_0.8w/transparent.json"
+                                                        },
+                                        "white":  {
+                                                      "name":  "Biely podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/freesat_0.8w/white.json"
+                                                  },
+                                        "black":  {
+                                                      "name":  "Cierny podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/freesat_0.8w/black.json"
+                                                  }
+                                    },
+                         "default_style":  "transparent",
+                         "expected_services":  226,
+                         "membership":  "Provided SRP set; FastScan not yet verified"
                      }
                  ],
     "news_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/news.json",

@@ -1,0 +1,1797 @@
+{
+  "schema": 2,
+  "package": "skylink_23.5e",
+  "name": "Skylink SK/CZ 23.5E",
+  "membership": "FastScan CZ + SK",
+  "style": "white",
+  "expected": 255,
+  "available": 255,
+  "complete": true,
+  "picons": [
+    {
+      "name": "CT 1 PHA HD",
+      "service_reference": "1:0:1:1F41:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F41_CA1_3_EB0000_0_0_0.png",
+      "sha256": "1ea294f7f87ec25d7ff1cd7d7fa31bbc4d45d1244664a3636893dece2cbb4210",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F41_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CT 2 HD",
+      "service_reference": "1:0:1:1F42:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F42_CA1_3_EB0000_0_0_0.png",
+      "sha256": "8b65458910dd2fa65826a83b05553fbf7dd61c2cc1368ec4a4b126684dbbf7e2",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F42_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova HD",
+      "service_reference": "1:0:1:3391:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_3391_C9D_3_EB0000_0_0_0.png",
+      "sha256": "298183a734ea1d89488b6e136cc76a5b72a6e2f819ee07b3c9b5dd248bc0b785",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3391_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima HD",
+      "service_reference": "1:0:1:3392:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_3392_C9D_3_EB0000_0_0_0.png",
+      "sha256": "9f1c0030eb5b255213c77a147f7c622a0be1c5145c4ac33c9913d5dbb26a0f38",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3392_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CANAL+ Action",
+      "service_reference": "1:0:1:3736:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3736_C8E_3_EB0000_0_0_0.png",
+      "sha256": "830467e827a2bf8ddd5362c29c0a366d267328528362ca43a96b8710a29c83fe",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3736_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CANAL+ Sport",
+      "service_reference": "1:0:1:3733:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3733_C8E_3_EB0000_0_0_0.png",
+      "sha256": "797fd723f9bfd89c3e79e51c9be06dd5ef8827d13adf95fefa58ff94dc6411f4",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3733_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CANAL+ Sport 2",
+      "service_reference": "1:0:1:1F4B:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F4B_CA1_3_EB0000_0_0_0.png",
+      "sha256": "82ad327a4cedbdb940ff90ebaeb87670920edf0e2fc963c3940354e831521242",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F4B_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "FILMBOX+ One",
+      "service_reference": "1:0:1:36E9:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36E9_C8C_3_EB0000_0_0_0.png",
+      "sha256": "c49833090fd533e8e253e7247ad9321c0a0ae0b12969b79c9c066696ef495ab5",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36E9_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "FILMBOX+ Love & Crime",
+      "service_reference": "1:0:1:3CF9:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CF9_C95_3_EB0000_0_0_0.png",
+      "sha256": "0aa03f890bebe94470ffbe71f70fb0673e1fcf85dd70dfa31119b6a05b704148",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CF9_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CT 24 HD",
+      "service_reference": "1:0:1:1F43:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F43_CA1_3_EB0000_0_0_0.png",
+      "sha256": "73ddb504988e5d01ff7ee7ab275c67857569dd188cb4f430a6dff5d402d760ec",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F43_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CT sport HD",
+      "service_reference": "1:0:1:1F44:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F44_CA1_3_EB0000_0_0_0.png",
+      "sha256": "6cf06d3c92f93784f34cf288c60ec03f880a575628e5ea842659e26d02f43a77",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F44_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Cinema HD",
+      "service_reference": "1:0:1:3395:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_3395_C9D_3_EB0000_0_0_0.png",
+      "sha256": "70f8acb87a70d0b0c9fb717f8a997d94f82479f5cc19e06275986c8753c13ea9",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3395_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Action HD",
+      "service_reference": "1:0:1:3394:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_3394_C9D_3_EB0000_0_0_0.png",
+      "sha256": "38a506364d153164218349ebc843311dce748220be5db9cd750193294d6f089c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3394_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Fun HD",
+      "service_reference": "1:0:1:3722:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3722_C8E_3_EB0000_0_0_0.png",
+      "sha256": "71cbf9184265cf3eb66e5c7e4a4eb305723f2a6a173a8b268df1e6885bd06e78",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3722_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Krimi",
+      "service_reference": "1:0:1:3721:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3721_C8E_3_EB0000_0_0_0.png",
+      "sha256": "2fd8a8429eb6a1e9b1b8e3d27715d75e6ebd8b5bba2e3876ee8d2310d5583df4",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3721_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Lady",
+      "service_reference": "1:0:1:3723:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3723_C8E_3_EB0000_0_0_0.png",
+      "sha256": "44f90d6e494f3ea688a85ec55776ac2fefbc01574110cc9cfe99ad0bc1f8caf8",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3723_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima MAX HD",
+      "service_reference": "1:0:1:36E5:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36E5_C8C_3_EB0000_0_0_0.png",
+      "sha256": "7084cd2f60e99bf939d7453e47ea49af2d43bc8d144b76437456972f254d217c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36E5_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima COOL HD",
+      "service_reference": "1:0:1:3396:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_3396_C9D_3_EB0000_0_0_0.png",
+      "sha256": "82af04aa1911a964748362d23f137caf20dd38efbe645dfb70439e54bc95e0a1",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3396_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima Zoom HD",
+      "service_reference": "1:0:1:36E8:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36E8_C8C_3_EB0000_0_0_0.png",
+      "sha256": "69f807e33f5ef23d912faf8b358fcf2272e20b79e0b5a01cdf3507b6cbc96243",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36E8_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CNN Prima News HD",
+      "service_reference": "1:0:1:36FF:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36FF_C8C_3_EB0000_0_0_0.png",
+      "sha256": "76ae9c3c673fa7574030b02de60a490521adc61ea2774e1fd93a05de40b5f063",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36FF_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima KRIMI HD",
+      "service_reference": "1:0:1:36EC:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36EC_C8C_3_EB0000_0_0_0.png",
+      "sha256": "9d1789e3e2f27048e750b07bc3dd3d7c546b1ca185160b37bd1932b35ca91a2a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36EC_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima Love",
+      "service_reference": "1:0:1:36EF:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36EF_C8C_3_EB0000_0_0_0.png",
+      "sha256": "18581110f21c25d01dbc72263dd36a051fc0d9192133e1a4adca924ef54c28fe",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36EF_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima Show",
+      "service_reference": "1:0:1:36EE:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36EE_C8C_3_EB0000_0_0_0.png",
+      "sha256": "f8bbe849d7f0be5bc14c826b7522309683b6386a02ab3ef1ab8563b0cb475475",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36EE_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima STAR",
+      "service_reference": "1:0:1:36ED:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36ED_C8C_3_EB0000_0_0_0.png",
+      "sha256": "edfb55b3c5d72fb5e8af9b3c5d99394e597928576328bf17f00bd7e3df38fdc5",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36ED_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Seznam.cz HD",
+      "service_reference": "1:0:1:335B:C93:3:EB0000:0:0:0:",
+      "file": "1_0_1_335B_C93_3_EB0000_0_0_0.png",
+      "sha256": "f270ef5a6e7618c6b895889243342b319f51e8c7f8d3305162b85a068f55f4e3",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_335B_C93_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Spektrum Home",
+      "service_reference": "1:0:1:36F6:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36F6_C8C_3_EB0000_0_0_0.png",
+      "sha256": "0ac8623abb42456a1d54c3de7f68fdf136ae267e92982c2f3ad29030b7c0156a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36F6_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "FILMBOX+ Emotion",
+      "service_reference": "1:0:1:3C2E:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C2E_C90_3_EB0000_0_0_0.png",
+      "sha256": "ab3e44ad108e47bc82b987bbf54fac295d838962b98a558120f742f793d60652",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C2E_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "FILMBOX+ Hits",
+      "service_reference": "1:0:1:3CF5:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CF5_C95_3_EB0000_0_0_0.png",
+      "sha256": "6ba45d17993ee12e51d888bf1c333b98e4bf70494cac43d96b993247bed9161f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CF5_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "FILMBOX+ Comedy",
+      "service_reference": "1:0:1:3C34:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C34_C90_3_EB0000_0_0_0.png",
+      "sha256": "bc19a3a91c7db520f731ee3d8e5627d158be7102754f66c50fd4090d64acfb9a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C34_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "TV Barrandov",
+      "service_reference": "1:0:1:31C:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_31C_C94_3_EB0000_0_0_0.png",
+      "sha256": "22982418c74c187085313833283f1c6edff7ddbecf093390a51a5d5dc236264d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_31C_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "JOJ Cinema HD",
+      "service_reference": "1:0:1:3359:C93:3:EB0000:0:0:0:",
+      "file": "1_0_1_3359_C93_3_EB0000_0_0_0.png",
+      "sha256": "c18c2215f90661204cf9f4f8daee60ce974f8bf27c196c6dfba81466e1d943bb",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3359_C93_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CS Film / CS Horror",
+      "service_reference": "1:0:1:36EA:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36EA_C8C_3_EB0000_0_0_0.png",
+      "sha256": "55a385def2a993543725ee39f88a48bd97a6ea0b024c0a2127897bec124dba27",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36EA_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CT :D/art HD",
+      "service_reference": "1:0:1:1F45:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F45_CA1_3_EB0000_0_0_0.png",
+      "sha256": "e003d3ee804e7d61aa34c9429ff0539d7d587063cdce85a2598021231348ad68",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F45_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Barrandov Krimi",
+      "service_reference": "1:0:1:31E:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_31E_C94_3_EB0000_0_0_0.png",
+      "sha256": "d7c637064c2060578e2bcc49836087cf13b0fc597cecf2351bb1c779e65e32c7",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_31E_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Kino Barrandov",
+      "service_reference": "1:0:1:31D:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_31D_C94_3_EB0000_0_0_0.png",
+      "sha256": "60fb4b8c284bd9c60bf07ec6020a134ef7f4e62f26c5b5347a8b6b8d8e3f9df9",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_31D_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Viasat Epic Drama HD",
+      "service_reference": "1:0:1:3700:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_3700_C8C_3_EB0000_0_0_0.png",
+      "sha256": "6af4ca8f30ce6ad312575e2fe9c993d90a7d8fcc19257bf5cb35e8a5a25d5875",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3700_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Film+ HD",
+      "service_reference": "1:0:1:3CF2:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CF2_C95_3_EB0000_0_0_0.png",
+      "sha256": "23c324025fe436ad96259e6c2409da0232c5c9912472ced702454662f98ea54c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CF2_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Film Europe+ HD",
+      "service_reference": "1:0:1:3CF7:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CF7_C95_3_EB0000_0_0_0.png",
+      "sha256": "8387797650902e65d9fa1ce985df419e7060b0af397d2842e8727acb2e6f5d8c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CF7_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "AXN CZ",
+      "service_reference": "1:0:1:315:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_315_C94_3_EB0000_0_0_0.png",
+      "sha256": "1ffe83abf523cd2c03b9eb3d0ab0d3d7380e850ebc96bc36c44acf817c55476d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_315_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "AXN Black",
+      "service_reference": "1:0:1:3D00:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3D00_C95_3_EB0000_0_0_0.png",
+      "sha256": "5a0eeb8dc5f286aedf90f171ca2e9fef72eb73132e0141f02290c9a73c83d3c0",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3D00_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "AXN White",
+      "service_reference": "1:0:1:3D01:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3D01_C95_3_EB0000_0_0_0.png",
+      "sha256": "94b54340482827220b7563b7c2d290747a95ea36dec646ae889a4963c49d8baa",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3D01_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "AMC",
+      "service_reference": "1:0:1:36FB:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36FB_C8C_3_EB0000_0_0_0.png",
+      "sha256": "b1f534eec389020a0c2ba0fd1b56c83ae71bd15a91ac3450159dd6d72c11ae0a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36FB_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Film Europe HD",
+      "service_reference": "1:0:1:3C2D:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C2D_C90_3_EB0000_0_0_0.png",
+      "sha256": "a47484d63c21035b0db603f6b9204c5c52dd6d85ac259927cc5a168f79325746",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C2D_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CS Horror",
+      "service_reference": "1:0:1:36EB:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36EB_C8C_3_EB0000_0_0_0.png",
+      "sha256": "cc6d3f837f1df81283edf3fd34dccf550d6fc13668415b487f2b2d35cad320e7",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36EB_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Story4",
+      "service_reference": "1:0:1:3CF8:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CF8_C95_3_EB0000_0_0_0.png",
+      "sha256": "4c76c9cc8b83dfc8bf86549eca1c528d47fb53205a30e2cff66bdaa27649dafc",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CF8_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Jednotka HD",
+      "service_reference": "1:0:1:3C3C:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C3C_C90_3_EB0000_0_0_0.png",
+      "sha256": "44398407958586209822101a9f8d891967a4dfe5b664ba556d2371175a30cdad",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C3C_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Dvojka HD",
+      "service_reference": "1:0:1:3C3D:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C3D_C90_3_EB0000_0_0_0.png",
+      "sha256": "82be1a6cb5e074162309ff4a4e7b32cfcf81b968b0bd9782b34eab9e7ed2cbe0",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C3D_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Markiza International",
+      "service_reference": "1:0:1:3720:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3720_C8E_3_EB0000_0_0_0.png",
+      "sha256": "7b1d84f7c085317b9b2d6fe0ced3c6cdfd6015da98f5a5ebb4ac23329ed5987a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3720_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "JOJ Family",
+      "service_reference": "1:0:1:3350:C93:3:EB0000:0:0:0:",
+      "file": "1_0_1_3350_C93_3_EB0000_0_0_0.png",
+      "sha256": "59f7fedde1f866f9d18633277b6396ab09d1416dccb323500bb59a30c50cef5c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3350_C93_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "RTVS 24 HD",
+      "service_reference": "1:0:1:3C3E:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C3E_C90_3_EB0000_0_0_0.png",
+      "sha256": "dc514225330fe4ca24e748fc6ef4ef71e9efe440accf6d51768d679980de2b8d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C3E_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "TA3 HD",
+      "service_reference": "1:0:1:1328:CA2:3:EB0000:0:0:0:",
+      "file": "1_0_1_1328_CA2_3_EB0000_0_0_0.png",
+      "sha256": "d363d8d1bd5dbde5fc273fe40f2614549bab204122e11b8abf0f73c0b9bb90eb",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1328_CA2_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "HBO HD",
+      "service_reference": "1:0:1:307:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_307_C94_3_EB0000_0_0_0.png",
+      "sha256": "ff2de7790c4275a7c2772fcff323961df5be63d6f9d636da3ffb35050f9b9d8c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_307_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "HBO2 HD",
+      "service_reference": "1:0:1:3CF3:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CF3_C95_3_EB0000_0_0_0.png",
+      "sha256": "a8ccb53fffa0d7a117c8b427c4eea3aa35fe56e1b70b2d1ef5affddd715d2802",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CF3_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "HBO3 HD",
+      "service_reference": "1:0:1:3CF4:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CF4_C95_3_EB0000_0_0_0.png",
+      "sha256": "08ad4a009cd5d824719bd79a9f2257a9a7514648c35e106c638ee0908b395814",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CF4_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Cinemax HD",
+      "service_reference": "1:0:1:3C2C:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C2C_C90_3_EB0000_0_0_0.png",
+      "sha256": "51994ed18d35858b054c54b827279c1bee3cb34b305b74b47a213a26be9b5f10",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C2C_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Cinemax2 HD",
+      "service_reference": "1:0:1:3CF6:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CF6_C95_3_EB0000_0_0_0.png",
+      "sha256": "0876da274b2f1bd868c6d0853b2f2e929f8e2d6ae7f8080516ac170f63606571",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CF6_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "JOJ Svet CZ",
+      "service_reference": "1:0:1:3701:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_3701_C8C_3_EB0000_0_0_0.png",
+      "sha256": "b1e3b3236a6330a4528b39bd3d571a1c94a26fe08225437477a7f582c1de9ae9",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3701_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nat Geo HD CZ",
+      "service_reference": "1:0:1:303:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_303_C94_3_EB0000_0_0_0.png",
+      "sha256": "f3f66ac00b3724dc8513a09a69422007fada7b7f7f9ee760f6062a0d05c1a8c2",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_303_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Viasat Nature HD",
+      "service_reference": "1:0:1:3CF1:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CF1_C95_3_EB0000_0_0_0.png",
+      "sha256": "af0710a8380d1c550d3497fb2aa4a234d6291043104624c5407fb7b43fcf6d57",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CF1_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Viasat History HD",
+      "service_reference": "1:0:1:3CF0:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CF0_C95_3_EB0000_0_0_0.png",
+      "sha256": "284d8658c9f8064f17d25df1b113e05bb4154631e1c20a703172acf0966d4964",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CF0_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Viasat Explore",
+      "service_reference": "1:0:1:3C2F:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C2F_C90_3_EB0000_0_0_0.png",
+      "sha256": "11374295aedb07f1203c8246cb65dd808257dd21a38e3093527d52dd17e463f3",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C2F_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Viasat True Crime",
+      "service_reference": "1:0:1:36F3:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36F3_C8C_3_EB0000_0_0_0.png",
+      "sha256": "68badb8ea387a1db0d5932a33ad8a90ba2d0fe561d86c67d60567a53d3545941",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36F3_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CS History",
+      "service_reference": "1:0:1:335A:C93:3:EB0000:0:0:0:",
+      "file": "1_0_1_335A_C93_3_EB0000_0_0_0.png",
+      "sha256": "b0b48a03233fe5149b0c9361c170ba45dafb40a6f7bd97d2c2c969137a880163",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_335A_C93_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CS Mystery",
+      "service_reference": "1:0:1:334D:C93:3:EB0000:0:0:0:",
+      "file": "1_0_1_334D_C93_3_EB0000_0_0_0.png",
+      "sha256": "8411dd72e1482285b0a6325a5f41099fc035e8d10f003a55eb046ab00828d45a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_334D_C93_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Fishing and Hunting",
+      "service_reference": "1:0:1:314:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_314_C94_3_EB0000_0_0_0.png",
+      "sha256": "2445cfdd60f0cbda19ed01e88cdcc70a550fee26ffdc9f0da08de359af02cdae",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_314_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "National Geographic Wild HD",
+      "service_reference": "1:0:1:305:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_305_C94_3_EB0000_0_0_0.png",
+      "sha256": "68ca51aef7f25f5ec7f45f0958f806f2fa2bcb3c3a123f187869a1d8b7e7b8b0",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_305_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Spektrum HD",
+      "service_reference": "1:0:1:310:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_310_C94_3_EB0000_0_0_0.png",
+      "sha256": "d709637775fa36deccb8441f4dab5e6b371068662697d2417ac0b248ba4f914a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_310_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "History HD",
+      "service_reference": "1:0:1:3CFF:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CFF_C95_3_EB0000_0_0_0.png",
+      "sha256": "57503d7cccffe365842346ce9b6c84d3fc5c31c9d7ebaa2b4ac9ae0c58900ede",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CFF_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Love Nature HD",
+      "service_reference": "1:0:1:30F:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_30F_C94_3_EB0000_0_0_0.png",
+      "sha256": "debdb12fff7ab638e1405ecf4afc950774ab3f81e1d3bacd847806ba56c9ad0f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_30F_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "DocuBox",
+      "service_reference": "1:0:1:5317:C96:3:EB0000:0:0:0:",
+      "file": "1_0_1_5317_C96_3_EB0000_0_0_0.png",
+      "sha256": "213ae799f0bdb166c71ec773532412c5e085fb0f646f4a514407cc9b65a8630c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_5317_C96_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nautical HD",
+      "service_reference": "1:0:1:1BFD:C88:3:EB0000:0:0:0:",
+      "file": "1_0_1_1BFD_C88_3_EB0000_0_0_0.png",
+      "sha256": "abc513210915ad6ea521432a8e03f07a28dbed0b3de71bc2b4fca9a5e707c89d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1BFD_C88_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "TV Paprika",
+      "service_reference": "1:0:1:36FE:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36FE_C8C_3_EB0000_0_0_0.png",
+      "sha256": "8cfffb697723ede4645a6cbc711d2059cd4cb5e070be9b0b7b9c6790e14e88f8",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36FE_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "INPLUS",
+      "service_reference": "1:0:1:100A:451:35:C00000:0:0:0:",
+      "file": "1_0_1_100A_451_35_C00000_0_0_0.png",
+      "sha256": "21578fbf6c761402ee9f5d51c465967d126e1caf6b1b1fde4edf0edd5512fd6f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_100A_451_35_C00000_0_0_0.png"
+    },
+    {
+      "name": "tv8",
+      "service_reference": "1:0:1:5318:C96:3:EB0000:0:0:0:",
+      "file": "1_0_1_5318_C96_3_EB0000_0_0_0.png",
+      "sha256": "b02d32b6fe03b55dedaa2170b6b9b7668f0044823a38b54f0dd1d61624935cbf",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_5318_C96_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 1 HD",
+      "service_reference": "1:0:1:3393:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_3393_C9D_3_EB0000_0_0_0.png",
+      "sha256": "8afcd4041099f798553ca437053bedd6dceeeb893d7a197862d40ec8f337f50b",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3393_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 2 HD",
+      "service_reference": "1:0:1:371E:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_371E_C8E_3_EB0000_0_0_0.png",
+      "sha256": "90d65975b46a48c4be7d0d4fcd10b1808ecf3f85dd137efb660341c2e9c4ee97",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_371E_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 3 HD",
+      "service_reference": "1:0:1:36E6:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36E6_C8C_3_EB0000_0_0_0.png",
+      "sha256": "a9c75acce5af32d269594adef16318a2874f3d987910d9cc0e8db95df0422898",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36E6_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 4 HD",
+      "service_reference": "1:0:1:36E7:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36E7_C8C_3_EB0000_0_0_0.png",
+      "sha256": "e9b197072c638a648454ff8f557701d1d15eadc4a045a88d79939571e2473a5d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36E7_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 5 HD",
+      "service_reference": "1:0:1:372C:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_372C_C8E_3_EB0000_0_0_0.png",
+      "sha256": "bced0ab0a463acfdd28381fd885ada180560f19c5b08b3b1ae1678d51bd603ad",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_372C_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 6 HD",
+      "service_reference": "1:0:1:312:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_312_C94_3_EB0000_0_0_0.png",
+      "sha256": "d8bbd3781a8e0cbc7540119b050427bd9b6e5971c06a4eebb6bd02c349c75c3b",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_312_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Sport 1 HD",
+      "service_reference": "1:0:1:3C30:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C30_C90_3_EB0000_0_0_0.png",
+      "sha256": "95068d7b91a564865f16b77e8cc109cb4022682c5a2496cdabe173e6766c5aed",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C30_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Sport 2 HD",
+      "service_reference": "1:0:1:318:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_318_C94_3_EB0000_0_0_0.png",
+      "sha256": "07d4913819be242d84d79f25a28b43f09fe00c40b00ccccc417dd71ab67145c8",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_318_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Golf Channel",
+      "service_reference": "1:0:1:311:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_311_C94_3_EB0000_0_0_0.png",
+      "sha256": "10e1829ef07ca4ac737e5cef9b02c6c7956434b1561ac6fed2479b966f1c9ad7",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_311_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Kanal1 Sport",
+      "service_reference": "1:0:1:3C29:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C29_C90_3_EB0000_0_0_0.png",
+      "sha256": "5121189e498bac8300f382b80a4268b27095943e8e736443c63d3294adf332b1",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C29_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Kanal1 Xtra",
+      "service_reference": "1:0:1:3724:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3724_C8E_3_EB0000_0_0_0.png",
+      "sha256": "82ee966d189598babc49a5f32f40b2e80170330d153502bd396c60c0357bbbfc",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3724_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima Sport",
+      "service_reference": "1:0:1:3D02:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3D02_C95_3_EB0000_0_0_0.png",
+      "sha256": "d3f9c4e6dc65de9108227635b1eb3a58aa98e5b81d419891a928318903465957",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3D02_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "AutoMotorSport HD",
+      "service_reference": "1:0:1:17D0:C82:3:EB0000:0:0:0:",
+      "file": "1_0_1_17D0_C82_3_EB0000_0_0_0.png",
+      "sha256": "8a891092d02f0ddc0dacc0a5c7bfbeb0f5f14d5ec5b1add4020ff1f7b56136b4",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_17D0_C82_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "FightBox",
+      "service_reference": "1:0:1:17EA:C82:3:EB0000:0:0:0:",
+      "file": "1_0_1_17EA_C82_3_EB0000_0_0_0.png",
+      "sha256": "6eb5846a47d079e38f724549c002c24d612f50dd0e8bed759f76b16254a1b621",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_17EA_C82_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "JimJam CZ",
+      "service_reference": "1:0:1:3C37:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C37_C90_3_EB0000_0_0_0.png",
+      "sha256": "a5295400ad9b5913cdadda406b1d2d18594f3ec44ac47f8cc644dbfd594887de",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C37_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Minimax",
+      "service_reference": "1:0:1:3CFB:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CFB_C95_3_EB0000_0_0_0.png",
+      "sha256": "674f4071c82c495522c1b7d5925ecf4214ad571b3c5840f4cbfcde7c1ada14da",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CFB_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "LALA TV",
+      "service_reference": "1:0:1:3C2A:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C2A_C90_3_EB0000_0_0_0.png",
+      "sha256": "082a7337ce20fc09480ab7e0939ae0f10774ef5613ac380957237810483c7ccc",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C2A_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Disney CZ",
+      "service_reference": "1:0:1:36FC:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36FC_C8C_3_EB0000_0_0_0.png",
+      "sha256": "634dce1818b0116b9ed27b7f797e81aa95c63b66ea5415d37fc666fc97279470",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36FC_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Cartoon Network",
+      "service_reference": "1:0:1:36F5:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36F5_C8C_3_EB0000_0_0_0.png",
+      "sha256": "d4cc66707ab61d3827cef4bdf3f97d9335652696569053b719998d35f6fe5059",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36F5_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Cartoonito",
+      "service_reference": "1:0:1:30B:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_30B_C94_3_EB0000_0_0_0.png",
+      "sha256": "34264969e4a4896bbb3d82a69815fd9f49db80c7927fe69baf1d88f680b38802",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_30B_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Retro Music TV",
+      "service_reference": "1:0:1:3C3A:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C3A_C90_3_EB0000_0_0_0.png",
+      "sha256": "a8107a64c277f9a34802924ffde9c90752e4ebc99c07fe3a846519fb8424db34",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C3A_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Slager Original",
+      "service_reference": "1:0:1:334E:C93:3:EB0000:0:0:0:",
+      "file": "1_0_1_334E_C93_3_EB0000_0_0_0.png",
+      "sha256": "ec91f9c43957fabaff59c8206468895f60e7df4b504c04f1e7f4ad47940cd704",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_334E_C93_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Slager Muzika",
+      "service_reference": "1:0:1:339D:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_339D_C9D_3_EB0000_0_0_0.png",
+      "sha256": "dd0cf9294f069e14afe900f19ab89f75bfae3644d53d9261883e2d79a9c7756b",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_339D_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Premium",
+      "service_reference": "1:0:1:30A:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_30A_C94_3_EB0000_0_0_0.png",
+      "sha256": "48fe45923c09d7d9a97a08a1532cabea7ba5c337c3c6191d4d6da563489dd5dd",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_30A_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Senzi",
+      "service_reference": "1:0:1:36F1:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36F1_C8C_3_EB0000_0_0_0.png",
+      "sha256": "97f60ee287c0a12592ce293eb1ca36603555db88560ac5a625ca81ca16719b3f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36F1_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "OCKO STAR",
+      "service_reference": "1:0:1:309:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_309_C94_3_EB0000_0_0_0.png",
+      "sha256": "e6d39995b99982bb72e8db16e1e0279a84ad3c0c7576bd418bb89bc31b9c6e3e",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_309_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Mezzo",
+      "service_reference": "1:0:1:1816:C82:3:EB0000:0:0:0:",
+      "file": "1_0_1_1816_C82_3_EB0000_0_0_0.png",
+      "sha256": "bcc4455fe3652daf317687e1215e6b1d141e052453bc45f655aa03be710b6b57",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1816_C82_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "TV Lux HD",
+      "service_reference": "1:0:1:1F4E:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F4E_CA1_3_EB0000_0_0_0.png",
+      "sha256": "0f92c6126e474465a5151d4e75218efa030bc3545943f7198fb721aabbd00918",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F4E_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CT 1 JM HD",
+      "service_reference": "1:0:1:1F48:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F48_CA1_3_EB0000_0_0_0.png",
+      "sha256": "1ea294f7f87ec25d7ff1cd7d7fa31bbc4d45d1244664a3636893dece2cbb4210",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F48_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CT 1 SM HD",
+      "service_reference": "1:0:1:1F47:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F47_CA1_3_EB0000_0_0_0.png",
+      "sha256": "a7171192ed5091fc2ed423cdebf1e3b2dbc520531088164df221304e16491b87",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F47_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CT 1 JZC HD",
+      "service_reference": "1:0:1:1F4C:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F4C_CA1_3_EB0000_0_0_0.png",
+      "sha256": "1ea294f7f87ec25d7ff1cd7d7fa31bbc4d45d1244664a3636893dece2cbb4210",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F4C_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CT 1 SVC HD",
+      "service_reference": "1:0:1:1F4A:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F4A_CA1_3_EB0000_0_0_0.png",
+      "sha256": "1ea294f7f87ec25d7ff1cd7d7fa31bbc4d45d1244664a3636893dece2cbb4210",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F4A_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Daystar TV",
+      "service_reference": "1:0:1:30D:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_30D_C94_3_EB0000_0_0_0.png",
+      "sha256": "40585a7cadf1d5ee1d290c4b28916715976b08c308192c9b429f3dffb85d7637",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_30D_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "M1",
+      "service_reference": "1:0:1:17E5:C82:3:EB0000:0:0:0:",
+      "file": "1_0_1_17E5_C82_3_EB0000_0_0_0.png",
+      "sha256": "f1c78fd759248e712877f75528c5ba4817ad59f4962f5be42244f364e8f709fd",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_17E5_C82_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "M2 / Petofi",
+      "service_reference": "1:0:1:17E6:C82:3:EB0000:0:0:0:",
+      "file": "1_0_1_17E6_C82_3_EB0000_0_0_0.png",
+      "sha256": "8b93c7bd07f65b30a01a6fb42ddb5a9270375bed0060bfa75e3d4747ff3dbb86",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_17E6_C82_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "M4",
+      "service_reference": "1:0:1:17E7:C82:3:EB0000:0:0:0:",
+      "file": "1_0_1_17E7_C82_3_EB0000_0_0_0.png",
+      "sha256": "a12b0b1ec192eb00c2b4dbd91e6e61121599364384f03bbb242441a4b1063f44",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_17E7_C82_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "M5",
+      "service_reference": "1:0:1:1F51:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F51_CA1_3_EB0000_0_0_0.png",
+      "sha256": "82727d2c284491fc75b0db43a61f5716a87294ac32b15cd698ee2dcae7e70a42",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F51_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Duna",
+      "service_reference": "1:0:1:1C16:C88:3:EB0000:0:0:0:",
+      "file": "1_0_1_1C16_C88_3_EB0000_0_0_0.png",
+      "sha256": "850e4631901c2884b622839b0d1d803ebd43e8a422bfa395e15a8c65da486607",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1C16_C88_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Duna World / M4 Sport+",
+      "service_reference": "1:0:1:1C10:C88:3:EB0000:0:0:0:",
+      "file": "1_0_1_1C10_C88_3_EB0000_0_0_0.png",
+      "sha256": "bd865ea869a502862c458fd7fd6844938e846550f3d0c60c116e943b4e87e27f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1C10_C88_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Hir TV",
+      "service_reference": "1:0:1:17E3:C82:3:EB0000:0:0:0:",
+      "file": "1_0_1_17E3_C82_3_EB0000_0_0_0.png",
+      "sha256": "ede7562cd05010635e1c6b6ec2719e7e1e1d2ddadcfd2f2a03047dc0eea81deb",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_17E3_C82_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "RTL GOLD",
+      "service_reference": "1:0:1:5314:C96:3:EB0000:0:0:0:",
+      "file": "1_0_1_5314_C96_3_EB0000_0_0_0.png",
+      "sha256": "e0fb01aead26d3b5ff75f912a5238f88ce8c87685107a6346cedd83fa90fcc36",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_5314_C96_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "RTL",
+      "service_reference": "1:0:1:17E8:C82:3:EB0000:0:0:0:",
+      "file": "1_0_1_17E8_C82_3_EB0000_0_0_0.png",
+      "sha256": "d089e47f2a0a9b8bf8bf049c9e603a5b0f03e8fafc4d7cbcce8896419ddc3b74",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_17E8_C82_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "RTL KETTO",
+      "service_reference": "1:0:1:52A0:C99:3:EB0000:0:0:0:",
+      "file": "1_0_1_52A0_C99_3_EB0000_0_0_0.png",
+      "sha256": "26c42c2ccc2bdd3b29862a9e41abab212e14580c778c7c685b61b925feebbadd",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_52A0_C99_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "RTL HAROM",
+      "service_reference": "1:0:1:529F:C99:3:EB0000:0:0:0:",
+      "file": "1_0_1_529F_C99_3_EB0000_0_0_0.png",
+      "sha256": "584ad67b228d224f863648c7aaeacd6cc067902d39df071f47db0a41c4bcd7dc",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_529F_C99_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "TV2",
+      "service_reference": "1:0:1:17E9:C82:3:EB0000:0:0:0:",
+      "file": "1_0_1_17E9_C82_3_EB0000_0_0_0.png",
+      "sha256": "0015cfab02da764af4779aa2b997d162a88fbe79d983c819c78c7f622f0b87d3",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_17E9_C82_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "SuperTV2",
+      "service_reference": "1:0:1:372E:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_372E_C8E_3_EB0000_0_0_0.png",
+      "sha256": "2bf53298b5eec8c6f0a8c2da59eb978d9b50451a05f2b20cf4caab8c44f345bb",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_372E_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Story4 HU",
+      "service_reference": "1:0:1:1F50:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F50_CA1_3_EB0000_0_0_0.png",
+      "sha256": "4c76c9cc8b83dfc8bf86549eca1c528d47fb53205a30e2cff66bdaa27649dafc",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F50_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Cool",
+      "service_reference": "1:0:1:1C17:C88:3:EB0000:0:0:0:",
+      "file": "1_0_1_1C17_C88_3_EB0000_0_0_0.png",
+      "sha256": "cafc736839f3711dc449f8ccb461ff6e1d526af43f060fa2a03d9d3da88869e8",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1C17_C88_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Sorozat+",
+      "service_reference": "1:0:1:52A1:C99:3:EB0000:0:0:0:",
+      "file": "1_0_1_52A1_C99_3_EB0000_0_0_0.png",
+      "sha256": "470cede5fe13858e425ee8c5f31df11672fc775c3f0eeffa52adaeb78f6b9d56",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_52A1_C99_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Film+ Hungary",
+      "service_reference": "1:0:1:1C15:C88:3:EB0000:0:0:0:",
+      "file": "1_0_1_1C15_C88_3_EB0000_0_0_0.png",
+      "sha256": "1be6b2f7208259e9035a0f14c3d5c8c533ba6264554a35bcd672001d2a1d144a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1C15_C88_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Galaxy4",
+      "service_reference": "1:0:1:371F:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_371F_C8E_3_EB0000_0_0_0.png",
+      "sha256": "294c3db423867a16d741cc64c57f2f2dc32127281c3a4fd912bb7949e02967fe",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_371F_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "FEM3",
+      "service_reference": "1:0:1:319:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_319_C94_3_EB0000_0_0_0.png",
+      "sha256": "370620ad7f4be89797f3985ab2aa4b20cf13d804a4ae051dee8125f9c7086ee0",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_319_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "TV2 Sef",
+      "service_reference": "1:0:1:5315:C96:3:EB0000:0:0:0:",
+      "file": "1_0_1_5315_C96_3_EB0000_0_0_0.png",
+      "sha256": "fe05276a1231e65fcb29f29411762b4b8e1a2b426d656e10cdb6cb8923a60d08",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_5315_C96_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Slager TV",
+      "service_reference": "1:0:1:52F5:C96:3:EB0000:0:0:0:",
+      "file": "1_0_1_52F5_C96_3_EB0000_0_0_0.png",
+      "sha256": "d366ee22e293ac78cdc0a5a8b96afd1da55ca35df68c4b29c91097ab97f561c8",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_52F5_C96_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Muzsika TV",
+      "service_reference": "1:0:1:52F3:C96:3:EB0000:0:0:0:",
+      "file": "1_0_1_52F3_C96_3_EB0000_0_0_0.png",
+      "sha256": "94292e7d37c862ccb2a92bbf61f9eb6c15e893b54a0b96d25a6e6bd3ccdaab23",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_52F3_C96_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "France 24 (in English)",
+      "service_reference": "1:0:1:1AFA:3FE:1:C00000:0:0:0:",
+      "file": "1_0_1_1AFA_3FE_1_C00000_0_0_0.png",
+      "sha256": "bfedacf8861d42b2f65ff6324c124553778eee8d18e3ccb610c52ece40ac86be",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1AFA_3FE_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "(18+) Leo TV (22-06)",
+      "service_reference": "1:0:1:3CFC:C95:3:EB0000:0:0:0:",
+      "file": "1_0_1_3CFC_C95_3_EB0000_0_0_0.png",
+      "sha256": "54a2e57f4dfbde4ffde0b032c6309288688b6b705fa0d47610189a25cb43a945",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3CFC_C95_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "(18+) VIXEN HD",
+      "service_reference": "1:0:1:17E2:C82:3:EB0000:0:0:0:",
+      "file": "1_0_1_17E2_C82_3_EB0000_0_0_0.png",
+      "sha256": "c6c287ab09a3536bc98e5a2fba898549e1b66f23990fa51af5f7a9a591746556",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_17E2_C82_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "(18+) Penthouse Gold",
+      "service_reference": "1:0:1:1C0C:C88:3:EB0000:0:0:0:",
+      "file": "1_0_1_1C0C_C88_3_EB0000_0_0_0.png",
+      "sha256": "9e11361cd5a829a21aa206039cb53a11b52a52760255efa91fb599b20cd4d1c1",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1C0C_C88_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "(18+) Hustler TV CZ",
+      "service_reference": "1:0:1:100D:451:35:C00000:0:0:0:",
+      "file": "1_0_1_100D_451_35_C00000_0_0_0.png",
+      "sha256": "032e3b0c41ba37c050d161ec7d1b82489bfa130a456d4fcbe96c9296bcbea152",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_100D_451_35_C00000_0_0_0.png"
+    },
+    {
+      "name": "(18+) Penthouse Reality TV",
+      "service_reference": "1:0:1:1C0D:C88:3:EB0000:0:0:0:",
+      "file": "1_0_1_1C0D_C88_3_EB0000_0_0_0.png",
+      "sha256": "09882f5cd5e6ad9a5a650ed507e0e8a8233c92e593d2f0882197ce7953dee78c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1C0D_C88_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "(18+) Man-X (00-06)",
+      "service_reference": "1:0:1:5284:C96:3:EB0000:0:0:0:",
+      "file": "1_0_1_5284_C96_3_EB0000_0_0_0.png",
+      "sha256": "3263a583748ebf096b988ed2f5e2464875f48f04f67dec6779340253fe721412",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_5284_C96_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "RTLZWEI",
+      "service_reference": "1:0:1:2EF4:441:1:C00000:0:0:0:",
+      "file": "1_0_1_2EF4_441_1_C00000_0_0_0.png",
+      "sha256": "35bc58fe40d8b725951234037d1625923f4d52d673398e15dc60a77218e96850",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2EF4_441_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "RTL Austria",
+      "service_reference": "1:0:1:7080:443:1:C00000:0:0:0:",
+      "file": "1_0_1_7080_443_1_C00000_0_0_0.png",
+      "sha256": "5c6707b6ac10955b1d35f1458274d6db658bf44aca14468137e8f75ff4ab4f83",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_7080_443_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "RTL Super",
+      "service_reference": "1:0:1:2F08:441:1:C00000:0:0:0:",
+      "file": "1_0_1_2F08_441_1_C00000_0_0_0.png",
+      "sha256": "46b337a530948fd0f6e81fdb7b8b665b1a872065521f1a8a81d8f562590512a0",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2F08_441_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "SAT.1",
+      "service_reference": "1:0:1:445C:453:1:C00000:0:0:0:",
+      "file": "1_0_1_445C_453_1_C00000_0_0_0.png",
+      "sha256": "bf4692da60f20f82c65963e0fa2530a82a8e1f6de184c2d7018538f62554bd6d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_445C_453_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "SAT.1 Gold Osterreich",
+      "service_reference": "1:0:1:14BE:407:1:C00000:0:0:0:",
+      "file": "1_0_1_14BE_407_1_C00000_0_0_0.png",
+      "sha256": "546838195c25786dc32017db6c38db48bc734f97e1cf89fdf3addf9dde7120cb",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_14BE_407_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "ProSieben",
+      "service_reference": "1:0:1:445D:453:1:C00000:0:0:0:",
+      "file": "1_0_1_445D_453_1_C00000_0_0_0.png",
+      "sha256": "e1c7666c879327eff93399319eadec53a63f0215d269d3e73ee2290545432a06",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_445D_453_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "ProSieben MAXX Austria",
+      "service_reference": "1:0:1:14BF:407:1:C00000:0:0:0:",
+      "file": "1_0_1_14BF_407_1_C00000_0_0_0.png",
+      "sha256": "07382ae2794c5c52fe6114170407dd2adf6eaf596a976d9a3992c9e56d0adbf5",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_14BF_407_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Kabel Eins",
+      "service_reference": "1:0:1:445E:453:1:C00000:0:0:0:",
+      "file": "1_0_1_445E_453_1_C00000_0_0_0.png",
+      "sha256": "2678b0321079d8f4d8b19e5da95bcf30eae3365fc678d7fc1f75103d60a0d4d5",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_445E_453_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "VOX",
+      "service_reference": "1:0:1:2F1C:441:1:C00000:0:0:0:",
+      "file": "1_0_1_2F1C_441_1_C00000_0_0_0.png",
+      "sha256": "ec8c89dc6fbfec71d3dee80eea35b12427931aa49cacd4d393ffbba96f1f89e2",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2F1C_441_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Das Erste HD",
+      "service_reference": "1:0:1:283D:3FB:1:C00000:0:0:0:",
+      "file": "1_0_1_283D_3FB_1_C00000_0_0_0.png",
+      "sha256": "4836f449d937bff9688f797671a5a3866ab1272e91f1db7bd770e8274df6f9f6",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_283D_3FB_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "ZDF HD",
+      "service_reference": "1:0:1:2B66:3F3:1:C00000:0:0:0:",
+      "file": "1_0_1_2B66_3F3_1_C00000_0_0_0.png",
+      "sha256": "a27bb56a862b72f3a7f573a87aad77ace91248e1eaa5fc11580140a515550123",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2B66_3F3_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "sport1",
+      "service_reference": "1:0:1:384:21:85:C00000:0:0:0:",
+      "file": "1_0_1_384_21_85_C00000_0_0_0.png",
+      "sha256": "dbd07ae506a0840e673dd7324e73b6dd78b73c68d1c7a63445d9b21815249b07",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_384_21_85_C00000_0_0_0.png"
+    },
+    {
+      "name": "Eurosport 1 Deutschland",
+      "service_reference": "1:0:1:79E0:443:1:C00000:0:0:0:",
+      "file": "1_0_1_79E0_443_1_C00000_0_0_0.png",
+      "sha256": "46837970274e80dc26573b77ca0883929f39f854c41159c953e8fd673a257905",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_79E0_443_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "ORF 2 Europe",
+      "service_reference": "1:0:1:33FE:3ED:1:C00000:0:0:0:",
+      "file": "1_0_1_33FE_3ED_1_C00000_0_0_0.png",
+      "sha256": "287548f57ea67496d17241b91e3e603e2fd7166c90012258413416d10448b902",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_33FE_3ED_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Disney Channel",
+      "service_reference": "1:0:1:701:5:85:C00000:0:0:0:",
+      "file": "1_0_1_701_5_85_C00000_0_0_0.png",
+      "sha256": "aab6f2c1ffecd6341b645a2f8d59535aa7637b468479656d5a4ad9206d8285bc",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_701_5_85_C00000_0_0_0.png"
+    },
+    {
+      "name": "Anixe HD Serie",
+      "service_reference": "1:0:1:526C:41D:1:C00000:0:0:0:",
+      "file": "1_0_1_526C_41D_1_C00000_0_0_0.png",
+      "sha256": "9774e4b962f7dd69e53cf301f2443c7626ffc1516209b44791d787044b5a0ea7",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_526C_41D_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Kabel 1 Doku",
+      "service_reference": "1:0:1:4465:453:1:C00000:0:0:0:",
+      "file": "1_0_1_4465_453_1_C00000_0_0_0.png",
+      "sha256": "be180707daf6e020ea120e2905eddcbdcdf0188ab29061a57fc64548ad6a5751",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_4465_453_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "DF1 HD",
+      "service_reference": "1:0:1:1332:3EF:1:C00000:0:0:0:",
+      "file": "1_0_1_1332_3EF_1_C00000_0_0_0.png",
+      "sha256": "5a3b215e4b57bd2ae6e4088c73f5fdef02f8fbd9cf8be0a94773710f2b4fd6a6",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1332_3EF_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "SWR BW HD",
+      "service_reference": "1:0:1:283F:3FB:1:C00000:0:0:0:",
+      "file": "1_0_1_283F_3FB_1_C00000_0_0_0.png",
+      "sha256": "1c08a305c89bf03fdb9eb6eec3b80ff7cc539869d777d21a040ccc8dd6e84d0c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_283F_3FB_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "SR Fernsehen HD",
+      "service_reference": "1:0:1:288A:40F:1:C00000:0:0:0:",
+      "file": "1_0_1_288A_40F_1_C00000_0_0_0.png",
+      "sha256": "817a1c901472ecbff10128bee65ddc4658f412ac8d0b65c976fe35249a4a1505",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_288A_40F_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "TELE 5",
+      "service_reference": "1:0:1:33:21:85:C00000:0:0:0:",
+      "file": "1_0_1_33_21_85_C00000_0_0_0.png",
+      "sha256": "13d69f7b2e89498fd920ffbdcd1882d3d7d887f305a1c992df64c489ccd5744c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_33_21_85_C00000_0_0_0.png"
+    },
+    {
+      "name": "RTLup",
+      "service_reference": "1:0:1:2F30:441:1:C00000:0:0:0:",
+      "file": "1_0_1_2F30_441_1_C00000_0_0_0.png",
+      "sha256": "d30bc70d1d92902fb3f8b2d5434e76014124382728c83088ca4a02fe119d370b",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2F30_441_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "TOGGO plus",
+      "service_reference": "1:0:1:2EFE:441:1:C00000:0:0:0:",
+      "file": "1_0_1_2EFE_441_1_C00000_0_0_0.png",
+      "sha256": "334874fa726ef75e1d1da2da77defc2254bd6991d486b5641f400a18c09752e0",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2EFE_441_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "BR Nord HD",
+      "service_reference": "1:0:1:2856:401:1:C00000:0:0:0:",
+      "file": "1_0_1_2856_401_1_C00000_0_0_0.png",
+      "sha256": "b3e1c0431d8ac1fd6a38efcbace846ff4f341f736fdad24903cc1a049a2fd085",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2856_401_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "MDR Sachsen HD",
+      "service_reference": "1:0:1:2870:425:1:C00000:0:0:0:",
+      "file": "1_0_1_2870_425_1_C00000_0_0_0.png",
+      "sha256": "97057e77750b4e714b565fa51a50b1d04926c5e8d35a27372a49f55ecc931923",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2870_425_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "NDR FS HH HD",
+      "service_reference": "1:0:1:2859:401:1:C00000:0:0:0:",
+      "file": "1_0_1_2859_401_1_C00000_0_0_0.png",
+      "sha256": "912998db569397cb2ec1252f7592eb36adfc1dd5755154d7d295ac8a64750278",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2859_401_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "WDR HD Koln",
+      "service_reference": "1:0:1:6EAC:3FD:1:C00000:0:0:0:",
+      "file": "1_0_1_6EAC_3FD_1_C00000_0_0_0.png",
+      "sha256": "9ed437294b019fe81b4009c08aeffdadf70cb7f158c0129cdee9fa4e5f16a826",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_6EAC_3FD_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Radio Bremen TV",
+      "service_reference": "1:0:1:288B:40F:1:C00000:0:0:0:",
+      "file": "1_0_1_288B_40F_1_C00000_0_0_0.png",
+      "sha256": "d1877bd18a64f20aed3712ddcfd0fedefe85d7636b827a77dcbabeb169a852b4",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_288B_40F_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "RBB Berlin HD",
+      "service_reference": "1:0:1:286F:425:1:C00000:0:0:0:",
+      "file": "1_0_1_286F_425_1_C00000_0_0_0.png",
+      "sha256": "8c7a0b2a50024a2ebc949d0636f7410d02aa89280acfd5a9c86de1102d2edde7",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_286F_425_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "zdf_neo HD",
+      "service_reference": "1:0:1:2B7A:3F3:1:C00000:0:0:0:",
+      "file": "1_0_1_2B7A_3F3_1_C00000_0_0_0.png",
+      "sha256": "2036054ea26723ac16650349b4f5c93f847b78e8e627026536f4c1d0902ad0f4",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2B7A_3F3_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "ZDFinfo HD",
+      "service_reference": "1:0:1:2BA2:3F2:1:C00000:0:0:0:",
+      "file": "1_0_1_2BA2_3F2_1_C00000_0_0_0.png",
+      "sha256": "84cf17c1f799b4e348aa1ea1bc8388fc03b1062818a9888632eea4a969a75b15",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2BA2_3F2_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Tagesschau 24 HD",
+      "service_reference": "1:0:1:2887:40F:1:C00000:0:0:0:",
+      "file": "1_0_1_2887_40F_1_C00000_0_0_0.png",
+      "sha256": "2452b4d5b5db168aa715ab6203e2d34ede176423d3542d9e6d4529d1c9691ac2",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2887_40F_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "oe24.TV HD",
+      "service_reference": "1:0:1:3402:3ED:1:C00000:0:0:0:",
+      "file": "1_0_1_3402_3ED_1_C00000_0_0_0.png",
+      "sha256": "9083cf788c18c875ec4f1c2fbb36c22d524e7986b4acf10936b6187c69d16bfa",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3402_3ED_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "ONE HD",
+      "service_reference": "1:0:1:2888:40F:1:C00000:0:0:0:",
+      "file": "1_0_1_2888_40F_1_C00000_0_0_0.png",
+      "sha256": "05de9ed9b1a3241cbd573eec82f8969352cc2858bb48f8ab504357b78d66835b",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2888_40F_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "N24 DOKU",
+      "service_reference": "1:0:1:30:5:85:C00000:0:0:0:",
+      "file": "1_0_1_30_5_85_C00000_0_0_0.png",
+      "sha256": "38b4c61b7d203d4760ab723e0d2256b2af6a25e5cdf1296a04413cde85ac77e3",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_30_5_85_C00000_0_0_0.png"
+    },
+    {
+      "name": "3sat HD",
+      "service_reference": "1:0:1:2B8E:3F2:1:C00000:0:0:0:",
+      "file": "1_0_1_2B8E_3F2_1_C00000_0_0_0.png",
+      "sha256": "e1288fac2c4d0937d2770fa9dcf1b5e34b0226d676053e68676d04c4b7aa5ee7",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2B8E_3F2_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Arte HD",
+      "service_reference": "1:0:1:283E:3FB:1:C00000:0:0:0:",
+      "file": "1_0_1_283E_3FB_1_C00000_0_0_0.png",
+      "sha256": "591b015885b56d759900cc2cfedc9df18ea7534d55b543baaf9ce36bd222fc0a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_283E_3FB_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "hr-fernsehen HD",
+      "service_reference": "1:0:1:2873:425:1:C00000:0:0:0:",
+      "file": "1_0_1_2873_425_1_C00000_0_0_0.png",
+      "sha256": "ee9194dd09f1ecfea8807b9dd0201f732697c98e577925fd21583704ca991b36",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2873_425_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "R9 Osterreich HD",
+      "service_reference": "1:0:1:3400:3ED:1:C00000:0:0:0:",
+      "file": "1_0_1_3400_3ED_1_C00000_0_0_0.png",
+      "sha256": "bf19bf1dac05b1141b442ffd40fb73a778b902ac9ee8718d8362679fb19e0fce",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3400_3ED_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Regio TV",
+      "service_reference": "1:0:1:2F:21:85:C00000:0:0:0:",
+      "file": "1_0_1_2F_21_85_C00000_0_0_0.png",
+      "sha256": "ed2404e8a97ee550f762a5eee6ff207c7e2ce99ee157de9bffdc4562c7e4d24e",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2F_21_85_C00000_0_0_0.png"
+    },
+    {
+      "name": "ARD-alpha",
+      "service_reference": "1:0:1:2889:40F:1:C00000:0:0:0:",
+      "file": "1_0_1_2889_40F_1_C00000_0_0_0.png",
+      "sha256": "8869e08bdb055baa57a5fd9d61d8d3cbe0ac77013e825db7499d787fc04e2df0",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2889_40F_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "NITRO Austria",
+      "service_reference": "1:0:1:332E:45B:1:C00000:0:0:0:",
+      "file": "1_0_1_332E_45B_1_C00000_0_0_0.png",
+      "sha256": "eb489af8bd6ab94b236ab231b9ba3c917ad69e0823ca0ba55c2f23a826a45760",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_332E_45B_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "TLC Deutschland",
+      "service_reference": "1:0:1:304:5:85:C00000:0:0:0:",
+      "file": "1_0_1_304_5_85_C00000_0_0_0.png",
+      "sha256": "26d41b9476fe50afb971361d423aa63d7058ffe6c1f42bf700c7a4b3c7282723",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_304_5_85_C00000_0_0_0.png"
+    },
+    {
+      "name": "sixx",
+      "service_reference": "1:0:1:4462:453:1:C00000:0:0:0:",
+      "file": "1_0_1_4462_453_1_C00000_0_0_0.png",
+      "sha256": "b6e054293b6c19e50d781e9e2b51a4b06a616adde786d30a75e497b0ad38e0ba",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_4462_453_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "TV1 OOE",
+      "service_reference": "1:0:1:3403:3ED:1:C00000:0:0:0:",
+      "file": "1_0_1_3403_3ED_1_C00000_0_0_0.png",
+      "sha256": "2c75bda90d94541bbbaa532534e1566960e0aead6b1ec2a9e23fdde6d7223d10",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3403_3ED_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "KiKA HD",
+      "service_reference": "1:0:1:2B98:3F2:1:C00000:0:0:0:",
+      "file": "1_0_1_2B98_3F2_1_C00000_0_0_0.png",
+      "sha256": "c400ce1b05a8f8024aeb9e0273a6dd3225886af4adf921067d8f5f1899e31aa4",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2B98_3F2_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "NICK/MTV+",
+      "service_reference": "1:0:1:7008:436:1:C00000:0:0:0:",
+      "file": "1_0_1_7008_436_1_C00000_0_0_0.png",
+      "sha256": "2546946c55cfd2f34eb3cdb00adc5cc666762439198a29f5e1b1bdb5292a91c9",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_7008_436_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "RiC",
+      "service_reference": "1:0:1:1342:3EF:1:C00000:0:0:0:",
+      "file": "1_0_1_1342_3EF_1_C00000_0_0_0.png",
+      "sha256": "76c0e051caf2ed08f7f25f87c9778804287fc8521ab836a16481e8f8bc1ad604",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1342_3EF_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Comedy Central",
+      "service_reference": "1:0:1:7004:436:1:C00000:0:0:0:",
+      "file": "1_0_1_7004_436_1_C00000_0_0_0.png",
+      "sha256": "1068be5299a9d570bee896705d10f975d4c7520e4583d56dffb6bbc87aa1e154",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_7004_436_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "DELUXE MUSIC",
+      "service_reference": "1:0:1:41:7:85:C00000:0:0:0:",
+      "file": "1_0_1_41_7_85_C00000_0_0_0.png",
+      "sha256": "d01bd50ac2e0a62f2353a43a6f1abd7a6628d5e9d52a11337e99e949fc2d5a2e",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_41_7_85_C00000_0_0_0.png"
+    },
+    {
+      "name": "Deluxe Dance",
+      "service_reference": "1:0:1:6E42:431:1:C00000:0:0:0:",
+      "file": "1_0_1_6E42_431_1_C00000_0_0_0.png",
+      "sha256": "41579bf326a4a7539d1345c1c36d0cc86acd5b983663bd8b4978ccbd4d06fe6c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_6E42_431_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Deluxe Rap",
+      "service_reference": "1:0:1:6E41:431:1:C00000:0:0:0:",
+      "file": "1_0_1_6E41_431_1_C00000_0_0_0.png",
+      "sha256": "6b4470d34aa87843a54905ba263ef5d89e3e2f0a231700a35a2deeaa5c9d90ed",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_6E41_431_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "MTV Germany",
+      "service_reference": "1:0:1:7006:436:1:C00000:0:0:0:",
+      "file": "1_0_1_7006_436_1_C00000_0_0_0.png",
+      "sha256": "59f23c468f5647ccfa096146660e227a6fcdf292325925ba477772ffc87aaff8",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_7006_436_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Stimmungsgarten TV",
+      "service_reference": "1:0:1:3404:3ED:1:C00000:0:0:0:",
+      "file": "1_0_1_3404_3ED_1_C00000_0_0_0.png",
+      "sha256": "263278d3a36a3b16543e072c36b6749274d5c3e61460eb6fccde5c5a20225b96",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3404_3ED_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Deutsches Musik Fernsehen",
+      "service_reference": "1:0:1:313C:459:1:C00000:0:0:0:",
+      "file": "1_0_1_313C_459_1_C00000_0_0_0.png",
+      "sha256": "1a4e968f61a04219840a2e5d63f9490b21bacd48b4977824cba0bdf3fccb0ef7",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_313C_459_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "DMAX",
+      "service_reference": "1:0:1:3F:21:85:C00000:0:0:0:",
+      "file": "1_0_1_3F_21_85_C00000_0_0_0.png",
+      "sha256": "2454027874e066beeca6adf273584640afbbc530c801c88400d44880621c706f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3F_21_85_C00000_0_0_0.png"
+    },
+    {
+      "name": "Lilo TV",
+      "service_reference": "1:0:1:33A6:3EB:1:C00000:0:0:0:",
+      "file": "1_0_1_33A6_3EB_1_C00000_0_0_0.png",
+      "sha256": "64d37486fd06bd432902aff7fd620b48a79154b96de877b58333b82cc23727b7",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_33A6_3EB_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Melodie TV",
+      "service_reference": "1:0:1:3405:3ED:1:C00000:0:0:0:",
+      "file": "1_0_1_3405_3ED_1_C00000_0_0_0.png",
+      "sha256": "739d2dd891ec6d2ad3bfec82e393e216fec14222249cc330bf710fcf149b0b7a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3405_3ED_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "BBC News",
+      "service_reference": "1:0:1:1389:3EA:1:C00000:0:0:0:",
+      "file": "1_0_1_1389_3EA_1_C00000_0_0_0.png",
+      "sha256": "40d13bc6e18b55802fe7638ff2b12de38015f5f99e23d342c964e277dd0a3a0d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1389_3EA_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "CNN Int.",
+      "service_reference": "1:0:1:17D5:42A:1:C00000:0:0:0:",
+      "file": "1_0_1_17D5_42A_1_C00000_0_0_0.png",
+      "sha256": "19093590dbd5f5980872e92935555731cd5fed5be5d3054ba8042ac9ef0b431b",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_17D5_42A_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Sky News Intl",
+      "service_reference": "1:0:1:1C7A:457:1:C00000:0:0:0:",
+      "file": "1_0_1_1C7A_457_1_C00000_0_0_0.png",
+      "sha256": "4bf1df315e1ee12a247f09801619b16bc4992b07fb915e3895dd5e266d4f8e36",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1C7A_457_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Euronews German",
+      "service_reference": "1:0:1:18F4:3F4:1:C00000:0:0:0:",
+      "file": "1_0_1_18F4_3F4_1_C00000_0_0_0.png",
+      "sha256": "3eceacf67ea2adff8666020c2d33a5afc4ec10453ea1381cbd4fc75a39af0208",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_18F4_3F4_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "CGTN HD",
+      "service_reference": "1:0:1:18ED:3F4:1:C00000:0:0:0:",
+      "file": "1_0_1_18ED_3F4_1_C00000_0_0_0.png",
+      "sha256": "6dd21b2af2da6f3457aec156bfdf9f6b8d9aa14deedd04bbff65719b2c87c86e",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_18ED_3F4_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "France 24 (en Francais)",
+      "service_reference": "1:0:1:1AF9:3FE:1:C00000:0:0:0:",
+      "file": "1_0_1_1AF9_3FE_1_C00000_0_0_0.png",
+      "sha256": "5b7e11293a1679bd4507c07d8adea901c378459f8f5eddd3028419d63292a70c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1AF9_3FE_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Al Jazeera English HD",
+      "service_reference": "1:0:1:13A7:3EA:1:C00000:0:0:0:",
+      "file": "1_0_1_13A7_3EA_1_C00000_0_0_0.png",
+      "sha256": "8a4baff44d001f977b324fbf9178be9a4ee07fc00c9fd7405b98dd1850f824ee",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_13A7_3EA_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Welt",
+      "service_reference": "1:0:1:445F:453:1:C00000:0:0:0:",
+      "file": "1_0_1_445F_453_1_C00000_0_0_0.png",
+      "sha256": "a9efdc642763860aa6225cf1909c8a919587da69f359264cc0c9008f17874d72",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_445F_453_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "n-tv",
+      "service_reference": "1:0:1:2F3A:441:1:C00000:0:0:0:",
+      "file": "1_0_1_2F3A_441_1_C00000_0_0_0.png",
+      "sha256": "80f739de229b192c566ed1d1184639ed0da490de9a9a24b5bb290174163d217f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2F3A_441_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "NHK World HD",
+      "service_reference": "1:0:1:139D:3EA:1:C00000:0:0:0:",
+      "file": "1_0_1_139D_3EA_1_C00000_0_0_0.png",
+      "sha256": "f61ffe8ee1858c6d3ff89a635e032b4c89d93152212eedf0cc29a953901aa87a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_139D_3EA_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "CNEWS HD",
+      "service_reference": "1:0:1:2336:442:1:C00000:0:0:0:",
+      "file": "1_0_1_2336_442_1_C00000_0_0_0.png",
+      "sha256": "f1519f2bf69aab78059cea3e49c924b3b27884e697796889fd70028b747171d5",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2336_442_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "LCP HD",
+      "service_reference": "1:0:1:245C:440:1:C00000:0:0:0:",
+      "file": "1_0_1_245C_440_1_C00000_0_0_0.png",
+      "sha256": "9fa9af6960d8f8f1fbe66cc80e92c625081fc61df9053e026f12d41ca1716c72",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_245C_440_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "CNBC Europe HD",
+      "service_reference": "1:0:1:18F5:3F4:1:C00000:0:0:0:",
+      "file": "1_0_1_18F5_3F4_1_C00000_0_0_0.png",
+      "sha256": "bf5f1d44a8fab11edbb25694b4cbb33eda2f448649518a194ef9614fa0bc9c0e",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_18F5_3F4_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Bloomberg Europe TV",
+      "service_reference": "1:0:1:1C20:457:1:C00000:0:0:0:",
+      "file": "1_0_1_1C20_457_1_C00000_0_0_0.png",
+      "sha256": "5ea0d7702e500a537ba29206f4cd810330e18ce599c9aa6fa28ac865854ef80a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1C20_457_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "CGTN Documentary HD",
+      "service_reference": "1:0:1:18EE:3F4:1:C00000:0:0:0:",
+      "file": "1_0_1_18EE_3F4_1_C00000_0_0_0.png",
+      "sha256": "3db1607c9e95d854e7c4f21796300c27182ad706f82e1d078223ae2b3325406c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_18EE_3F4_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "CGTN Francais HD",
+      "service_reference": "1:0:1:18EF:3F4:1:C00000:0:0:0:",
+      "file": "1_0_1_18EF_3F4_1_C00000_0_0_0.png",
+      "sha256": "f0710c2927a21225b64c1a5fd36c7c549ee09238d8f61f22f506e20aef5cac0c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_18EF_3F4_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "TV5MONDE Europe HD",
+      "service_reference": "1:0:1:1B03:3FE:1:C00000:0:0:0:",
+      "file": "1_0_1_1B03_3FE_1_C00000_0_0_0.png",
+      "sha256": "2684596eca91e8f4513c7d98a82e056d03b9952e57ae950c67450bf2aa8c3bf5",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1B03_3FE_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "phoenix HD",
+      "service_reference": "1:0:1:285B:401:1:C00000:0:0:0:",
+      "file": "1_0_1_285B_401_1_C00000_0_0_0.png",
+      "sha256": "70edf117d2b95c16c9f7d38456c64f81753619c3397fd4f65fb8b0c84e4cfe43",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_285B_401_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "DW English",
+      "service_reference": "1:0:1:1644:42C:1:C00000:0:0:0:",
+      "file": "1_0_1_1644_42C_1_C00000_0_0_0.png",
+      "sha256": "5169eb47d6dfff373f172313e5ceb7322398055fdac57e6b4a3edd310414fc04",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1644_42C_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "ARAGON TV",
+      "service_reference": "1:0:1:7473:3F0:1:C00000:0:0:0:",
+      "file": "1_0_1_7473_3F0_1_C00000_0_0_0.png",
+      "sha256": "8b96e09b52892a2f7f3e18cb4f909f49a26a8d6b77b6617ef736d44592491b41",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_7473_3F0_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Canal Sur Andalucia",
+      "service_reference": "1:0:1:7729:416:1:C00000:0:0:0:",
+      "file": "1_0_1_7729_416_1_C00000_0_0_0.png",
+      "sha256": "59bcdf47784be6587d6d88ff87410795edec6ceaf61e5ef662af880e336e53e7",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_7729_416_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Arirang TV HD",
+      "service_reference": "1:0:1:1AF5:3FE:1:C00000:0:0:0:",
+      "file": "1_0_1_1AF5_3FE_1_C00000_0_0_0.png",
+      "sha256": "a689fc095df88ac04aecc39317805fcad2e04da1fdda1f577be1a87126a17521",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1AF5_3FE_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Cubavision Internacional",
+      "service_reference": "1:0:1:1647:42C:1:C00000:0:0:0:",
+      "file": "1_0_1_1647_42C_1_C00000_0_0_0.png",
+      "sha256": "169bdd09832182778f04ecce7ee7f1597bf6ae5904b42bb4988d19e60379d408",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1647_42C_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Canal Algerie",
+      "service_reference": "1:0:1:2F69:454:1:C00000:0:0:0:",
+      "file": "1_0_1_2F69_454_1_C00000_0_0_0.png",
+      "sha256": "33f829c87686002c3c873d0ae94922a9320890892da754895e187e5549b7ed1b",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2F69_454_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "TRT World HD",
+      "service_reference": "1:0:1:1B06:3FE:1:C00000:0:0:0:",
+      "file": "1_0_1_1B06_3FE_1_C00000_0_0_0.png",
+      "sha256": "4baf0ef3b5a9353b9b5b19b3e613ede0d66502d2cf9e3f9c860dd1aafe7be5d5",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1B06_3FE_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Sonlife Broadcasting Network",
+      "service_reference": "1:0:1:2F9A:454:1:C00000:0:0:0:",
+      "file": "1_0_1_2F9A_454_1_C00000_0_0_0.png",
+      "sha256": "0f734a3a872f01275168632722e57de7f0b22895815bfba4de88a1fda72f321c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2F9A_454_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "EWTN katholisches TV",
+      "service_reference": "1:0:1:3E:5:85:C00000:0:0:0:",
+      "file": "1_0_1_3E_5_85_C00000_0_0_0.png",
+      "sha256": "bfc77aa67819417d808055b373631949d4096247c40c17f3437fea394cb07d58",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3E_5_85_C00000_0_0_0.png"
+    },
+    {
+      "name": "K-TV Fernsehen HD",
+      "service_reference": "1:0:1:30F2:413:1:C00000:0:0:0:",
+      "file": "1_0_1_30F2_413_1_C00000_0_0_0.png",
+      "sha256": "04e599391019fe7da1163277020f86fa92c9a815695d920266435e3d4af6d8fc",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_30F2_413_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Bibel TV HD",
+      "service_reference": "1:0:1:33A8:3EB:1:C00000:0:0:0:",
+      "file": "1_0_1_33A8_3EB_1_C00000_0_0_0.png",
+      "sha256": "8630e867bf73f36f676483bc3924b9fa7e0d6c96d3f6bdeb6d93be6c7bfc15e3",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_33A8_3EB_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "UHD1 by ASTRA",
+      "service_reference": "1:0:1:2:40B:1:C00000:0:0:0:",
+      "file": "1_0_1_2_40B_1_C00000_0_0_0.png",
+      "sha256": "f502e3424e037e86cd07834fbe0a971168e2982b4b584f225eca5e38f1f03298",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_2_40B_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "SES UHD Demo",
+      "service_reference": "1:0:1:1:40B:1:C00000:0:0:0:",
+      "file": "1_0_1_1_40B_1_C00000_0_0_0.png",
+      "sha256": "d6f948a54689888801efd17f7772b67921fb0fb02a48b7eceef78f56fb9f1dc9",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1_40B_1_C00000_0_0_0.png"
+    },
+    {
+      "name": "Love Nature 4k",
+      "service_reference": "1:0:1:8B5:1F4:13E:820000:0:0:0:",
+      "file": "1_0_1_8B5_1F4_13E_820000_0_0_0.png",
+      "sha256": "6fba67723324a24fb0f8c3d5aa244250ab6e871e649844ef3a194e9233cbea30",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_8B5_1F4_13E_820000_0_0_0.png"
+    },
+    {
+      "name": "Test1",
+      "service_reference": "1:0:1:4EF2:C8B:3:EB0000:0:0:0:",
+      "file": "1_0_1_4EF2_C8B_3_EB0000_0_0_0.png",
+      "sha256": "bfdb2738732aeaf18af7acf7e2b58e046abd68c3efe5f95e408ba22bcc06e16b",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_4EF2_C8B_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Test2",
+      "service_reference": "1:0:1:4E59:CA8:3:EB0000:0:0:0:",
+      "file": "1_0_1_4E59_CA8_3_EB0000_0_0_0.png",
+      "sha256": "5c4f1e7fb6889e358732ffba2f3e4f8a5b53b23e05881a16246087890646721d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_4E59_CA8_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Test3",
+      "service_reference": "1:0:1:52B1:C99:3:EB0000:0:0:0:",
+      "file": "1_0_1_52B1_C99_3_EB0000_0_0_0.png",
+      "sha256": "25650810e9aa6e95c9aaa985223fcef83c8f4f80bb56c50354f6f931a81c0803",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_52B1_C99_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Markiza HD",
+      "service_reference": "1:0:1:3731:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3731_C8E_3_EB0000_0_0_0.png",
+      "sha256": "b689db22a144a7634474ceb44757da984b8f2ade7376a5ffe8349c5e51e9166d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3731_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "TV JOJ HD",
+      "service_reference": "1:0:1:3398:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_3398_C9D_3_EB0000_0_0_0.png",
+      "sha256": "6129badacb4cc63556a9adee9f06123151eedf9cafc973ad1c1fb567ddedd389",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3398_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CANAL+ Sport",
+      "service_reference": "1:0:1:3734:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3734_C8E_3_EB0000_0_0_0.png",
+      "sha256": "d25a1187f4ae3f9cdce36d0f4e372b544651f8159aa900567dd9c3b8a9fb0c10",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3734_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "CANAL+ Sport 2",
+      "service_reference": "1:0:1:3C38:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C38_C90_3_EB0000_0_0_0.png",
+      "sha256": "2469004c87aa1fa3d725369e31474c619c6c9fecfad5971c0d4aa3775729c3f4",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C38_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "FILMBOX+ One",
+      "service_reference": "1:0:1:36F2:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36F2_C8C_3_EB0000_0_0_0.png",
+      "sha256": "2d59c71b27e1e96a6db4aa29b41534646dd3a5dfa96fcfbcb4d9abf7d447e783",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36F2_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "RTVS SPORT HD",
+      "service_reference": "1:0:1:3C3F:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C3F_C90_3_EB0000_0_0_0.png",
+      "sha256": "92b2ef65d688feb5bf0491819b8a21cdf7f35917d6235c828354d86a536830f7",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C3F_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "DOMA HD",
+      "service_reference": "1:0:1:3732:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3732_C8E_3_EB0000_0_0_0.png",
+      "sha256": "cb40db47fd44584311db466d7b8d24a97dcc3993e875a4fac4efc1a49d0982a5",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3732_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "DAJTO HD",
+      "service_reference": "1:0:1:3397:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_3397_C9D_3_EB0000_0_0_0.png",
+      "sha256": "f92326504896497f1f6caec429b882ef23cca0db488ab54937bcdd453e9c6de0",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3397_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Markiza Krimi HD",
+      "service_reference": "1:0:1:339F:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_339F_C9D_3_EB0000_0_0_0.png",
+      "sha256": "6de581088fa1b8b8464b9f40b9d28a6202c6a922a719717471a6387a61eaec47",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_339F_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Markiza Klasik",
+      "service_reference": "1:0:1:3C2B:C90:3:EB0000:0:0:0:",
+      "file": "1_0_1_3C2B_C90_3_EB0000_0_0_0.png",
+      "sha256": "9d5480e75cbc376b72e8d7ed55740a2dab75e38749140e182dc802cf7fdf4529",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3C2B_C90_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "JOJ PLUS HD",
+      "service_reference": "1:0:1:3399:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_3399_C9D_3_EB0000_0_0_0.png",
+      "sha256": "bdaeae772de0225eeafa936080f077dc411f3fb349b6c8f6052be7b581af9045",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3399_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "JOJ KRIMI",
+      "service_reference": "1:0:1:334F:C93:3:EB0000:0:0:0:",
+      "file": "1_0_1_334F_C93_3_EB0000_0_0_0.png",
+      "sha256": "f053c985ff87f6d795c7a2a66e901a11a9b58a9eba12e3725e37a074993af298",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_334F_C93_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "JOJ 24 HD",
+      "service_reference": "1:0:1:33A0:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_33A0_C9D_3_EB0000_0_0_0.png",
+      "sha256": "c2a1f477a8d423906f66d3a0c5e479a8bcb8e4e68c34b871d4f5b6930071875a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_33A0_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Film+ SK",
+      "service_reference": "1:0:1:36F8:C8C:3:EB0000:0:0:0:",
+      "file": "1_0_1_36F8_C8C_3_EB0000_0_0_0.png",
+      "sha256": "4389e6987b1bb76a5c78abf20fde54bfd8888a00248559700ea3477c02730fbe",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_36F8_C8C_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "AMC SK",
+      "service_reference": "1:0:1:372B:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_372B_C8E_3_EB0000_0_0_0.png",
+      "sha256": "70a54cbfcbff9c476a4704991dd351d072a326c2b0b236f2824bc43d75b3d66f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_372B_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova International",
+      "service_reference": "1:0:1:339B:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_339B_C9D_3_EB0000_0_0_0.png",
+      "sha256": "d71b222be643bbb02f5e0fe478a7b73211aed0c093877f5407a7d349b4a1dfb8",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_339B_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima SK",
+      "service_reference": "1:0:1:1F49:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F49_CA1_3_EB0000_0_0_0.png",
+      "sha256": "d90c9e81c25e943fbc8fac08f26fb178c6dd93383beac7fbd6480288cfb0285a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F49_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima COOL HD SK",
+      "service_reference": "1:0:1:3725:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3725_C8E_3_EB0000_0_0_0.png",
+      "sha256": "5cad45b18804fee4c84a2916d649391b81757f28bffb930a3a2206bddd5a2f82",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3725_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima KRIMI HD SK",
+      "service_reference": "1:0:1:308:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_308_C94_3_EB0000_0_0_0.png",
+      "sha256": "2accb84e8c36dca7845d0416db0a613242c3e69472a575d8cd28817c06e76093",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_308_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Prima Love HD SK",
+      "service_reference": "1:0:1:3726:C8E:3:EB0000:0:0:0:",
+      "file": "1_0_1_3726_C8E_3_EB0000_0_0_0.png",
+      "sha256": "33efc748588469265af3324b82496b2bb199443c73112f029e11ac7b029f3380",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_3726_C8E_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "JOJ Svet SK",
+      "service_reference": "1:0:1:1F4F:CA1:3:EB0000:0:0:0:",
+      "file": "1_0_1_1F4F_CA1_3_EB0000_0_0_0.png",
+      "sha256": "b1404e5e7799aece84f309ce79ef8e3e93d029dd95b89363687576987a61fea1",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_1F4F_CA1_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "JOJ Sport HD",
+      "service_reference": "1:0:1:339E:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_339E_C9D_3_EB0000_0_0_0.png",
+      "sha256": "b78ae81125941233a3b5fc71cdb817c394b4941105d9ceb9bf185b4c9640baa6",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_339E_C9D_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "JOJ Sport 2 HD",
+      "service_reference": "1:0:1:30C:C94:3:EB0000:0:0:0:",
+      "file": "1_0_1_30C_C94_3_EB0000_0_0_0.png",
+      "sha256": "5eeb18014e02527bd44be93313abf2195c9f5da132dab54ff924c4aa7e2b791e",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_30C_C94_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 5 HD",
+      "service_reference": "1:0:1:5316:C96:3:EB0000:0:0:0:",
+      "file": "1_0_1_5316_C96_3_EB0000_0_0_0.png",
+      "sha256": "f25b1ab7e0857bf1cda744450756bd68011188cab120e899f960bf131c8949be",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_5316_C96_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Sport 1 HD",
+      "service_reference": "1:0:1:334B:C93:3:EB0000:0:0:0:",
+      "file": "1_0_1_334B_C93_3_EB0000_0_0_0.png",
+      "sha256": "c04d034deb0b354fadda69f65d6003cf10a73315595b0a578483fa817d3c9405",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_334B_C93_3_EB0000_0_0_0.png"
+    },
+    {
+      "name": "Jojko",
+      "service_reference": "1:0:1:339A:C9D:3:EB0000:0:0:0:",
+      "file": "1_0_1_339A_C9D_3_EB0000_0_0_0.png",
+      "sha256": "c20aedcfa45b1778cf11dc92c204a531832fa6c5e1588524f513eb833b553d1a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/skylink_23.5e/white/1_0_1_339A_C9D_3_EB0000_0_0_0.png"
+    }
+  ]
+}

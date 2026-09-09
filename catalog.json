@@ -1,14 +1,31 @@
-{
-  "schema": 1,
-  "generated": "2026-09-09T04:33:28Z",
-  "database_version": "1.09.09.2026",
-  "packages": [
-    {
-      "id": "skylink_23.5e",
-      "name": "Skylink SK/CZ 23.5E - TEST 5",
-      "manifest": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/skylink_23.5e.json"
-    }
-  ],
-  "news_url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/news.json",
-  "latest_added_url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/latest_added.json"
+﻿{
+    "schema":  1,
+    "generated":  "2026-09-09T04:33:28Z",
+    "database_version":  "1.09.09.2026",
+    "packages":  [
+                     {
+                         "id":  "skylink_23.5e",
+                         "name":  "Skylink SK/CZ 23.5E - TEST 5",
+                         "manifest":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/skylink_23.5e/transparent.json",
+                         "styles":  {
+                                        "transparent":  {
+                                                            "name":  "Transparentne",
+                                                            "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/skylink_23.5e/transparent.json"
+                                                        },
+                                        "white":  {
+                                                      "name":  "Biely podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/skylink_23.5e/white.json"
+                                                  },
+                                        "black":  {
+                                                      "name":  "Cierny podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/skylink_23.5e/black.json"
+                                                  }
+                                    },
+                         "default_style":  "transparent",
+                         "expected_services":  255,
+                         "membership":  "FastScan CZ + SK"
+                     }
+                 ],
+    "news_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/news.json",
+    "latest_added_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/latest_added.json"
 }

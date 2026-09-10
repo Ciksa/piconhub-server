@@ -68,6 +68,27 @@
                          "default_style":  "transparent",
                          "expected_services":  226,
                          "membership":  "Provided SRP set; FastScan not yet verified"
+                     },                     {
+                         "id":  "magiosat_0.8w",
+                         "name":  "Magio Sat 0.8W",
+                         "manifest":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/magiosat_0.8w/transparent.json",
+                         "styles":  {
+                                        "transparent":  {
+                                                            "name":  "Transparentne",
+                                                            "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/magiosat_0.8w/transparent.json"
+                                                        },
+                                        "white":  {
+                                                      "name":  "Biely podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/magiosat_0.8w/white.json"
+                                                  },
+                                        "black":  {
+                                                      "name":  "Cierny podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/magiosat_0.8w/black.json"
+                                                  }
+                                    },
+                         "default_style":  "transparent",
+                         "expected_services":  35,
+                         "membership":  "Magio Sat / Slovak Telekom FastScan core (ONID 0187)"
                      },
         {
   "id": "magiosat_0.8w",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-09-09T04:33:28Z",
-  "database_version": "1.09.09.2026",
+  "generated": "2026-09-11T10:00:00Z",
+  "database_version": "1.11.09.2026",
   "packages": [
     {
       "id": "skylink_23.5e",
@@ -112,6 +112,28 @@
       "default_style": "transparent",
       "expected_services": 65,
       "membership": "Telly satellite package (Thor/Intelsat 0.8W/1.0W)"
+    },
+    {
+      "id": "digislovakia_0.8w",
+      "name": "DIGI Slovakia 0.8W / 1.0W",
+      "manifest": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/digislovakia_0.8w/transparent.json",
+      "styles": {
+        "transparent": {
+          "name": "Transparentne",
+          "manifest_url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/digislovakia_0.8w/transparent.json"
+        },
+        "white": {
+          "name": "Biely podklad",
+          "manifest_url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/digislovakia_0.8w/white.json"
+        },
+        "black": {
+          "name": "Cierny podklad",
+          "manifest_url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/digislovakia_0.8w/black.json"
+        }
+      },
+      "default_style": "transparent",
+      "expected_services": 137,
+      "membership": "Official DIGI Slovakia satellite programme offer effective 2026-07-30; service references verified against Slovak Telekom bouquet dated 2026-09-08"
     },
     {
       "id": "sat_19.2e",

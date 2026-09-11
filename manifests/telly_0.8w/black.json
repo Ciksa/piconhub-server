@@ -1,0 +1,467 @@
+{
+  "schema": 1,
+  "package": "telly_0.8w",
+  "package_id": "telly_0.8w",
+  "name": "Telly 0.8W / 1.0W",
+  "generated": "2026-09-11T09:41:37Z",
+  "style": "black",
+  "resolution": "220x132",
+  "membership": "Telly satellite package (Thor/Intelsat 0.8W/1.0W)",
+  "picons": [
+    {
+      "name": "Viasat Epic Drama",
+      "service_reference": "1:0:1:7DD:AF2:BB:E080000:0:0:0:",
+      "file": "1_0_1_7DD_AF2_BB_E080000_0_0_0.png",
+      "sha256": "22f90d1c83950bc972e75cb177185e74c087a42f4e83e06b099943832e736514",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_7DD_AF2_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 4",
+      "service_reference": "1:0:19:7DE:AF2:BB:E080000:0:0:0:",
+      "file": "1_0_19_7DE_AF2_BB_E080000_0_0_0.png",
+      "sha256": "0397b2eed2515c21101c129422e0503ca870045e4c4bb4b9df5438c0a516f5c2",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_7DE_AF2_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Eurosport 1",
+      "service_reference": "1:0:19:7DF:AF2:BB:E080000:0:0:0:",
+      "file": "1_0_19_7DF_AF2_BB_E080000_0_0_0.png",
+      "sha256": "1d04869e321ab272aa597ac06b205acafbe5ad3c76aa43835d2c28dde99bd915",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_7DF_AF2_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Eurosport 2",
+      "service_reference": "1:0:19:7E0:AF2:BB:E080000:0:0:0:",
+      "file": "1_0_19_7E0_AF2_BB_E080000_0_0_0.png",
+      "sha256": "2781c192ae7d84f17a6c8e30b373df261e89827937f9aa3f12fdb3520d4e1d7c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_7E0_AF2_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "HBO",
+      "service_reference": "1:0:19:7E1:AF2:BB:E080000:0:0:0:",
+      "file": "1_0_19_7E1_AF2_BB_E080000_0_0_0.png",
+      "sha256": "7ef3575d42bef77c5e0f466e65ca4ef53ebfad3f5aeb83decf327aac8798893c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_7E1_AF2_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "National Geographic",
+      "service_reference": "1:0:1:7E2:AF2:BB:E080000:0:0:0:",
+      "file": "1_0_1_7E2_AF2_BB_E080000_0_0_0.png",
+      "sha256": "a6024aaf7f98d0e8543d979c82d44bf08212a32b893322db5f2b397078f09ec0",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_7E2_AF2_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "ČT Déčko / ČT art",
+      "service_reference": "1:0:1:7E8:AF2:BB:E080000:0:0:0:",
+      "file": "1_0_1_7E8_AF2_BB_E080000_0_0_0.png",
+      "sha256": "e968759f425b857b6e5cfa86c7044a8c2ab88541e046ae668e1f2548638ed2c1",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_7E8_AF2_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Prima Krimi",
+      "service_reference": "1:0:19:FAC:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_19_FAC_AF4_BB_E080000_0_0_0.png",
+      "sha256": "a816975e4ed8360aefd3eedf0a684caab49e74571ac08141a21e3ccbe2ce649d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_FAC_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "HBO 2",
+      "service_reference": "1:0:19:FB0:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_19_FB0_AF4_BB_E080000_0_0_0.png",
+      "sha256": "c4cfdc67dfe81e1c9cb43b5a825412bf0e097d99f908d5308b578ec8b909f292",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_FB0_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "HBO 3",
+      "service_reference": "1:0:19:FB5:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_19_FB5_AF4_BB_E080000_0_0_0.png",
+      "sha256": "68943c24b35582abee2d10a9ad07207a1dd402b495bf9050043ea45f4eb7ff10",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_FB5_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Viasat Explore",
+      "service_reference": "1:0:1:FB6:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_1_FB6_AF4_BB_E080000_0_0_0.png",
+      "sha256": "86a84b9aecbd46226cb56936dca55e551db3b7b56684488dc62320768bbda781",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_FB6_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 3",
+      "service_reference": "1:0:19:FBA:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_19_FBA_AF4_BB_E080000_0_0_0.png",
+      "sha256": "c6e2f11f46d7d3fd8580d367197c55e101448453b5a435feb9d877c23403cd4d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_FBA_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Food Network",
+      "service_reference": "1:0:16:FBB:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_16_FBB_AF4_BB_E080000_0_0_0.png",
+      "sha256": "0818b6ab48718333162bca53897f760f29ae8fa4c24098defe4706b58b904352",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_FBB_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "CNN Prima News",
+      "service_reference": "1:0:19:FBD:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_19_FBD_AF4_BB_E080000_0_0_0.png",
+      "sha256": "f1eae1b61554c6be95531ecbe84eadeb21979b6a919945004099bcd5383b759c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_FBD_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "AMC Slovakia HD",
+      "service_reference": "1:0:19:FBE:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_19_FBE_AF4_BB_E080000_0_0_0.png",
+      "sha256": "087b4df15297ecf595a45cc866ba8726572eff8803174bf486a31d176b4e9062",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_FBE_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Film+ Czechia & Slovakia",
+      "service_reference": "1:0:19:FBF:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_19_FBF_AF4_BB_E080000_0_0_0.png",
+      "sha256": "342cced0f8f8fdfb1ad7fb5193ca80937d4730622b62eefc82f6f0cf2ba2268b",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_FBF_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Spektrum SK HD",
+      "service_reference": "1:0:19:FC0:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_19_FC0_AF4_BB_E080000_0_0_0.png",
+      "sha256": "d869d124c2b385f579319c5fdd3e9b117f4006c8f3e32f2b96ab0619320a4405",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_FC0_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "TLC",
+      "service_reference": "1:0:1:FC1:AF4:BB:E080000:0:0:0:",
+      "file": "1_0_1_FC1_AF4_BB_E080000_0_0_0.png",
+      "sha256": "cd7b197878667fe640fa48f69f8b200ddcaca722b7c2276dde8687a43fc560aa",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_FC1_AF4_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "FILMBOX+ Emotion Czech",
+      "service_reference": "1:0:19:178A:AF6:BB:E080000:0:0:0:",
+      "file": "1_0_19_178A_AF6_BB_E080000_0_0_0.png",
+      "sha256": "ef7a25f17bc88a30773aa8e7eae1289ba68d409b2d1fa6e1063010555dc20a0f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_178A_AF6_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 5",
+      "service_reference": "1:0:19:1B63:AF7:BB:E080000:0:0:0:",
+      "file": "1_0_19_1B63_AF7_BB_E080000_0_0_0.png",
+      "sha256": "14f1d28d3819b7a4fd102287463a79c491da1efc68ac080f14a8e569177f5308",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_1B63_AF7_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Disney Jr",
+      "service_reference": "1:0:16:1B64:AF7:BB:E080000:0:0:0:",
+      "file": "1_0_16_1B64_AF7_BB_E080000_0_0_0.png",
+      "sha256": "faabfb7e0ed1f8f2dbaced44a4ad755de6a85a5dd8038936439d62320fb8d112",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_1B64_AF7_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Cinemax",
+      "service_reference": "1:0:19:1B65:AF7:BB:E080000:0:0:0:",
+      "file": "1_0_19_1B65_AF7_BB_E080000_0_0_0.png",
+      "sha256": "f2a86754efeacc79888fff13438eb102c0ff1b5a8b28be355e0433b8f927e4b6",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_1B65_AF7_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Cinemax 2",
+      "service_reference": "1:0:19:1B66:AF7:BB:E080000:0:0:0:",
+      "file": "1_0_19_1B66_AF7_BB_E080000_0_0_0.png",
+      "sha256": "944b5bb268df34ce5f3a9c1cbb08e8abb2972275e30b7fff0cbaccf9506d1ece",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_1B66_AF7_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Crime + Investigation",
+      "service_reference": "1:0:16:1B6A:AF7:BB:E080000:0:0:0:",
+      "file": "1_0_16_1B6A_AF7_BB_E080000_0_0_0.png",
+      "sha256": "e53d0f029c1e0d4d7ff34fb03769cc0023cdac4e73a1126d048c6297cd47071f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_1B6A_AF7_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "TA3 HD",
+      "service_reference": "1:0:19:1B6B:AF7:BB:E080000:0:0:0:",
+      "file": "1_0_19_1B6B_AF7_BB_E080000_0_0_0.png",
+      "sha256": "e006e93c821e03db4de7b85d6a16bfb5745857d92ad7b0833b99c0e10616fb1e",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_1B6B_AF7_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Viasat History",
+      "service_reference": "1:0:19:1B6C:AF7:BB:E080000:0:0:0:",
+      "file": "1_0_19_1B6C_AF7_BB_E080000_0_0_0.png",
+      "sha256": "c6a68fce18545be394d7f315699ac498efb5fcc9f9f29e8c3624e0c8aa5c0221",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_1B6C_AF7_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nova Action",
+      "service_reference": "1:0:1:1B6E:AF7:BB:E080000:0:0:0:",
+      "file": "1_0_1_1B6E_AF7_BB_E080000_0_0_0.png",
+      "sha256": "f14a0297cad82a49aa2cf67b1630426452bea69a2b5b4d0724a3c1ad29c01885",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_1B6E_AF7_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nova Krimi",
+      "service_reference": "1:0:1:1B6F:AF7:BB:E080000:0:0:0:",
+      "file": "1_0_1_1B6F_AF7_BB_E080000_0_0_0.png",
+      "sha256": "4233ec4d162a833aa5d7b6452fe7c4202ea676f8a8772dfb2ad96f6327344b88",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_1B6F_AF7_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nova Fun",
+      "service_reference": "1:0:19:1B70:AF7:BB:E080000:0:0:0:",
+      "file": "1_0_19_1B70_AF7_BB_E080000_0_0_0.png",
+      "sha256": "8360d87960bb2c0a0134eaea1b3e8bb90a6094317d004810d38307be7d49959a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_1B70_AF7_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Kanal 1 Sport Slovakia",
+      "service_reference": "1:0:19:2333:AF9:BB:E080000:0:0:0:",
+      "file": "1_0_19_2333_AF9_BB_E080000_0_0_0.png",
+      "sha256": "c8820aca7cbf9993b40954b59d9f234d2768110fe3fd906b604350a2853a89fe",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_2333_AF9_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nova Cinema",
+      "service_reference": "1:0:1:2336:AF9:BB:E080000:0:0:0:",
+      "file": "1_0_1_2336_AF9_BB_E080000_0_0_0.png",
+      "sha256": "84159d135425e7c89cd0314054dfe03696f74710f86f073fb6775128dbcd9f2d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_2336_AF9_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Prima Cool",
+      "service_reference": "1:0:19:2338:AF9:BB:E080000:0:0:0:",
+      "file": "1_0_19_2338_AF9_BB_E080000_0_0_0.png",
+      "sha256": "f26109625e50654a864c7592a4a5de453235b94b0056ccecdeddda5308e5aa2f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_2338_AF9_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 5 SK",
+      "service_reference": "1:0:19:2339:AF9:BB:E080000:0:0:0:",
+      "file": "1_0_19_2339_AF9_BB_E080000_0_0_0.png",
+      "sha256": "0560c830a1d72616b40ee5cd2db7d78bd89a73b9503d3b02d635eaabf676f583",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_2339_AF9_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Prima Star",
+      "service_reference": "1:0:16:233B:AF9:BB:E080000:0:0:0:",
+      "file": "1_0_16_233B_AF9_BB_E080000_0_0_0.png",
+      "sha256": "514534d31bcae87a432271a0cb30cd7a3058955575563e102d02dc6e15a8c534",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_233B_AF9_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 1",
+      "service_reference": "1:0:1:233C:AF9:BB:E080000:0:0:0:",
+      "file": "1_0_1_233C_AF9_BB_E080000_0_0_0.png",
+      "sha256": "51ff2abffd98954ca552cb1376c8b7a188b5d54e3f664637176e477c3d9f23ce",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_233C_AF9_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "TV Seznam",
+      "service_reference": "1:0:16:233D:AF9:BB:E080000:0:0:0:",
+      "file": "1_0_16_233D_AF9_BB_E080000_0_0_0.png",
+      "sha256": "73d14d0e59df907a50bac1f78e7e23539fad2240f4553854ce1cffb005c121cd",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_233D_AF9_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Investigation Discovery",
+      "service_reference": "1:0:16:233F:AF9:BB:E080000:0:0:0:",
+      "file": "1_0_16_233F_AF9_BB_E080000_0_0_0.png",
+      "sha256": "c3a756461476cf81e0103e97f8c459caf5c5154aa8ce03bcb5360c1aabbb778d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_233F_AF9_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Prima Love",
+      "service_reference": "1:0:19:2340:AF9:BB:E080000:0:0:0:",
+      "file": "1_0_19_2340_AF9_BB_E080000_0_0_0.png",
+      "sha256": "e067266f75c3b3b12f8be114bd7c4ba8d22b0d6cb0479a87f0afeae6ca3119ce",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_2340_AF9_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "HGTV",
+      "service_reference": "1:0:16:2344:AF9:BB:E080000:0:0:0:",
+      "file": "1_0_16_2344_AF9_BB_E080000_0_0_0.png",
+      "sha256": "7e66f70f581f4a46b054794d6af0429c20e27e08db9f010730362e6ebee0870a",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_2344_AF9_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Auto Motor und Sport",
+      "service_reference": "1:0:16:2B03:AFB:BB:E080000:0:0:0:",
+      "file": "1_0_16_2B03_AFB_BB_E080000_0_0_0.png",
+      "sha256": "8a533589a573d537bb645d53c0a96e34d1d568bc0fcad6e4ecc570f75e237fa1",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_2B03_AFB_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "TV Barrandov",
+      "service_reference": "1:0:16:2B07:AFB:BB:E080000:0:0:0:",
+      "file": "1_0_16_2B07_AFB_BB_E080000_0_0_0.png",
+      "sha256": "f6d4fa41e065fd491a09232c7cf28776ea21dd301a331ae358cc5431748550bc",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_2B07_AFB_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Lala TV",
+      "service_reference": "1:0:16:2B0C:AFB:BB:E080000:0:0:0:",
+      "file": "1_0_16_2B0C_AFB_BB_E080000_0_0_0.png",
+      "sha256": "cadfc503057d94f1944bccd9197f6a6c2971dd1b33ff688dd22d0db327c4610c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_2B0C_AFB_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "CS Film / CS Horror",
+      "service_reference": "1:0:16:2B0D:AFB:BB:E080000:0:0:0:",
+      "file": "1_0_16_2B0D_AFB_BB_E080000_0_0_0.png",
+      "sha256": "f7b059f1f89469def57398dcbc0488920789b8488435363cd9e817bfca6b62a1",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_2B0D_AFB_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "Óčko",
+      "service_reference": "1:0:16:2B0E:AFB:BB:E080000:0:0:0:",
+      "file": "1_0_16_2B0E_AFB_BB_E080000_0_0_0.png",
+      "sha256": "7ba4566f8df4076fdd7ca5e05553a84848ba9f9622f89bbfd413185f2724aa38",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_16_2B0E_AFB_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "History HD",
+      "service_reference": "1:0:19:6F:2:1:E0831B3:0:0:0:",
+      "file": "1_0_19_6F_2_1_E0831B3_0_0_0.png",
+      "sha256": "211f926ec64bcb4d05f0e1df8c0aa9b67e21a6ab7588e31bc8155eca077caf69",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_6F_2_1_E0831B3_0_0_0.png"
+    },
+    {
+      "name": "MTV Global",
+      "service_reference": "1:0:1:1FA:1B:2C0:E080000:0:0:0:",
+      "file": "1_0_1_1FA_1B_2C0_E080000_0_0_0.png",
+      "sha256": "3f3b7b5f69672db71745c44c2d9dd91bdce198cf7f63bb2bec895f73deace3f9",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_1FA_1B_2C0_E080000_0_0_0.png"
+    },
+    {
+      "name": "CGTN HD",
+      "service_reference": "1:0:19:1B71:4E:46:E080000:0:0:0:",
+      "file": "1_0_19_1B71_4E_46_E080000_0_0_0.png",
+      "sha256": "706ba4c368e03c878da5867aa3dc323ea07bef0cfae3925bde05be1fc7e129b8",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_1B71_4E_46_E080000_0_0_0.png"
+    },
+    {
+      "name": "CGTN Documentary HD",
+      "service_reference": "1:0:19:1B74:4E:46:E080000:0:0:0:",
+      "file": "1_0_19_1B74_4E_46_E080000_0_0_0.png",
+      "sha256": "e40da0fac0bf4265ec526373ba08e444214df3f4546e7a7aae86d7e2652817eb",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_1B74_4E_46_E080000_0_0_0.png"
+    },
+    {
+      "name": "Al Jazeera English",
+      "service_reference": "1:0:1:1B70:4E:46:E080000:0:0:0:",
+      "file": "1_0_1_1B70_4E_46_E080000_0_0_0.png",
+      "sha256": "b1bb1451ccb1104da515a76848ced77531f581e9340cc6d1aafeee18d599a41f",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_1B70_4E_46_E080000_0_0_0.png"
+    },
+    {
+      "name": "U TV",
+      "service_reference": "1:0:1:3F3:1:1:E08318F:0:0:0:",
+      "file": "1_0_1_3F3_1_1_E08318F_0_0_0.png",
+      "sha256": "e6cdd732382c3d5f1ead7b597eb29f4649f04f786dade15149e3db27d2a544e5",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_3F3_1_1_E08318F_0_0_0.png"
+    },
+    {
+      "name": "Vixen",
+      "service_reference": "1:0:19:7A50:2CB:600:E080000:0:0:0:",
+      "file": "1_0_19_7A50_2CB_600_E080000_0_0_0.png",
+      "sha256": "7dfe5304fad49993baea0a90b4283c02d0a9d8983c2dddbef3e45aa9c3d67d07",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_7A50_2CB_600_E080000_0_0_0.png"
+    },
+    {
+      "name": "Fishing & Hunting",
+      "service_reference": "1:0:1:596:C:1:E080000:0:0:0:",
+      "file": "1_0_1_596_C_1_E080000_0_0_0.png",
+      "sha256": "7bff555ec25ff7fc7e81c9a61b49bee349513be08d54b32ba81e5d9ffb70fa52",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_596_C_1_E080000_0_0_0.png"
+    },
+    {
+      "name": "Music Channel",
+      "service_reference": "1:0:1:401:C:1:E080000:0:0:0:",
+      "file": "1_0_1_401_C_1_E080000_0_0_0.png",
+      "sha256": "b2c722b638fe255590656d36f87fb6e8204bccb7832aefa7dcad25cde645f304",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_401_C_1_E080000_0_0_0.png"
+    },
+    {
+      "name": "Disney Channel",
+      "service_reference": "1:0:1:77EF:2C3:600:E080000:0:0:0:",
+      "file": "1_0_1_77EF_2C3_600_E080000_0_0_0.png",
+      "sha256": "9b2fcaab808945810a9b2f3d23bd71b6c06a301fc2b4691b558687f2d2235b34",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_77EF_2C3_600_E080000_0_0_0.png"
+    },
+    {
+      "name": "Duck TV",
+      "service_reference": "1:0:1:77F9:2C3:600:E080000:0:0:0:",
+      "file": "1_0_1_77F9_2C3_600_E080000_0_0_0.png",
+      "sha256": "094bd1b59f9720e4719b5032dcc0fac27b6a500f7ea4960382e310774c80b95c",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_77F9_2C3_600_E080000_0_0_0.png"
+    },
+    {
+      "name": "JimJam",
+      "service_reference": "1:0:1:7A5F:2CB:600:E080000:0:0:0:",
+      "file": "1_0_1_7A5F_2CB_600_E080000_0_0_0.png",
+      "sha256": "e89e9b020abe5e294171481dd342b964d7be1a30b8e99ea43ef340696305c334",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_7A5F_2CB_600_E080000_0_0_0.png"
+    },
+    {
+      "name": "Sport 2",
+      "service_reference": "1:0:19:7AA9:2CC:600:E080000:0:0:0:",
+      "file": "1_0_19_7AA9_2CC_600_E080000_0_0_0.png",
+      "sha256": "efeee5f7bf1406383aaf1f56817b02d9bf2026e52fb368c7d35c8f7d5bdee693",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_7AA9_2CC_600_E080000_0_0_0.png"
+    },
+    {
+      "name": "Spektrum Home",
+      "service_reference": "1:0:1:7AC1:2CC:600:E080000:0:0:0:",
+      "file": "1_0_1_7AC1_2CC_600_E080000_0_0_0.png",
+      "sha256": "c6ab491113d0b09029c77ae068ff3a836ad2826a9a16aafd512f8cfdd87b8873",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_7AC1_2CC_600_E080000_0_0_0.png"
+    },
+    {
+      "name": "Minimax",
+      "service_reference": "1:0:1:7AC2:2CC:600:E080000:0:0:0:",
+      "file": "1_0_1_7AC2_2CC_600_E080000_0_0_0.png",
+      "sha256": "efb6ac76dd32a795d663776f6f25e1e029c30ff18fe2d708656030e754a54023",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_7AC2_2CC_600_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nova Sport 6",
+      "service_reference": "1:0:19:1F4F:AF8:BB:E080000:0:0:0:",
+      "file": "1_0_19_1F4F_AF8_BB_E080000_0_0_0.png",
+      "sha256": "7e7e2b5d171012ae9abf6ab49cd8d9f487fdd930264f59493a5bb2143646e8ac",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_1F4F_AF8_BB_E080000_0_0_0.png"
+    },
+    {
+      "name": "National Geographic Wild",
+      "service_reference": "1:0:19:7725:2C1:600:E080000:0:0:0:",
+      "file": "1_0_19_7725_2C1_600_E080000_0_0_0.png",
+      "sha256": "48210a3538f86a1a37e2228d00c4b5dd16cdb5d7bc547007bdde22814a73ab96",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_19_7725_2C1_600_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nick Jr",
+      "service_reference": "1:0:1:211:1B:2C0:E080000:0:0:0:",
+      "file": "1_0_1_211_1B_2C0_E080000_0_0_0.png",
+      "sha256": "94860a0ec9a3f33565c5d27cb7e2a372ff4d28236a4ca3b6e2e4450cfe18c91d",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_211_1B_2C0_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nickelodeon",
+      "service_reference": "1:0:1:20E:1B:2C0:E080000:0:0:0:",
+      "file": "1_0_1_20E_1B_2C0_E080000_0_0_0.png",
+      "sha256": "0fc2df1ae18f002d2c00fe6b725a5113217789b2bcc60088979b4f8a03a19acc",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_20E_1B_2C0_E080000_0_0_0.png"
+    },
+    {
+      "name": "Nicktoons",
+      "service_reference": "1:0:1:214:1B:2C0:E080000:0:0:0:",
+      "file": "1_0_1_214_1B_2C0_E080000_0_0_0.png",
+      "sha256": "b271f5ad36350d20355ffc11d1254cd53e27e599d6a92d772bc8108461c72b60",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_214_1B_2C0_E080000_0_0_0.png"
+    },
+    {
+      "name": "Galaxy4",
+      "service_reference": "1:0:1:A96:3:1:E080000:0:0:0:",
+      "file": "1_0_1_A96_3_1_E080000_0_0_0.png",
+      "sha256": "993b13dcdb9bc49fe31b9f00d912337c0ea0f2b821d23a6a9ec26c6880621cc6",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/telly_0.8w/black/1_0_1_A96_3_1_E080000_0_0_0.png"
+    }
+  ]
+}

@@ -92,6 +92,28 @@
                          "membership":  "Magio Sat / Slovak Telekom FastScan core (ONID 0187)"
                      },
                      {
+                         "id":  "telly_0.8w",
+                         "name":  "Telly 0.8W / 1.0W",
+                         "manifest":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/telly_0.8w/transparent.json",
+                         "styles":  {
+                                        "transparent":  {
+                                                            "name":  "Transparentne",
+                                                            "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/telly_0.8w/transparent.json"
+                                                        },
+                                        "white":  {
+                                                      "name":  "Biely podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/telly_0.8w/white.json"
+                                                  },
+                                        "black":  {
+                                                      "name":  "Cierny podklad",
+                                                      "manifest_url":  "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/manifests/telly_0.8w/black.json"
+                                                  }
+                                    },
+                         "default_style":  "transparent",
+                         "expected_services":  65,
+                         "membership":  "Telly satellite package (Thor/Intelsat 0.8W/1.0W)"
+                     },
+                     {
                          "id":  "sat_19.2e",
                          "name":  "Astra 19.2E",
                          "expected_services":  1570,

@@ -33,7 +33,9 @@ class PrettyUpdateMenu(Screen):
         if self.hd:
             widgets = [
                 '<widget name="bg" position="0,0" size="1280,720" zPosition="0" alphatest="blend" />',
-                '<eLabel position="0,600" size="1280,120" zPosition="2" backgroundColor="#062d40" />',
+                '<eLabel position="25,600" size="1230,90" zPosition="2" backgroundColor="#062d40" borderWidth="1" borderColor="#45bfee" />',
+                '<eLabel position="38,612" size="280,62" zPosition="3" backgroundColor="#5a1019" borderWidth="2" borderColor="#ff5664" />',
+                '<eLabel position="500,612" size="280,62" zPosition="3" backgroundColor="#0c4d25" borderWidth="2" borderColor="#4ee878" />',
                 '<widget name="section" position="72,153" size="900,42" zPosition="4" font="Regular;28" foregroundColor="#6fdcff" transparent="1" />',
                 '<widget name="subtitle" position="72,205" size="1100,32" zPosition="4" font="Regular;18" foregroundColor="#b9d7e8" transparent="1" />',
                 '<widget name="row1" position="170,285" size="940,52" zPosition="4" font="Regular;29" foregroundColor="#ffffff" transparent="1" />',
@@ -41,12 +43,20 @@ class PrettyUpdateMenu(Screen):
                 '<widget name="row2" position="170,415" size="940,52" zPosition="4" font="Regular;29" foregroundColor="#ffffff" transparent="1" />',
                 '<widget name="desc2" position="215,470" size="860,42" zPosition="4" font="Regular;18" foregroundColor="#8fbad0" transparent="1" />',
                 '<widget name="status" position="170,535" size="940,42" zPosition="4" font="Regular;18" foregroundColor="#6fdcff" transparent="1" halign="center" />',
-                '<widget name="help" position="120,635" size="1040,40" zPosition="4" font="Regular;18" foregroundColor="#dbefff" transparent="1" halign="center" />',
+                '<widget name="back_icon" position="52,621" size="46,42" zPosition="5" font="Regular;30" foregroundColor="#ff5a66" transparent="1" halign="center" valign="center" />',
+                '<widget name="back_title" position="108,619" size="190,24" zPosition="5" font="Regular;18" foregroundColor="#ffffff" transparent="1" valign="center" />',
+                '<widget name="back_sub" position="108,645" size="190,18" zPosition="5" font="Regular;11" foregroundColor="#d9d9d9" transparent="1" valign="center" />',
+                '<widget name="ok_icon" position="514,621" size="46,42" zPosition="5" font="Regular;29" foregroundColor="#4ee878" transparent="1" halign="center" valign="center" />',
+                '<widget name="ok_title" position="570,619" size="190,24" zPosition="5" font="Regular;18" foregroundColor="#ffffff" transparent="1" valign="center" />',
+                '<widget name="ok_sub" position="570,645" size="190,18" zPosition="5" font="Regular;11" foregroundColor="#d9d9d9" transparent="1" valign="center" />',
+                '<widget name="help" position="800,622" size="420,42" zPosition="5" font="Regular;16" foregroundColor="#b9d7e8" transparent="1" halign="center" valign="center" />',
             ]
         else:
             widgets = [
                 '<widget name="bg" position="0,0" size="1920,1080" zPosition="0" alphatest="blend" />',
-                '<eLabel position="0,900" size="1920,180" zPosition="2" backgroundColor="#062d40" />',
+                '<eLabel position="38,900" size="1844,135" zPosition="2" backgroundColor="#062d40" borderWidth="2" borderColor="#45bfee" />',
+                '<eLabel position="58,918" size="416,92" zPosition="3" backgroundColor="#5a1019" borderWidth="3" borderColor="#ff5664" />',
+                '<eLabel position="752,918" size="416,92" zPosition="3" backgroundColor="#0c4d25" borderWidth="3" borderColor="#4ee878" />',
                 '<widget name="section" position="108,230" size="1350,60" zPosition="4" font="Regular;40" foregroundColor="#6fdcff" transparent="1" />',
                 '<widget name="subtitle" position="108,307" size="1650,46" zPosition="4" font="Regular;26" foregroundColor="#b9d7e8" transparent="1" />',
                 '<widget name="row1" position="255,430" size="1410,76" zPosition="4" font="Regular;43" foregroundColor="#ffffff" transparent="1" />',
@@ -54,7 +64,13 @@ class PrettyUpdateMenu(Screen):
                 '<widget name="row2" position="255,625" size="1410,76" zPosition="4" font="Regular;43" foregroundColor="#ffffff" transparent="1" />',
                 '<widget name="desc2" position="325,705" size="1290,56" zPosition="4" font="Regular;27" foregroundColor="#8fbad0" transparent="1" />',
                 '<widget name="status" position="255,805" size="1410,58" zPosition="4" font="Regular;27" foregroundColor="#6fdcff" transparent="1" halign="center" />',
-                '<widget name="help" position="180,952" size="1560,60" zPosition="4" font="Regular;27" foregroundColor="#dbefff" transparent="1" halign="center" />',
+                '<widget name="back_icon" position="79,932" size="62,60" zPosition="5" font="Regular;42" foregroundColor="#ff5a66" transparent="1" halign="center" valign="center" />',
+                '<widget name="back_title" position="156,934" size="286,34" zPosition="5" font="Regular;27" foregroundColor="#ffffff" transparent="1" valign="center" />',
+                '<widget name="back_sub" position="156,972" size="286,24" zPosition="5" font="Regular;16" foregroundColor="#d9d9d9" transparent="1" valign="center" />',
+                '<widget name="ok_icon" position="773,932" size="62,60" zPosition="5" font="Regular;42" foregroundColor="#4ee878" transparent="1" halign="center" valign="center" />',
+                '<widget name="ok_title" position="852,934" size="291,34" zPosition="5" font="Regular;27" foregroundColor="#ffffff" transparent="1" valign="center" />',
+                '<widget name="ok_sub" position="852,972" size="291,24" zPosition="5" font="Regular;16" foregroundColor="#d9d9d9" transparent="1" valign="center" />',
+                '<widget name="help" position="1240,930" size="580,68" zPosition="5" font="Regular;24" foregroundColor="#b9d7e8" transparent="1" halign="center" valign="center" />',
             ]
 
         widgets.extend(p._system_header_widgets(self.hd))
@@ -72,7 +88,13 @@ class PrettyUpdateMenu(Screen):
         self['row2'] = Label('')
         self['desc2'] = Label('Skontroluje novú verziu PiconHubu a bezpečne ju nainštaluje.')
         self['status'] = Label('')
-        self['help'] = Label('OK / ZELENÁ = potvrdiť     HORE / DOLE = výber     ČERVENÁ = späť')
+        self['back_icon'] = Label('←')
+        self['back_title'] = Label('SPÄŤ')
+        self['back_sub'] = Label('Návrat do hlavnej ponuky')
+        self['ok_icon'] = Label('✓')
+        self['ok_title'] = Label('VYBRAŤ')
+        self['ok_sub'] = Label('Spustiť označenú voľbu')
+        self['help'] = Label('HORE / DOLE = výber')
         self['actions'] = ActionMap(
             ['OkCancelActions', 'DirectionActions', 'ColorActions'],
             {
@@ -97,8 +119,8 @@ class PrettyUpdateMenu(Screen):
             pass
 
     def _refresh_rows(self):
-        self['row1'].setText(('>  ' if self.selected == 0 else '   ') + 'AKTUALIZOVAŤ PICONY')
-        self['row2'].setText(('>  ' if self.selected == 1 else '   ') + 'AKTUALIZOVAŤ PLUGIN')
+        self['row1'].setText(('>  ' if self.selected == 0 else '    ') + 'AKTUALIZOVAŤ PICONY')
+        self['row2'].setText(('>  ' if self.selected == 1 else '    ') + 'AKTUALIZOVAŤ PLUGIN')
 
     def up(self):
         if self.checking:
@@ -130,7 +152,7 @@ class PrettyUpdateMenu(Screen):
         self._check_result = None
         self._check_error = None
         self['status'].setText('Kontrolujem dostupnú verziu na GitHube...')
-        self['help'].setText('Prebieha kontrola aktualizácie. Prosím čakaj.')
+        self['help'].setText('Prebieha kontrola aktualizácie')
 
         def worker():
             try:
@@ -151,7 +173,7 @@ class PrettyUpdateMenu(Screen):
 
         self.checking = False
         self['status'].setText('')
-        self['help'].setText('OK / ZELENÁ = potvrdiť     HORE / DOLE = výber     ČERVENÁ = späť')
+        self['help'].setText('HORE / DOLE = výber')
 
         if self._check_error:
             self.session.open(
@@ -235,8 +257,6 @@ def _async_layout_ready(self):
     self._piconhub_auto_delay.start(1800, True)
 
 
-# Replace only the update chooser and the startup update check.
-# Picon downloading, provider browsing and the update installer remain untouched.
 um.UpdateMenu = PrettyUpdateMenu
 p.PiconHubUpdateMenu = PrettyUpdateMenu
 p.PiconHubMain._layoutReady = _async_layout_ready

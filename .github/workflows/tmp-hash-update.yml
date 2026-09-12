@@ -1,0 +1,13 @@
+name: tmp updater hash verification
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp-hash-update.yml'
+  workflow_dispatch:
+jobs:
+  hash:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: SHA256
+        run: sha256sum plugin-update/files/release.py plugin-update/files/update_menu_patch.py

@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "version": "0.6.12.00",
+  "notes": "Pridaná bezpečná samoaktualizácia PiconHub pluginu priamo z GitHub update kanála.",
+  "files": [
+    {
+      "path": "release.py",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py",
+      "sha256": "7e8c84b63de22e280fa2b19f35cecd2fde05a1cebce11d5709b3968635ac1260"
+    },
+    {
+      "path": "plugin_updater.py",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/plugin_updater.py",
+      "sha256": "839e0aec34fd4ab54df3152dac7cb745e30282b7f2714956ed82718e363219fe"
+    },
+    {
+      "path": "__init__.py",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py",
+      "sha256": "b43ef7f56ba2908bd6072c72ae97cc0fc7a6b8653b3709e9330db05af66e6704"
+    }
+  ]
+}

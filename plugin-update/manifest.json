@@ -1,11 +1,9 @@
 {
   "schema": 1,
-  "version": "0.6.12.04",
-  "notes": "Hlavná obrazovka už neblokuje Enigma2 pri sieťovej kontrole databázy a najnovších piconov. Sieťová práca beží na pozadí. Obrazovka Aktualizácia má nový spodný panel s vlastnými tlačidlami SPÄŤ a VYBRAŤ.",
+  "version": "0.6.12.05",
+  "notes": "Hlavná obrazovka používa skrytú session cache v /tmp a pri otvorení nikdy nečaká na sieť. Staré údaje zobrazí okamžite, čerstvé sa doplnia nenápadne na pozadí a server sa pre hlavný stav kontaktuje najviac raz za Enigma2 GUI session.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"5ff15aa8141fc32f94edf6139ac733ff231e1485fdac370f169fd0fa6acbaf5a"},
-    {"path":"ui_async_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/ui_async_patch.py","sha256":"7aa7a2502b27a37f71e8983db08cb214f4033239c4f97f40e7e1fdd935510478"},
-    {"path":"main_async_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/main_async_patch.py","sha256":"fc39f3216a376f904820d9f6c050d5e0101512634329310eb92272e475384e0f"},
-    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"227ac1a162b32f4ce2f7c5fc6bc075eb70ee4f4f11ce6ba0a2a9bbb53c67b18c"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"de5a12c43df3aa38cea537ead29894ae535152970dd6453828a750dc907e98a3"},
+    {"path":"main_async_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/main_async_patch.py","sha256":"d9839712c6d1277f1272cb38781dce70275f38fa64def0f19a279d4b8e337ef9"}
   ]
 }

@@ -38,5 +38,8 @@ try:
     from . import update_ui  # noqa: F401
 except Exception as e: print('[PiconHub] update UI load error:', e)
 try:
+    from . import update_menu_patch  # noqa: F401
+except Exception as e: print('[PiconHub] update menu patch load error:', e)
+try:
     from . import main_async_patch  # noqa: F401
 except Exception as e: print('[PiconHub] main async patch load error:', e)

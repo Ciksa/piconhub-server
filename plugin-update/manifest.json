@@ -1,11 +1,9 @@
 {
   "schema": 1,
-  "version": "0.6.12.12",
-  "notes": "Nová obrazovka AKTUALIZÁCIA: po zvolení AKTUALIZOVAŤ sa už neotvorí priamo aktualizácia piconov. Najprv sa zobrazí samostatný výber AKTUALIZOVAŤ PICONY alebo AKTUALIZOVAŤ PLUGIN. Aktualizácia databázy piconov zostáva oddelená od aktualizácie samotného PiconHub pluginu.",
+  "version": "0.6.12.13",
+  "notes": "Vyčistený spodný panel aktualizačných obrazoviek: odstránené nepoužívané žlté a modré tlačidlo. Zostáva iba červené SPÄŤ a zelené potvrdenie/OK; počas samotnej inštalácie je spodný panel bez tlačidiel.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"d3998dd11341f7e7be905d833d46dfad5a071e5b4d3353d68c21165ad34d2a15"},
-    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"211f8b92eb0f3112dd11991ba6c1e80c0cbe590f9a1047bee52aae8c82514b47"},
-    {"path":"update_ui.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py","sha256":"279fa08f430a6eb20df96b9a85fd316e202a066260f656341574ff510f6bf2cd"},
-    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"0b15ad8c99437c2293e49bd3f16b08288657e625db70c0b6e4eab9741ec0255c"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"e914dba9691a2f47020e8d0ff376374e15a96d2a7643d0bfae5fcc9686d398ac"},
+    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"9fc79f55087ddae6645b3c1e01dc0d3cc90555dfdd29abdc5e6d8d3612f53d4b"}
   ]
 }

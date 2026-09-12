@@ -3,25 +3,9 @@
   "version": "0.6.12.01",
   "notes": "Opravené FULL satelitné balíky, hierarchické nastavenia providerov a nové menu Aktualizovať Picony / Aktualizovať Plugin s priebehom a automatickým reštartom GUI.",
   "files": [
-    {
-      "path": "release.py",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py",
-      "sha256": "d20de01d770f5fa2fc57ea5360ce103f2ac4f636b908ec7d597375f4e5bb8a5f"
-    },
-    {
-      "path": "hierarchy_patch.py",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/hierarchy_patch.py",
-      "sha256": "00311dbd3b37e130aafabce98ba001da048d077486f39c8593d652dd8a8e5d57"
-    },
-    {
-      "path": "update_menu.py",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu.py",
-      "sha256": "76968a38c5a1206f6d815b5a5fdc54e32412934b935a03af507912857466a71b"
-    },
-    {
-      "path": "__init__.py",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py",
-      "sha256": "1884881e07e3a19c63a49f0bd5b1ca39d9ea102a1715901d53c9f257ad322e42"
-    }
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"d20de01d770f5fa2fc57ea5360ce103f2ac4f636b908ec7d597375f4e5bb8a5f"},
+    {"path":"hierarchy_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/hierarchy_patch.py","sha256":"fdd9e7ae05a88df464a9a856457b8632755552cfb871a00886870413d0caee92"},
+    {"path":"update_menu.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu.py","sha256":"76968a38c5a1206f6d815b5a5fdc54e32412934b935a03af507912857466a71b"},
+    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"1884881e07e3a19c63a49f0bd5b1ca39d9ea102a1715901d53c9f257ad322e42"}
   ]
 }

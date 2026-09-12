@@ -1,0 +1,13 @@
+name: tmp hash 017
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp-hash-017.yml'
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          python -m py_compile plugin-update/files/update_menu_patch.py plugin-update/files/update_style_v17.py
+          sha256sum plugin-update/files/release.py plugin-update/files/update_menu_patch.py plugin-update/files/update_style_v17.py

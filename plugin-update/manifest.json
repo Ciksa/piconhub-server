@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "0.6.12.06",
-  "notes": "Aktualizačné obrazovky sú zjednotené s dizajnom PiconHubu: spodný panel používa štandardné farebné tlačidlá, potvrdenie aktualizácie je celé v PiconHub štýle a priebeh aktualizácie je kompaktne v pravom paneli. Staré tlačidlá z podkladu sú prekryté.",
+  "version": "0.6.12.07",
+  "notes": "Kontrola aktualizácie už nepoužíva systémové Enigma2 informačné okno. Stav „najnovšia verzia“ aj chyba kontroly sa zobrazia priamo v plnohodnotnej PiconHub obrazovke s rovnakým dizajnom a spodným panelom. Rovnaký PiconHub štýl používa aj automatická ponuka novej verzie.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"3918312c9873709a0ff7883035ed2f5060ea884ad3fdf9b17070375125006c83"},
-    {"path":"ui_async_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/ui_async_patch.py","sha256":"6d3e41eb60d340c47abaa36bc8ba0664a949434039bb9b95aa807a1038d30323"},
-    {"path":"update_menu.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu.py","sha256":"a1826109a35b99153df997dd46cf3680b5ade2ba8de0c2ad171339f2c93525d0"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"b85bdb8a30c8f3a3dea48f6c9ef29992bbd0b2d97fd1d309fec38e0bd5ae77bd"},
+    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"0486cdccbce0e883136feec06dc050adfa4a80f86978af575ae9fca04ea7841e"},
+    {"path":"update_status_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_status_patch.py","sha256":"f773e1093435092fbd5c91b365f66e0afe4fb2214c1483e0a8f77a4cb209b973"}
   ]
 }

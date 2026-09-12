@@ -11,8 +11,7 @@ LOCALE_PATH = os.path.join(PLUGIN_PATH, 'locale')
 DOMAIN = 'PiconHub'
 def localeInit():
     try:
-        if language is not None:
-            os.environ['LANGUAGE'] = language.getLanguage()[:2]
+        if language is not None: os.environ['LANGUAGE'] = language.getLanguage()[:2]
         gettext.bindtextdomain(DOMAIN, LOCALE_PATH)
     except Exception as e: print('[PiconHub] gettext bind error:', e)
 localeInit()
@@ -44,6 +43,9 @@ except Exception as e: print('[PiconHub] UI/async patch load error:', e)
 try:
     from . import update_status_patch  # noqa: F401
 except Exception as e: print('[PiconHub] update status patch load error:', e)
+try:
+    from . import footer_style_patch  # noqa: F401
+except Exception as e: print('[PiconHub] footer style patch load error:', e)
 try:
     from . import main_async_patch  # noqa: F401
 except Exception as e: print('[PiconHub] main async patch load error:', e)

@@ -1,55 +1,37 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
-
 import gettext
 import os
-
 try:
     from Components.Language import language
 except Exception:
     language = None
-
 PLUGIN_PATH = os.path.dirname(os.path.abspath(__file__))
 LOCALE_PATH = os.path.join(PLUGIN_PATH, 'locale')
 DOMAIN = 'PiconHub'
-
-
 def localeInit():
     try:
         if language is not None:
-            lang = language.getLanguage()[:2]
-            os.environ['LANGUAGE'] = lang
+            os.environ['LANGUAGE'] = language.getLanguage()[:2]
         gettext.bindtextdomain(DOMAIN, LOCALE_PATH)
-    except Exception as e:
-        print('[PiconHub] gettext bind error:', e)
-
-
+    except Exception as e: print('[PiconHub] gettext bind error:', e)
 localeInit()
 try:
-    if language is not None:
-        language.addCallback(localeInit)
-except Exception as e:
-    print('[PiconHub] language callback error:', e)
-
-
+    if language is not None: language.addCallback(localeInit)
+except Exception as e: print('[PiconHub] language callback error:', e)
 def _(txt):
     try:
-        translated = gettext.dgettext(DOMAIN, txt)
-        return translated if translated else txt
-    except Exception:
-        return txt
-
-
-# Extend the provider area from the live server catalog while keeping the
-# existing provider/update implementation in plugin.py unchanged.
+        translated=gettext.dgettext(DOMAIN,txt); return translated if translated else txt
+    except Exception: return txt
 try:
     from . import provider_extension  # noqa: F401
-except Exception as e:
-    print('[PiconHub] provider extension load error:', e)
-
-# GitHub self-updater. The public piconhub-server repository is used as the
-# update distribution channel so no private GitHub token is stored in a box.
+except Exception as e: print('[PiconHub] provider extension load error:', e)
+try:
+    from . import hierarchy_patch  # noqa: F401
+except Exception as e: print('[PiconHub] hierarchy patch load error:', e)
 try:
     from . import plugin_updater  # noqa: F401
-except Exception as e:
-    print('[PiconHub] plugin updater load error:', e)
+except Exception as e: print('[PiconHub] plugin updater load error:', e)
+try:
+    from . import update_menu  # noqa: F401
+except Exception as e: print('[PiconHub] update menu load error:', e)

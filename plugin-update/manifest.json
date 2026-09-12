@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "0.6.12.18",
-  "notes": "Finálne upratanie updatera podľa schváleného návrhu: kompaktná dvojriadková tabuľka, samostatný pravý detail, čistý focus, bez obrovskej mriežky a iba červené SPÄŤ + zelené OK, SPUSTIŤ AKTUALIZÁCIU. Tlačidlá používajú existujúce PiconHub grafické assety a bezpečné bound callbacks.",
+  "version": "0.6.12.19",
+  "notes": "Updater je prerobený priamo v update_ui.py bez vizuálnych monkey-patch vrstiev. Kompaktná dvojriadková tabuľka, vlastný focus, pravý detail a iba červené SPÄŤ + zelené OK, SPUSTIŤ AKTUALIZÁCIU. update_menu_patch.py už rieši iba routing.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"128a09e6c4ae80544b603746ab528e22de2a2839559a1a0ff9d1bcf2aa7f564f"},
-    {"path":"update_style_v18.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_style_v18.py","sha256":"b770d3e2c020f511afa314c0ddde2a05a247293cbfd4aa4455813b3d618efae7"},
-    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"66ba24acdbcfef58fd32901796d9a8e599c09b29c6b2a7e0784eb1be9ebf2a1a"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"21adc7eadd25e0e2f2cc1fbe527c148222918a3ac51f0027926ca5437c3c76bf"},
+    {"path":"update_ui.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py","sha256":"ece3f229d0a260b2ec8d0493f0bb9bff136766ef57c730eea669dad741689189"},
+    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"897f47702cbb336124cc3eba7144b4b681c323c9711c3929fb5111be94e2daf4"}
   ]
 }

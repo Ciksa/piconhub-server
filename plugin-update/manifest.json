@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.6.12.14",
-  "notes": "Hotfix po 0.6.12.13: odstránený nebezpečný footer monkeypatch, ktorý mohol zhodiť Enigma2 pri otvorení obrazovky AKTUALIZÁCIA. Aktualizačné menu je opäť stabilné. Nasledujúci UI refaktor bude urobený čisto ako tabuľkové rozloženie bez prekrývacích záplat.",
+  "version": "0.6.12.15",
+  "notes": "Nové čisté aktualizačné rozloženie bez prekrývacích footer záplat: natívne Enigma2 panely a ovládacie prvky, iba červené SPÄŤ a zelené OK, SPUSTIŤ AKTUALIZÁCIU. Žlté a modré tlačidlo sa už nevytvárajú. Rovnaký princíp je použitý aj v dialógoch a priebehu aktualizácie.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"cc4df5d2c74f0f56c472bad59d0c5a8488f144db202c6368513217aa827619e8"},
-    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"13fa801cdfd0dc9ffb2da514e81cbde1075cba5850876855aa3e328394474d02"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"325dc4a60ef23b733bd7933fffc00e9d7d57b5f888294665d71b8f6c02b94066"},
+    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"70e5917b8db36320b15fc69e0cb316d8572006deda86644b798f8d22259ae555"}
   ]
 }

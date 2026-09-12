@@ -38,3 +38,6 @@ except Exception as e: print('[PiconHub] auto restart patch load error:', e)
 try:
     from . import update_menu  # noqa: F401
 except Exception as e: print('[PiconHub] update menu load error:', e)
+try:
+    from . import ui_async_patch  # noqa: F401
+except Exception as e: print('[PiconHub] UI/async patch load error:', e)

@@ -1,11 +1,10 @@
 {
   "schema": 1,
-  "version": "0.6.12.01",
-  "notes": "Opravené FULL satelitné balíky, hierarchické nastavenia providerov a nové menu Aktualizovať Picony / Aktualizovať Plugin s priebehom a automatickým reštartom GUI.",
+  "version": "0.6.12.02",
+  "notes": "Po úspešnej aktualizácii sa už PiconHub nepýta druhýkrát na reštart. Zobrazí informáciu a Enigma2 GUI sa automaticky reštartuje po 3 sekundách.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"d20de01d770f5fa2fc57ea5360ce103f2ac4f636b908ec7d597375f4e5bb8a5f"},
-    {"path":"hierarchy_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/hierarchy_patch.py","sha256":"fdd9e7ae05a88df464a9a856457b8632755552cfb871a00886870413d0caee92"},
-    {"path":"update_menu.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu.py","sha256":"76968a38c5a1206f6d815b5a5fdc54e32412934b935a03af507912857466a71b"},
-    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"1884881e07e3a19c63a49f0bd5b1ca39d9ea102a1715901d53c9f257ad322e42"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"a596b12122583a09ab9d02fd6a8de9b9ff7eaee8f88b8b76c9f6c63c94c09e44"},
+    {"path":"auto_restart_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/auto_restart_patch.py","sha256":"20c11cdb4d8f3fd70a3fd4548dfd0906573e7e9bcdf13a5bd9d62c82a250249c"},
+    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"6227475f20ef2f455b7b7199a22fe6f9cd62721fdc03e3fb7250bd70b011d0a5"}
   ]
 }

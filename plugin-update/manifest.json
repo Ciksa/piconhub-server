@@ -1,11 +1,10 @@
 {
   "schema": 1,
-  "version": "0.6.12.09",
-  "notes": "Opravený spodný panel aktualizačných obrazoviek. Farebný PiconHub button-bar sa načíta priamo pri štarte pluginu: výber má SPÄŤ, VYBRAŤ, PICONY a PLUGIN; potvrdenie má SPÄŤ a AKTUALIZOVAŤ; priebeh zostáva bezpečne bez prerušiteľných akcií. Verzia 0.6.12.08 sa môže preskočiť.",
+  "version": "0.6.12.10",
+  "notes": "Aktualizačné obrazovky sú prerobené ako čisté PiconHub obrazovky z rovnakej vizuálnej rodiny ako PICONY. Používajú priamo picons_fhd/hd_base.jpg a pôvodné picons_btn_red/green/yellow/blue assety; staré updater UI, status a footer patch moduly boli zo zdrojového stromu odstránené. Bez prekryvacích záplat a bez dolaďovania starého layoutu.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"c2e3756bea7df6afcc5de5a28395472611c372b8d87aaff30a0ee51b03f6fdd4"},
-    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"4ad7cb87c5c788785285d3ae6108d10b845c5a8b61f3da842f4cc690364fcce4"},
-    {"path":"update_status_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_status_patch.py","sha256":"f773e1093435092fbd5c91b365f66e0afe4fb2214c1483e0a8f77a4cb209b973"},
-    {"path":"footer_style_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/footer_style_patch.py","sha256":"18484901b7645f406e0aa8142b846362548dc9f968b471837f12598ecbcd8fd4"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"0bd489c4263a6df630ae982120102680a7153b68d897e1a7c87c315585fe94ec"},
+    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"0c4d24d96655bf348f33a01984e2f09d7cf154682033c0aebc49e261a96f9dfb"},
+    {"path":"update_ui.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py","sha256":"09e02fead3224ddedb5155051bc3e03c7d8b38cdab69428ecd6c7fada9642ceb"}
   ]
 }

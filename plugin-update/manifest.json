@@ -1,10 +1,11 @@
 {
   "schema": 1,
-  "version": "0.6.12.07",
-  "notes": "Kontrola aktualizácie už nepoužíva systémové Enigma2 informačné okno. Stav „najnovšia verzia“ aj chyba kontroly sa zobrazia priamo v plnohodnotnej PiconHub obrazovke s rovnakým dizajnom a spodným panelom. Rovnaký PiconHub štýl používa aj automatická ponuka novej verzie.",
+  "version": "0.6.12.08",
+  "notes": "Spodný panel aktualizačných obrazoviek je zjednotený so štandardným PiconHub farebným panelom. Výber aktualizácie má štyri skutočné farebné klávesy SPÄŤ, VYBRAŤ, PICONY a PLUGIN; žltá a modrá fungujú aj ako priame skratky. Potvrdenie a stav používajú rovnakú geometriu a priebeh má rovnaký štvorfarebný panel bez nebezpečných aktívnych akcií počas inštalácie.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"b85bdb8a30c8f3a3dea48f6c9ef29992bbd0b2d97fd1d309fec38e0bd5ae77bd"},
-    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"0486cdccbce0e883136feec06dc050adfa4a80f86978af575ae9fca04ea7841e"},
-    {"path":"update_status_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_status_patch.py","sha256":"f773e1093435092fbd5c91b365f66e0afe4fb2214c1483e0a8f77a4cb209b973"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"42332460e01e09b772de688fa92c2f2e35f3986c771dba1580c33bdf701ff0cd"},
+    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"4ad7cb87c5c788785285d3ae6108d10b845c5a8b61f3da842f4cc690364fcce4"},
+    {"path":"update_status_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_status_patch.py","sha256":"f773e1093435092fbd5c91b365f66e0afe4fb2214c1483e0a8f77a4cb209b973"},
+    {"path":"footer_style_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/footer_style_patch.py","sha256":"18484901b7645f406e0aa8142b846362548dc9f968b471837f12598ecbcd8fd4"}
   ]
 }

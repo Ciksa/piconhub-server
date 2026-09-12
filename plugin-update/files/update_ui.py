@@ -245,12 +245,14 @@ class PiconHubUpdateChoice(Screen):
         self['summary'].setText('Kontrolujem dostupnú verziu...')
         self['state'].setText('KONTROLA PREBIEHA')
         self['detail'].setText('Kontrola GitHub manifestu beží na pozadí.')
+
         def worker():
             try:
                 self._check_result = pu.PiconHubPluginUpdater(timeout=6).check()
             except Exception as e:
                 self._check_error = str(e)
             self._check_done = True
+
         thread = Thread(target=worker)
         thread.daemon = True
         thread.start()
@@ -327,16 +329,23 @@ class PiconHubPluginConfirm(Screen):
         self['summary'] = Label('Je dostupná nová verzia')
         self['divider'] = Label('')
         self['title'] = Label('SPUSTIŤ AKTUALIZÁCIU?')
-        self['versions'] = Label('Aktuálna verzia: %s\nNová verzia: %s\n\nPo dokončení sa Enigma2 GUI automaticky reštartuje.' % (self.result.get('current_version') or '—', self.result.get('remote_version') or '—'))
+        self['versions'] = Label('Aktuálna verzia: %s\nNová verzia: %s\n\nPo dokončení sa Enigma2 GUI automaticky reštartuje.' % (
+            self.result.get('current_version') or '—', self.result.get('remote_version') or '—'))
         self['notes_title'] = Label('ČO JE NOVÉ')
         self['notes'] = Label(self.result.get('notes') or 'Bez poznámok k vydaniu.')
         _set_buttons(self, 'SPÄŤ', 'Zrušiť aktualizáciu', 'AKTUALIZOVAŤ', 'Nainštalovať novú verziu')
-        self['actions'] = ActionMap(['OkCancelActions', 'ColorActions'], {'cancel': self.reject, 'red': self.reject, 'ok': self.accept, 'green': self.accept}, -1)
+        self['actions'] = ActionMap(['OkCancelActions', 'ColorActions'], {
+            'cancel': self.reject, 'red': self.reject,
+            'ok': self.accept, 'green': self.accept,
+        }, -1)
         self.onLayoutFinish.append(self._ready)
+
     def _ready(self):
         _ready_base(self)
+
     def accept(self):
         self.close(True)
+
     def reject(self):
         self.close(False)
 
@@ -356,8 +365,12 @@ class PiconHubUpdateStatus(Screen):
         self['message'] = Label(message)
         self['detail'] = Label(detail)
         _set_buttons(self, 'SPÄŤ', 'Návrat do aktualizácie', 'OK', 'Zavrieť obrazovku')
-        self['actions'] = ActionMap(['OkCancelActions', 'ColorActions'], {'cancel': self.close, 'red': self.close, 'ok': self.close, 'green': self.close}, -1)
+        self['actions'] = ActionMap(['OkCancelActions', 'ColorActions'], {
+            'cancel': self.close, 'red': self.close,
+            'ok': self.close, 'green': self.close,
+        }, -1)
         self.onLayoutFinish.append(self._ready)
+
     def _ready(self):
         _ready_base(self)
 
@@ -389,114 +402,230 @@ class PiconHubPluginProgress(Screen):
         self.session = session
         self.manifest = manifest or {}
         self.updater = pu.PiconHubPluginUpdater(timeout=8)
-        self.stage = 'download'; self.index = 0; self.files = self.manifest.get('files') or []; self.prepared = []; self.changed = []
-        self.backup = '/tmp/piconhub-plugin-backup-%d' % int(time.time()); self.countdown = 3
-        self.gui_w, self.gui_h = _desktop(); self.hd = self.gui_w <= 1280
+        self.stage = 'download'
+        self.index = 0
+        self.files = self.manifest.get('files') or []
+        self.prepared = []
+        self.changed = []
+        self.backup = '/tmp/piconhub-plugin-backup-%d' % int(time.time())
+        self.countdown = 3
+        self.gui_w, self.gui_h = _desktop()
+        self.hd = self.gui_w <= 1280
         _init_base(self, session, 'PiconHubPluginProgress', _progress_widgets(self.hd), False)
-        self['section'] = Label('↻  AKTUALIZÁCIA PICONHUBU'); self['summary'] = Label('Bezpečná inštalácia'); self['divider'] = Label('')
-        self['phase'] = Label('PRIPRAVUJEM AKTUALIZÁCIU'); self['info'] = Label('Aktualizácia prebieha bezpečne.\nPo dokončení sa Enigma2 GUI automaticky reštartuje.')
-        self['progress_title'] = Label('PRIEBEH'); self['progress'] = ProgressBar(); self['progress'].setRange((0,100)); self['progress'].setValue(0)
-        self['percent'] = Label('0 %'); self['detail'] = Label('Pripravujem súbory...')
-        self['actions'] = ActionMap(['OkCancelActions','ColorActions'], {'cancel':self.ignore,'ok':self.ignore,'red':self.ignore,'green':self.ignore,'yellow':self.ignore,'blue':self.ignore}, -1)
-        self.timer = eTimer(); self.timer.callback.append(self.step); self.onLayoutFinish.append(self.start)
+        self['section'] = Label('↻  AKTUALIZÁCIA PICONHUBU')
+        self['summary'] = Label('Bezpečná inštalácia')
+        self['divider'] = Label('')
+        self['phase'] = Label('PRIPRAVUJEM AKTUALIZÁCIU')
+        self['info'] = Label('Aktualizácia prebieha bezpečne.\nPo dokončení sa Enigma2 GUI automaticky reštartuje.')
+        self['progress_title'] = Label('PRIEBEH')
+        self['progress'] = ProgressBar()
+        self['progress'].setRange((0, 100))
+        self['progress'].setValue(0)
+        self['percent'] = Label('0 %')
+        self['detail'] = Label('Pripravujem súbory...')
+        self['actions'] = ActionMap(['OkCancelActions', 'ColorActions'], {
+            'cancel': self.ignore, 'ok': self.ignore,
+            'red': self.ignore, 'green': self.ignore,
+            'yellow': self.ignore, 'blue': self.ignore,
+        }, -1)
+        self.timer = eTimer()
+        self.timer.callback.append(self.step)
+        self.onLayoutFinish.append(self.start)
+
     def ignore(self):
         return
+
     def start(self):
         _ready_base(self)
-        try: os.makedirs(self.backup)
-        except Exception: pass
+        try:
+            os.makedirs(self.backup)
+        except Exception:
+            pass
         self.timer.start(100, True)
+
     def _progress(self, value):
-        value = max(0,min(100,int(value))); self['progress'].setValue(value); self['percent'].setText('%d %%' % value)
+        value = max(0, min(100, int(value)))
+        self['progress'].setValue(value)
+        self['percent'].setText('%d %%' % value)
+
     def _pct(self, done, total, base, span):
-        return base + int((float(done) / max(1,total)) * span)
+        return base + int((float(done) / max(1, total)) * span)
+
     def step(self):
         try:
             total = len(self.files)
             if self.stage == 'download':
                 if self.index >= total:
-                    self.stage='install'; self.index=0; self.timer.start(80,True); return
-                item=self.files[self.index]; rel=pu._safe_relative_path(item.get('path')); url=str(item.get('url') or ''); digest=str(item.get('sha256') or '').lower()
-                if not url.startswith(pu._ALLOWED_UPDATE_PREFIX) or len(digest)!=64: raise pu.PiconHubPluginUpdateError('Neplatný update manifest pre %s.' % rel)
-                self['phase'].setText('SŤAHUJEM A OVERUJEM'); self['detail'].setText(rel); data=self.updater._fetch(url)
-                if hashlib.sha256(data).hexdigest().lower()!=digest: raise pu.PiconHubPluginUpdateError('SHA-256 nesúhlasí pre %s.' % rel)
-                self.prepared.append((rel,data)); self.index+=1; self._progress(self._pct(self.index,total,0,60)); self.timer.start(60,True); return
+                    self.stage = 'install'
+                    self.index = 0
+                    self.timer.start(80, True)
+                    return
+                item = self.files[self.index]
+                rel = pu._safe_relative_path(item.get('path'))
+                url = str(item.get('url') or '')
+                digest = str(item.get('sha256') or '').lower()
+                if not url.startswith(pu._ALLOWED_UPDATE_PREFIX) or len(digest) != 64:
+                    raise pu.PiconHubPluginUpdateError('Neplatný update manifest pre %s.' % rel)
+                self['phase'].setText('SŤAHUJEM A OVERUJEM')
+                self['detail'].setText(rel)
+                data = self.updater._fetch(url)
+                if hashlib.sha256(data).hexdigest().lower() != digest:
+                    raise pu.PiconHubPluginUpdateError('SHA-256 nesúhlasí pre %s.' % rel)
+                self.prepared.append((rel, data))
+                self.index += 1
+                self._progress(self._pct(self.index, total, 0, 60))
+                self.timer.start(60, True)
+                return
+
             if self.stage == 'install':
-                if self.index >= total: self.finish(); return
-                rel,data=self.prepared[self.index]; target=os.path.join(self.updater.plugin_path,rel); parent=os.path.dirname(target)
-                if not os.path.isdir(parent): os.makedirs(parent)
-                backup=os.path.join(self.backup,rel)
+                if self.index >= total:
+                    self.finish()
+                    return
+                rel, data = self.prepared[self.index]
+                target = os.path.join(self.updater.plugin_path, rel)
+                parent = os.path.dirname(target)
+                if not os.path.isdir(parent):
+                    os.makedirs(parent)
+                backup = os.path.join(self.backup, rel)
                 if os.path.exists(target):
-                    bdir=os.path.dirname(backup)
-                    if not os.path.isdir(bdir): os.makedirs(bdir)
-                    shutil.copy2(target,backup)
-                tmp=target+'.piconhub-update'; handle=open(tmp,'wb'); handle.write(data); handle.flush()
-                try: os.fsync(handle.fileno())
-                except Exception: pass
+                    backup_dir = os.path.dirname(backup)
+                    if not os.path.isdir(backup_dir):
+                        os.makedirs(backup_dir)
+                    shutil.copy2(target, backup)
+                tmp = target + '.piconhub-update'
+                handle = open(tmp, 'wb')
+                handle.write(data)
+                handle.flush()
+                try:
+                    os.fsync(handle.fileno())
+                except Exception:
+                    pass
                 handle.close()
-                try: os.chmod(tmp,0o644)
-                except Exception: pass
-                os.rename(tmp,target); self.changed.append((target,backup if os.path.exists(backup) else None)); self.index+=1
-                self['phase'].setText('INŠTALUJEM'); self['detail'].setText(rel); self._progress(self._pct(self.index,total,60,40)); self.timer.start(60,True)
+                try:
+                    os.chmod(tmp, 0o644)
+                except Exception:
+                    pass
+                os.rename(tmp, target)
+                self.changed.append((target, backup if os.path.exists(backup) else None))
+                self.index += 1
+                self['phase'].setText('INŠTALUJEM')
+                self['detail'].setText(rel)
+                self._progress(self._pct(self.index, total, 60, 40))
+                self.timer.start(60, True)
         except Exception as e:
             self.rollback(e)
+
     def rollback(self, error):
-        for target,backup in reversed(self.changed):
+        for target, backup in reversed(self.changed):
             try:
-                if backup: shutil.copy2(backup,target)
-                elif os.path.exists(target): os.remove(target)
-            except Exception: pass
-        self['phase'].setText('AKTUALIZÁCIA ZLYHALA'); self['summary'].setText('Zmeny boli vrátené späť'); self['info'].setText('%s\nGUI sa nereštartuje.' % error); self['detail'].setText('Pôvodná verzia zostala zachovaná.')
-        self['actions'] = ActionMap(['OkCancelActions','ColorActions'], {'cancel':self.close,'ok':self.close,'red':self.close}, -1)
+                if backup:
+                    shutil.copy2(backup, target)
+                elif os.path.exists(target):
+                    os.remove(target)
+            except Exception:
+                pass
+        self['phase'].setText('AKTUALIZÁCIA ZLYHALA')
+        self['summary'].setText('Zmeny boli vrátené späť')
+        self['info'].setText('%s\nGUI sa nereštartuje.' % error)
+        self['detail'].setText('Pôvodná verzia zostala zachovaná.')
+        self['actions'] = ActionMap(['OkCancelActions', 'ColorActions'], {
+            'cancel': self.close, 'ok': self.close, 'red': self.close,
+        }, -1)
+
     def finish(self):
-        self._progress(100); self['phase'].setText('AKTUALIZÁCIA DOKONČENÁ'); self['summary'].setText('Nová verzia je nainštalovaná'); self['detail'].setText('Overenie a inštalácia prebehli úspešne.'); self['info'].setText('Enigma2 GUI sa automaticky reštartuje za 3 sekundy.')
-        try: self.timer.callback.remove(self.step)
-        except Exception: pass
-        self.timer.callback.append(self.tick); self.timer.start(1000,True)
+        self._progress(100)
+        self['phase'].setText('AKTUALIZÁCIA DOKONČENÁ')
+        self['summary'].setText('Nová verzia je nainštalovaná')
+        self['detail'].setText('Overenie a inštalácia prebehli úspešne.')
+        self['info'].setText('Enigma2 GUI sa automaticky reštartuje za 3 sekundy.')
+        try:
+            self.timer.callback.remove(self.step)
+        except Exception:
+            pass
+        self.timer.callback.append(self.tick)
+        self.timer.start(1000, True)
+
     def tick(self):
         self.countdown -= 1
         if self.countdown <= 0:
-            self['info'].setText('Reštartujem Enigma2 GUI...'); pu._restart_gui(self.session); return
-        self['info'].setText('Enigma2 GUI sa automaticky reštartuje za %d sekundy.' % self.countdown); self.timer.start(1000,True)
+            self['info'].setText('Reštartujem Enigma2 GUI...')
+            pu._restart_gui(self.session)
+            return
+        self['info'].setText('Enigma2 GUI sa automaticky reštartuje za %d sekundy.' % self.countdown)
+        self.timer.start(1000, True)
 
 
 def _show_latest(screen, result=None):
-    result = result or {}; version = result.get('remote_version') or result.get('current_version') or pu.RELEASE_VERSION
-    screen.session.open(PiconHubUpdateStatus,'POUŽÍVAŠ NAJNOVŠIU VERZIU','PiconHub %s je aktuálny.' % version,'Nie je potrebná žiadna aktualizácia pluginu.',False)
+    result = result or {}
+    version = result.get('remote_version') or result.get('current_version') or pu.RELEASE_VERSION
+    screen.session.open(PiconHubUpdateStatus, 'POUŽÍVAŠ NAJNOVŠIU VERZIU', 'PiconHub %s je aktuálny.' % version, 'Nie je potrebná žiadna aktualizácia pluginu.', False)
+
 
 def _show_error(screen, error):
-    screen.session.open(PiconHubUpdateStatus,'KONTROLA AKTUALIZÁCIE ZLYHALA','Nepodarilo sa overiť dostupnú verziu PiconHubu.',str(error or 'Neznáma chyba.'),True)
+    screen.session.open(PiconHubUpdateStatus, 'KONTROLA AKTUALIZÁCIE ZLYHALA', 'Nepodarilo sa overiť dostupnú verziu PiconHubu.', str(error or 'Neznáma chyba.'), True)
+
 
 def _offer_update(screen, result, manual=False):
-    result=result or {}
+    result = result or {}
     if result.get('available'):
         def confirmed(answer):
-            if answer and result.get('manifest'): screen.session.open(PiconHubPluginProgress,result.get('manifest'))
-        screen.session.openWithCallback(confirmed,PiconHubPluginConfirm,result); return
-    if manual: _show_latest(screen,result)
+            if answer and result.get('manifest'):
+                screen.session.open(PiconHubPluginProgress, result.get('manifest'))
+        screen.session.openWithCallback(confirmed, PiconHubPluginConfirm, result)
+        return
+    if manual:
+        _show_latest(screen, result)
+
 
 def _manual_update_check(screen):
-    try: result=pu.PiconHubPluginUpdater().check()
-    except Exception as e: _show_error(screen,e); return
-    _offer_update(screen,result,manual=True)
+    try:
+        result = pu.PiconHubPluginUpdater().check()
+    except Exception as e:
+        _show_error(screen, e)
+        return
+    _offer_update(screen, result, manual=True)
+
 
 def _async_layout_ready(self):
     pu._original_layout_ready(self)
-    if pu._AUTO_CHECK_DONE: return
-    pu._AUTO_CHECK_DONE=True; self._piconhub_auto_result=None; self._piconhub_auto_error=None; self._piconhub_auto_done=False
-    self._piconhub_auto_delay=eTimer(); self._piconhub_auto_poll=eTimer()
+    if pu._AUTO_CHECK_DONE:
+        return
+    pu._AUTO_CHECK_DONE = True
+    self._piconhub_auto_result = None
+    self._piconhub_auto_error = None
+    self._piconhub_auto_done = False
+    self._piconhub_auto_delay = eTimer()
+    self._piconhub_auto_poll = eTimer()
+
     def worker():
-        try: self._piconhub_auto_result=pu.PiconHubPluginUpdater(timeout=4).check()
-        except Exception as e: self._piconhub_auto_error=str(e)
-        self._piconhub_auto_done=True
+        try:
+            self._piconhub_auto_result = pu.PiconHubPluginUpdater(timeout=4).check()
+        except Exception as e:
+            self._piconhub_auto_error = str(e)
+        self._piconhub_auto_done = True
+
     def begin():
-        thread=Thread(target=worker); thread.daemon=True; thread.start(); self._piconhub_auto_poll.start(100,True)
+        thread = Thread(target=worker)
+        thread.daemon = True
+        thread.start()
+        self._piconhub_auto_poll.start(100, True)
+
     def poll():
-        if not self._piconhub_auto_done: self._piconhub_auto_poll.start(100,True); return
-        if self._piconhub_auto_error: print('[PiconHub] automatic plugin update check error:', self._piconhub_auto_error); return
-        try: _offer_update(self,self._piconhub_auto_result or {},manual=False)
-        except Exception as e: print('[PiconHub] automatic plugin update offer error:',e)
-    self._piconhub_auto_delay.callback.append(begin); self._piconhub_auto_poll.callback.append(poll); self._piconhub_auto_delay.start(1800,True)
+        if not self._piconhub_auto_done:
+            self._piconhub_auto_poll.start(100, True)
+            return
+        if self._piconhub_auto_error:
+            print('[PiconHub] automatic plugin update check error:', self._piconhub_auto_error)
+            return
+        try:
+            _offer_update(self, self._piconhub_auto_result or {}, manual=False)
+        except Exception as e:
+            print('[PiconHub] automatic plugin update offer error:', e)
+
+    self._piconhub_auto_delay.callback.append(begin)
+    self._piconhub_auto_poll.callback.append(poll)
+    self._piconhub_auto_delay.start(1800, True)
+
 
 p.PiconHubUpdateMenu = PiconHubUpdateChoice
 pu._offer_update = _offer_update

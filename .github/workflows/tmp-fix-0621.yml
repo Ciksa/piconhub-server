@@ -1,0 +1,21 @@
+name: tmp fix 0621
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp-fix-0621.yml'
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python .github/scripts/tmp_fix_0621.py
+      - run: python -m py_compile plugin-update/files/update_ui.py plugin-update/files/update_menu_patch.py
+      - run: sha256sum plugin-update/files/release.py plugin-update/files/update_ui.py plugin-update/files/update_menu_patch.py plugin-update/files/assets/updater_header_fhd.jpg plugin-update/files/assets/updater_header_hd.jpg
+      - run: |
+          git config user.name Warder
+          git config user.email 44697180+PiconHub-Warder@users.noreply.github.com
+          git add plugin-update/files/update_ui.py plugin-update/files/release.py plugin-update/manifest.json
+          git commit -m 'Fix updater layout 0.6.12.21'
+          git push

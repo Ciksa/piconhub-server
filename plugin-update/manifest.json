@@ -1,32 +1,17 @@
 {
   "schema": 1,
-  "version": "0.6.12.21",
-  "notes": "Oprava updatera: odstránené chybné statické cyan riadky a unicode ikony z 0.6.12.20. Výber je späť na stabilnom native MenuList/focus layoute, hlavička ostáva z pôvodného PiconHub grafického podkladu a spodné červené/zelené tlačidlá používajú pôvodné PiconHub button assety.",
+  "version": "0.6.12.22",
+  "notes": "Aktualizačné obrazovky sú opravené podľa schváleného PiconHub dizajnu. Updater je skutočne fullscreen bez čiernych pásov po okrajoch a spodné červené/zelené tlačidlá používajú rovnaké pôvodné PiconHub assety a vizuálny štýl ako obrazovky PICONY a NASTAVENIA. Funkcia aktualizácie, SHA-256 kontrola, rollback a automatický reštart GUI zostávajú zachované.",
   "files": [
     {
       "path": "release.py",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py",
-      "sha256": "f10fbb5c5fb61e027858bc1b725e672aff39f727d63a7a2a69bb59359c425a7a"
+      "sha256": "90e298ae0eecaf70005f17a66598112910d24f20063fa9926b059b55a6b123f3"
     },
     {
       "path": "update_ui.py",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py",
-      "sha256": "029e4645bedcb0a6e8670bb87f68e0af08ed5d00f71841045072c2a30cfc45d9"
-    },
-    {
-      "path": "update_menu_patch.py",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py",
-      "sha256": "897f47702cbb336124cc3eba7144b4b681c323c9711c3929fb5111be94e2daf4"
-    },
-    {
-      "path": "assets/updater_header_fhd.jpg",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/assets/updater_header_fhd.jpg",
-      "sha256": "95d6af5cd07312dd2bd43628f696b7cf0956cec1ac334f8afbbfb79297ab28a4"
-    },
-    {
-      "path": "assets/updater_header_hd.jpg",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/assets/updater_header_hd.jpg",
-      "sha256": "4f9c4ec2d81c4ceee0df89184cd1b257b7f76e29478e9dddaf17f6f39aff72ee"
+      "sha256": "bd8a341a8892d84d9c62c2afeeb397165ced23c5b65d184e900a671a9d2fce8c"
     }
   ]
 }

@@ -1,22 +1,27 @@
 {
   "schema": 1,
-  "version": "0.6.12.00",
-  "notes": "Pridaná bezpečná samoaktualizácia PiconHub pluginu priamo z GitHub update kanála.",
+  "version": "0.6.12.01",
+  "notes": "Opravené FULL satelitné balíky, hierarchické nastavenia providerov a nové menu Aktualizovať Picony / Aktualizovať Plugin s priebehom a automatickým reštartom GUI.",
   "files": [
     {
       "path": "release.py",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py",
-      "sha256": "7e8c84b63de22e280fa2b19f35cecd2fde05a1cebce11d5709b3968635ac1260"
+      "sha256": "d20de01d770f5fa2fc57ea5360ce103f2ac4f636b908ec7d597375f4e5bb8a5f"
     },
     {
-      "path": "plugin_updater.py",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/plugin_updater.py",
-      "sha256": "839e0aec34fd4ab54df3152dac7cb745e30282b7f2714956ed82718e363219fe"
+      "path": "hierarchy_patch.py",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/hierarchy_patch.py",
+      "sha256": "00311dbd3b37e130aafabce98ba001da048d077486f39c8593d652dd8a8e5d57"
+    },
+    {
+      "path": "update_menu.py",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu.py",
+      "sha256": "76968a38c5a1206f6d815b5a5fdc54e32412934b935a03af507912857466a71b"
     },
     {
       "path": "__init__.py",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py",
-      "sha256": "b43ef7f56ba2908bd6072c72ae97cc0fc7a6b8653b3709e9330db05af66e6704"
+      "sha256": "1884881e07e3a19c63a49f0bd5b1ca39d9ea102a1715901d53c9f257ad322e42"
     }
   ]
 }

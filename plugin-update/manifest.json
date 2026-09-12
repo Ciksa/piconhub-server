@@ -1,9 +1,10 @@
 {
   "schema": 1,
-  "version": "0.6.12.05",
-  "notes": "Hlavná obrazovka používa skrytú session cache v /tmp a pri otvorení nikdy nečaká na sieť. Staré údaje zobrazí okamžite, čerstvé sa doplnia nenápadne na pozadí a server sa pre hlavný stav kontaktuje najviac raz za Enigma2 GUI session.",
+  "version": "0.6.12.06",
+  "notes": "Aktualizačné obrazovky sú zjednotené s dizajnom PiconHubu: spodný panel používa štandardné farebné tlačidlá, potvrdenie aktualizácie je celé v PiconHub štýle a priebeh aktualizácie je kompaktne v pravom paneli. Staré tlačidlá z podkladu sú prekryté.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"de5a12c43df3aa38cea537ead29894ae535152970dd6453828a750dc907e98a3"},
-    {"path":"main_async_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/main_async_patch.py","sha256":"d9839712c6d1277f1272cb38781dce70275f38fa64def0f19a279d4b8e337ef9"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"3918312c9873709a0ff7883035ed2f5060ea884ad3fdf9b17070375125006c83"},
+    {"path":"ui_async_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/ui_async_patch.py","sha256":"6d3e41eb60d340c47abaa36bc8ba0664a949434039bb9b95aa807a1038d30323"},
+    {"path":"update_menu.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu.py","sha256":"a1826109a35b99153df997dd46cf3680b5ade2ba8de0c2ad171339f2c93525d0"}
   ]
 }

@@ -1,10 +1,12 @@
 {
   "schema": 1,
-  "version": "0.6.12.19",
-  "notes": "Updater je prerobený priamo v update_ui.py bez vizuálnych monkey-patch vrstiev. Kompaktná dvojriadková tabuľka, vlastný focus, pravý detail a iba červené SPÄŤ + zelené OK, SPUSTIŤ AKTUALIZÁCIU. update_menu_patch.py už rieši iba routing.",
+  "version": "0.6.12.20",
+  "notes": "Updater 0.6.12.20 používa samostatný čistý header asset vyrezaný z pôvodného PiconHub layoutu, takže hlavička sa už neskladá z rozbitých čiastkových obrázkov. Voľba aktualizácie je prerobená podľa schváleného návrhu: dva samostatné riadky s titulkom a popisom, vlastný focus, pravý detail a iba červené SPÄŤ + zelené OK, SPUSTIŤ AKTUALIZÁCIU.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"21adc7eadd25e0e2f2cc1fbe527c148222918a3ac51f0027926ca5437c3c76bf"},
-    {"path":"update_ui.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py","sha256":"ece3f229d0a260b2ec8d0493f0bb9bff136766ef57c730eea669dad741689189"},
-    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"897f47702cbb336124cc3eba7144b4b681c323c9711c3929fb5111be94e2daf4"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"ba96457032b05a98f6a2c13cf09e7f4734742b2adcfc93f1477a4ac280932a58"},
+    {"path":"update_ui.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py","sha256":"79ed4226436f36850bbecdf68a68130ace7de7c0957cfc36a256a58bd916ce0d"},
+    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"897f47702cbb336124cc3eba7144b4b681c323c9711c3929fb5111be94e2daf4"},
+    {"path":"assets/updater_header_fhd.jpg","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/assets/updater_header_fhd.jpg","sha256":"95d6af5cd07312dd2bd43628f696b7cf0956cec1ac334f8afbbfb79297ab28a4"},
+    {"path":"assets/updater_header_hd.jpg","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/assets/updater_header_hd.jpg","sha256":"4f9c4ec2d81c4ceee0df89184cd1b257b7f76e29478e9dddaf17f6f39aff72ee"}
   ]
 }

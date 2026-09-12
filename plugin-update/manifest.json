@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "0.6.12.10",
-  "notes": "Aktualizačné obrazovky sú prerobené ako čisté PiconHub obrazovky z rovnakej vizuálnej rodiny ako PICONY. Používajú priamo picons_fhd/hd_base.jpg a pôvodné picons_btn_red/green/yellow/blue assety; staré updater UI, status a footer patch moduly boli zo zdrojového stromu odstránené. Bez prekryvacích záplat a bez dolaďovania starého layoutu.",
+  "version": "0.6.12.11",
+  "notes": "Dočasná kontrolná verzia updater UI: zo všetkých aktualizačných obrazoviek boli úplne odstránené spodné button widgety a ich texty. Zostáva iba čistý spodný panel priamo z pôvodného picons_fhd/hd_base.jpg, aby bolo na prijímači vidieť reálny základ bez prekrytia. Farebné tlačidlá doplníme až v nasledujúcej verzii.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"0bd489c4263a6df630ae982120102680a7153b68d897e1a7c87c315585fe94ec"},
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"78c4221f0a779458ac57bb7fab7bcc3e163a4fbad8cf8ed0e284f61459a0dcc8"},
     {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"0c4d24d96655bf348f33a01984e2f09d7cf154682033c0aebc49e261a96f9dfb"},
-    {"path":"update_ui.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py","sha256":"09e02fead3224ddedb5155051bc3e03c7d8b38cdab69428ecd6c7fada9642ceb"}
+    {"path":"update_ui.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py","sha256":"279fa08f430a6eb20df96b9a85fd316e202a066260f656341574ff510f6bf2cd"}
   ]
 }

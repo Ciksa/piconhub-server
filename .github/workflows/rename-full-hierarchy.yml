@@ -1,0 +1,98 @@
+name: Rename full satellite sets to position-full
+on: push
+permissions:
+  contents: write
+jobs:
+  rename:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Rename non-provider full sets and validate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, os, re, shutil
+          from pathlib import Path
+
+          root=Path('picons')
+          styles={'transparent','white','black'}
+          # Existing real provider directories: preserve these exactly.
+          providers={'skylink','antiksat','freesat','magiosat','telly','digislovakia'}
+          for pos in sorted(p.name for p in root.iterdir() if p.is_dir()):
+              p=root/pos
+              dirs=[x for x in p.iterdir() if x.is_dir()]
+              full=p/(pos+'-full')
+              # The previous migration created exactly one non-provider directory
+              # for the whole-position set. Rename that directory; never merge.
+              candidates=[]
+              for d in dirs:
+                  if d.name in providers or d.name==pos+'-full':
+                      continue
+                  kids={x.name for x in d.iterdir() if x.is_dir()}
+                  if kids and kids <= styles:
+                      candidates.append(d)
+              if full.exists():
+                  if candidates:
+                      raise SystemExit(f'{pos}: full exists plus extra full candidate(s): {[x.name for x in candidates]}')
+              elif len(candidates)==1:
+                  candidates[0].rename(full)
+              elif len(candidates)>1:
+                  raise SystemExit(f'{pos}: ambiguous full candidates: {[x.name for x in candidates]}')
+
+          # Rewrite picon paths embedded in manifests after directory renames.
+          for mf in Path('manifests').rglob('*.json'):
+              try:
+                  obj=json.loads(mf.read_text())
+              except Exception:
+                  continue
+              changed=False
+              def walk(x):
+                  nonlocal_changed=[False]
+                  if isinstance(x,dict):
+                      for k,v in list(x.items()):
+                          nv=walk(v)
+                          if nv!=v: x[k]=nv; nonlocal_changed[0]=True
+                  elif isinstance(x,list):
+                      for i,v in enumerate(x):
+                          nv=walk(v)
+                          if nv!=v: x[i]=nv; nonlocal_changed[0]=True
+                  elif isinstance(x,str):
+                      m=re.search(r'picons/([^/]+)/([^/]+)/(transparent|white|black)/',x)
+                      if m:
+                          pos,second,style=m.groups()
+                          if second not in providers and second != pos+'-full':
+                              return x.replace(f'picons/{pos}/{second}/{style}/',f'picons/{pos}/{pos}-full/{style}/')
+                  return x
+              new=walk(obj)
+              text=json.dumps(new,ensure_ascii=False,indent=2)+'\n'
+              old=mf.read_text()
+              if text!=old: mf.write_text(text)
+
+          # Hard validation of requested architecture.
+          bad=[]
+          for p in root.iterdir():
+              if not p.is_dir(): continue
+              pos=p.name
+              for d in p.iterdir():
+                  if not d.is_dir(): continue
+                  if d.name in styles or d.name=='satellite': bad.append(str(d))
+                  if d.name not in providers and d.name != pos+'-full': bad.append(str(d))
+                  kids={x.name for x in d.iterdir() if x.is_dir()}
+                  if not kids <= styles: bad.append(str(d))
+          if bad:
+              raise SystemExit('Invalid hierarchy: '+', '.join(sorted(set(bad))))
+          PY
+      - name: Commit final tree and remove temporary workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/rename-full-hierarchy.yml
+          git config user.name 'PiconHub-Warder'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -A
+          git commit -m 'Use position-full names for complete satellite sets'
+          git push origin HEAD:main

@@ -1,10 +1,11 @@
 {
   "schema": 1,
-  "version": "0.6.12.03",
-  "notes": "Kontrola aktualizácie už neblokuje Enigma2 GUI a obrazovka Aktualizovať má nové čistejšie rozloženie bez rušivých starých prvkov.",
+  "version": "0.6.12.04",
+  "notes": "Hlavná obrazovka už neblokuje Enigma2 pri sieťovej kontrole databázy a najnovších piconov. Sieťová práca beží na pozadí. Obrazovka Aktualizácia má nový spodný panel s vlastnými tlačidlami SPÄŤ a VYBRAŤ.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"e6f516c1ad963d5965b1d0d0ad00430024a048f8c27f903c01a80a0de531ba28"},
-    {"path":"ui_async_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/ui_async_patch.py","sha256":"e28c2f0d2f19885b5541a6d58bcf600c74aa94b6ecd56c3f6e5a222cee798a40"},
-    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"1480a2f63667dce137b082eece050cf9a6b68ba0e554047e16a44de332cf2547"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"5ff15aa8141fc32f94edf6139ac733ff231e1485fdac370f169fd0fa6acbaf5a"},
+    {"path":"ui_async_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/ui_async_patch.py","sha256":"7aa7a2502b27a37f71e8983db08cb214f4033239c4f97f40e7e1fdd935510478"},
+    {"path":"main_async_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/main_async_patch.py","sha256":"fc39f3216a376f904820d9f6c050d5e0101512634329310eb92272e475384e0f"},
+    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"227ac1a162b32f4ce2f7c5fc6bc075eb70ee4f4f11ce6ba0a2a9bbb53c67b18c"}
   ]
 }

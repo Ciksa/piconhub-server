@@ -1,10 +1,11 @@
 {
   "schema": 1,
-  "version": "0.6.12.11",
-  "notes": "Dočasná kontrolná verzia updater UI: zo všetkých aktualizačných obrazoviek boli úplne odstránené spodné button widgety a ich texty. Zostáva iba čistý spodný panel priamo z pôvodného picons_fhd/hd_base.jpg, aby bolo na prijímači vidieť reálny základ bez prekrytia. Farebné tlačidlá doplníme až v nasledujúcej verzii.",
+  "version": "0.6.12.12",
+  "notes": "Nová obrazovka AKTUALIZÁCIA: po zvolení AKTUALIZOVAŤ sa už neotvorí priamo aktualizácia piconov. Najprv sa zobrazí samostatný výber AKTUALIZOVAŤ PICONY alebo AKTUALIZOVAŤ PLUGIN. Aktualizácia databázy piconov zostáva oddelená od aktualizácie samotného PiconHub pluginu.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"78c4221f0a779458ac57bb7fab7bcc3e163a4fbad8cf8ed0e284f61459a0dcc8"},
-    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"0c4d24d96655bf348f33a01984e2f09d7cf154682033c0aebc49e261a96f9dfb"},
-    {"path":"update_ui.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py","sha256":"279fa08f430a6eb20df96b9a85fd316e202a066260f656341574ff510f6bf2cd"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"d3998dd11341f7e7be905d833d46dfad5a071e5b4d3353d68c21165ad34d2a15"},
+    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"211f8b92eb0f3112dd11991ba6c1e80c0cbe590f9a1047bee52aae8c82514b47"},
+    {"path":"update_ui.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py","sha256":"279fa08f430a6eb20df96b9a85fd316e202a066260f656341574ff510f6bf2cd"},
+    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"0b15ad8c99437c2293e49bd3f16b08288657e625db70c0b6e4eab9741ec0255c"}
   ]
 }

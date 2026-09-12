@@ -1,9 +1,10 @@
 {
   "schema": 1,
-  "version": "0.6.12.16",
-  "notes": "Schválený vzhľad aktualizácie: natívna tabuľková/mriežková obrazovka s cyan deliacimi čiarami a dvoma riadkami, pôvodné grafické PiconHub červené a zelené tlačidlá na pôvodných pozíciách, zelené OK, SPUSTIŤ AKTUALIZÁCIU. Žlté a modré tlačidlo sa nevytvárajú.",
+  "version": "0.6.12.17",
+  "notes": "Doladený updater podľa schváleného smeru: čistý vlastný focus bez cudzieho skin selection obrázka, kompaktnejšie tabuľkové riadky a nové PiconHub tlačidlá bez kruhového motívu. Iba červené SPÄŤ a zelené OK, SPUSTIŤ AKTUALIZÁCIU.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"663521d20c54e3d6d635c1d9477862252a7de402970a51c2827acf01aed1b091"},
-    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"5303cdaa74f4fe2fca890a1af3c2ec5898bfa31096a1981e7c21b67ff4d018dd"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"36f9cbfc5688f5a0947415bd339fbcb3488c6166d4ea7f32eb3775805c5c17bc"},
+    {"path":"update_style_v17.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_style_v17.py","sha256":"fa674cc400c0db15e6074fb8abfbdced35f96436fe596106e6b8e01a62b2c93e"},
+    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"72ab9ed1c032f8eab9ffe94ffe5e1f7fa3f4d53b10d72394e48b8687e31f7681"}
   ]
 }

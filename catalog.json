@@ -138,7 +138,7 @@
     {
       "id": "sat_19.2e",
       "name": "Astra 19.2E",
-      "expected_services": 623,
+      "expected_services": 598,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -157,7 +157,7 @@
     {
       "id": "sat_13.0e",
       "name": "Hotbird 13.0E",
-      "expected_services": 1036,
+      "expected_services": 1030,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -176,7 +176,7 @@
     {
       "id": "sat_0.8w",
       "name": "Thor/Intelsat 0.8W",
-      "expected_services": 233,
+      "expected_services": 232,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -252,7 +252,7 @@
     {
       "id": "sat_16.0e",
       "name": "Eutelsat 16.0E",
-      "expected_services": 303,
+      "expected_services": 286,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -271,7 +271,7 @@
     {
       "id": "sat_21.5e",
       "name": "Satellite 21.5E",
-      "expected_services": 17,
+      "expected_services": 1,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -290,7 +290,7 @@
     {
       "id": "sat_22.0w",
       "name": "Satellite 22W",
-      "expected_services": 5,
+      "expected_services": 0,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -309,7 +309,7 @@
     {
       "id": "sat_23.5e",
       "name": "Astra 23.5E",
-      "expected_services": 308,
+      "expected_services": 307,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -328,7 +328,7 @@
     {
       "id": "sat_26.0e",
       "name": "Satellite 26E",
-      "expected_services": 132,
+      "expected_services": 90,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -347,7 +347,7 @@
     {
       "id": "sat_28.2e",
       "name": "Astra 28.2E",
-      "expected_services": 232,
+      "expected_services": 231,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -366,7 +366,7 @@
     {
       "id": "sat_3.0e",
       "name": "Satellite 3E",
-      "expected_services": 4,
+      "expected_services": 3,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -385,7 +385,7 @@
     {
       "id": "sat_30.0w",
       "name": "Satellite 30W",
-      "expected_services": 94,
+      "expected_services": 93,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -404,7 +404,7 @@
     {
       "id": "sat_31.0e",
       "name": "Satellite 31E",
-      "expected_services": 1,
+      "expected_services": 0,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -423,7 +423,7 @@
     {
       "id": "sat_34.5w",
       "name": "Satellite 34.5W",
-      "expected_services": 7,
+      "expected_services": 1,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -442,7 +442,7 @@
     {
       "id": "sat_36.0e",
       "name": "Satellite 36E",
-      "expected_services": 10,
+      "expected_services": 6,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -461,7 +461,7 @@
     {
       "id": "sat_39.0e",
       "name": "Satellite 39E",
-      "expected_services": 228,
+      "expected_services": 163,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -480,7 +480,7 @@
     {
       "id": "sat_4.8e",
       "name": "Satellite 4.8E",
-      "expected_services": 97,
+      "expected_services": 62,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -499,7 +499,7 @@
     {
       "id": "sat_42.0e",
       "name": "Turksat 42.0E",
-      "expected_services": 130,
+      "expected_services": 81,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -518,7 +518,7 @@
     {
       "id": "sat_5.0w",
       "name": "Satellite 5W",
-      "expected_services": 93,
+      "expected_services": 92,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -556,7 +556,7 @@
     {
       "id": "sat_52.0e",
       "name": "Satellite 52E",
-      "expected_services": 64,
+      "expected_services": 52,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -575,7 +575,7 @@
     {
       "id": "sat_7.0e",
       "name": "Satellite 7E",
-      "expected_services": 25,
+      "expected_services": 2,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -594,7 +594,7 @@
     {
       "id": "sat_7.0w",
       "name": "Satellite 7W",
-      "expected_services": 104,
+      "expected_services": 73,
       "styles": {
         "transparent": {
           "name": "Transparentne",
@@ -632,7 +632,7 @@
     {
       "id": "sat_9.0e",
       "name": "Satellite 9E",
-      "expected_services": 132,
+      "expected_services": 130,
       "styles": {
         "transparent": {
           "name": "Transparentne",

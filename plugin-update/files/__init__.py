@@ -33,5 +33,8 @@ try:
     from . import plugin_updater  # noqa: F401
 except Exception as e: print('[PiconHub] plugin updater load error:', e)
 try:
+    from . import auto_restart_patch  # noqa: F401
+except Exception as e: print('[PiconHub] auto restart patch load error:', e)
+try:
     from . import update_menu  # noqa: F401
 except Exception as e: print('[PiconHub] update menu load error:', e)

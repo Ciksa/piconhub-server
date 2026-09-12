@@ -9,61 +9,61 @@
     {
       "file": "1_0_19_12C3_37_1_1680000_0_0_0.png",
       "service_reference": "1:0:19:12C3:37:1:1680000:0:0:0:",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/white/1_0_19_12C3_37_1_1680000_0_0_0.png",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/eutelsat/white/1_0_19_12C3_37_1_1680000_0_0_0.png",
       "sha256": "21d93720c855754c3c50acb503d9f30dbb9c6323b057e4028b806549143dd9e6"
     },
     {
       "file": "1_0_19_12C4_37_1_1680000_0_0_0.png",
       "service_reference": "1:0:19:12C4:37:1:1680000:0:0:0:",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/white/1_0_19_12C4_37_1_1680000_0_0_0.png",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/eutelsat/white/1_0_19_12C4_37_1_1680000_0_0_0.png",
       "sha256": "f4dd238c3af35e7daa7ce8ec85a942dc0da09c5048f970216d7024401cdf43e9"
     },
     {
       "file": "1_0_19_1_1_539_1680000_0_0_0.png",
       "service_reference": "1:0:19:1:1:539:1680000:0:0:0:",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/white/1_0_19_1_1_539_1680000_0_0_0.png",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/eutelsat/white/1_0_19_1_1_539_1680000_0_0_0.png",
       "sha256": "ec34e4ade7e57bf52284c6976b48ed51d23779feb2d3c3473e65e560df2ca6fa"
     },
     {
       "file": "1_0_19_2_1_539_1680000_0_0_0.png",
       "service_reference": "1:0:19:2:1:539:1680000:0:0:0:",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/white/1_0_19_2_1_539_1680000_0_0_0.png",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/eutelsat/white/1_0_19_2_1_539_1680000_0_0_0.png",
       "sha256": "c81acc1b973380a40e0805ece501bbb94b00e566cb6f1c42d90b80d470eb9448"
     },
     {
       "file": "1_0_19_5_1_539_1680000_0_0_0.png",
       "service_reference": "1:0:19:5:1:539:1680000:0:0:0:",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/white/1_0_19_5_1_539_1680000_0_0_0.png",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/eutelsat/white/1_0_19_5_1_539_1680000_0_0_0.png",
       "sha256": "ec34e4ade7e57bf52284c6976b48ed51d23779feb2d3c3473e65e560df2ca6fa"
     },
     {
       "file": "1_0_1_1_1_1_1682D4F_0_0_0.png",
       "service_reference": "1:0:1:1:1:1:1682D4F:0:0:0:",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/white/1_0_1_1_1_1_1682D4F_0_0_0.png",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/eutelsat/white/1_0_1_1_1_1_1682D4F_0_0_0.png",
       "sha256": "38e352abbdde484aa5fb629bdd1bbfb1edf6a50af74489c6e24715e417726a8c"
     },
     {
       "file": "1_0_1_1_1_FFFF_168ACF4_0_0_0.png",
       "service_reference": "1:0:1:1:1:FFFF:168ACF4:0:0:0:",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/white/1_0_1_1_1_FFFF_168ACF4_0_0_0.png",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/eutelsat/white/1_0_1_1_1_FFFF_168ACF4_0_0_0.png",
       "sha256": "2d3958c8f5b26eca8cfbbff5d19ec67d0a2ec104c133418660dfac278957d409"
     },
     {
       "file": "1_0_1_3EC_37_1_1680000_0_0_0.png",
       "service_reference": "1:0:1:3EC:37:1:1680000:0:0:0:",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/white/1_0_1_3EC_37_1_1680000_0_0_0.png",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/eutelsat/white/1_0_1_3EC_37_1_1680000_0_0_0.png",
       "sha256": "cd68b50a61197a816bb91734e173353dc26bd0f8b0844c32d498579c65fff820"
     },
     {
       "file": "1_0_1_3F1_37_1_1680000_0_0_0.png",
       "service_reference": "1:0:1:3F1:37:1:1680000:0:0:0:",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/white/1_0_1_3F1_37_1_1680000_0_0_0.png",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/eutelsat/white/1_0_1_3F1_37_1_1680000_0_0_0.png",
       "sha256": "0bf4a1bf25be7d1b7b11d6bb1dfdb4af5b8866dfee738837331efda0d103cdc8"
     },
     {
       "file": "1_0_1_69_F5_1_1680000_0_0_0.png",
       "service_reference": "1:0:1:69:F5:1:1680000:0:0:0:",
-      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/white/1_0_1_69_F5_1_1680000_0_0_0.png",
+      "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/36.0e/eutelsat/white/1_0_1_69_F5_1_1680000_0_0_0.png",
       "sha256": "2e77842164829c1f6477ab32037459d489d03c8e65466a38eb3ac710d973d6a2"
     }
   ]

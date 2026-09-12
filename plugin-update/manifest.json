@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "0.6.12.17",
-  "notes": "Doladený updater podľa schváleného smeru: čistý vlastný focus bez cudzieho skin selection obrázka, kompaktnejšie tabuľkové riadky a nové PiconHub tlačidlá bez kruhového motívu. Iba červené SPÄŤ a zelené OK, SPUSTIŤ AKTUALIZÁCIU.",
+  "version": "0.6.12.18",
+  "notes": "Finálne upratanie updatera podľa schváleného návrhu: kompaktná dvojriadková tabuľka, samostatný pravý detail, čistý focus, bez obrovskej mriežky a iba červené SPÄŤ + zelené OK, SPUSTIŤ AKTUALIZÁCIU. Tlačidlá používajú existujúce PiconHub grafické assety a bezpečné bound callbacks.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"36f9cbfc5688f5a0947415bd339fbcb3488c6166d4ea7f32eb3775805c5c17bc"},
-    {"path":"update_style_v17.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_style_v17.py","sha256":"fa674cc400c0db15e6074fb8abfbdced35f96436fe596106e6b8e01a62b2c93e"},
-    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"72ab9ed1c032f8eab9ffe94ffe5e1f7fa3f4d53b10d72394e48b8687e31f7681"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"128a09e6c4ae80544b603746ab528e22de2a2839559a1a0ff9d1bcf2aa7f564f"},
+    {"path":"update_style_v18.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_style_v18.py","sha256":"b770d3e2c020f511afa314c0ddde2a05a247293cbfd4aa4455813b3d618efae7"},
+    {"path":"update_menu_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_menu_patch.py","sha256":"66ba24acdbcfef58fd32901796d9a8e599c09b29c6b2a7e0784eb1be9ebf2a1a"}
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "0.6.12.02",
-  "notes": "Po úspešnej aktualizácii sa už PiconHub nepýta druhýkrát na reštart. Zobrazí informáciu a Enigma2 GUI sa automaticky reštartuje po 3 sekundách.",
+  "version": "0.6.12.03",
+  "notes": "Kontrola aktualizácie už neblokuje Enigma2 GUI a obrazovka Aktualizovať má nové čistejšie rozloženie bez rušivých starých prvkov.",
   "files": [
-    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"a596b12122583a09ab9d02fd6a8de9b9ff7eaee8f88b8b76c9f6c63c94c09e44"},
-    {"path":"auto_restart_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/auto_restart_patch.py","sha256":"20c11cdb4d8f3fd70a3fd4548dfd0906573e7e9bcdf13a5bd9d62c82a250249c"},
-    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"6227475f20ef2f455b7b7199a22fe6f9cd62721fdc03e3fb7250bd70b011d0a5"}
+    {"path":"release.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py","sha256":"e6f516c1ad963d5965b1d0d0ad00430024a048f8c27f903c01a80a0de531ba28"},
+    {"path":"ui_async_patch.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/ui_async_patch.py","sha256":"e28c2f0d2f19885b5541a6d58bcf600c74aa94b6ecd56c3f6e5a222cee798a40"},
+    {"path":"__init__.py","url":"https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/__init__.py","sha256":"1480a2f63667dce137b082eece050cf9a6b68ba0e554047e16a44de332cf2547"}
   ]
 }

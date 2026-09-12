@@ -32,7 +32,7 @@
       "service_reference": "1:0:16:1785:AF6:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_16_1785_AF6_BB_E080000_0_0_0.png",
       "sha256": "86e43d5163122bc574901ef7e76ce23b2c9286a664aef9f7c148daefb5c0dceb",
-      "name": "Prima SK"
+      "name": "Prima SK HD"
     },
     {
       "file": "1_0_16_1786_AF6_BB_E080000_0_0_0.png",
@@ -53,14 +53,14 @@
       "service_reference": "1:0:16:2B09:AFB:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_16_2B09_AFB_BB_E080000_0_0_0.png",
       "sha256": "a91663a532ad6e94ef2adb4bfe2c6f4d07d82793ce87d61290069f6c46b43d89",
-      "name": "FILMBOX+ comedy"
+      "name": "FilmBox Stars"
     },
     {
       "file": "1_0_16_2B0E_AFB_BB_E080000_0_0_0.png",
       "service_reference": "1:0:16:2B0E:AFB:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_16_2B0E_AFB_BB_E080000_0_0_0.png",
       "sha256": "3bc303c5abff6a3ef7db5adc3667513ad078662dd214c08dc3fa311b54132a8e",
-      "name": "Óčko"
+      "name": "Ocko HD"
     },
     {
       "file": "1_0_16_3FF_AF1_BB_E080000_0_0_0.png",
@@ -81,7 +81,7 @@
       "service_reference": "1:0:16:7E7:AF2:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_16_7E7_AF2_BB_E080000_0_0_0.png",
       "sha256": "3c697edbc39de86cd6aea4b2d86696ec8495199272ffcc29e698b554a7a7fd8a",
-      "name": "Eroxxx"
+      "name": "Eroxxx HD"
     },
     {
       "file": "1_0_16_FB1_AF4_BB_E080000_0_0_0.png",
@@ -116,21 +116,21 @@
       "service_reference": "1:0:19:178F:AF6:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_19_178F_AF6_BB_E080000_0_0_0.png",
       "sha256": "b4711703393a2a88eb23f21cf8eb1ae133af7e60d80e33e226736574aae86557",
-      "name": "Prima ZOOM HD"
+      "name": "Prima Zoom HD"
     },
     {
       "file": "1_0_19_1B74_AF7_BB_E080000_0_0_0.png",
       "service_reference": "1:0:19:1B74:AF7:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_19_1B74_AF7_BB_E080000_0_0_0.png",
       "sha256": "36f65092b6ffb77773201e3ff0a704ab480e93d552d59606b92c7bccdcffc7ea",
-      "name": "SPORT HD"
+      "name": "STVR Sport HD"
     },
     {
       "file": "1_0_19_2334_AF9_BB_E080000_0_0_0.png",
       "service_reference": "1:0:19:2334:AF9:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_19_2334_AF9_BB_E080000_0_0_0.png",
       "sha256": "22c514d656d43656ba94b0eb8723c7b8051f69da80b07e4d1e7131a66b494d35",
-      "name": "CT Sport HD"
+      "name": "CT sport HD"
     },
     {
       "file": "1_0_19_2335_AF9_BB_E080000_0_0_0.png",
@@ -179,21 +179,21 @@
       "service_reference": "1:0:19:7DB:AF2:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_19_7DB_AF2_BB_E080000_0_0_0.png",
       "sha256": "e123f3054946e6866bc5bef7b181e19e432f756b05dd93443a6a20fdefa2bf38",
-      "name": "CT 2 HD"
+      "name": "CT2 HD"
     },
     {
       "file": "1_0_19_7DC_AF2_BB_E080000_0_0_0.png",
       "service_reference": "1:0:19:7DC:AF2:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_19_7DC_AF2_BB_E080000_0_0_0.png",
       "sha256": "5c13e09e41953133b8ece981a06c50c6fe32464da8612c73f78c15f8326854ea",
-      "name": "PREMIER SPORT 2 SK HD"
+      "name": "Premier Sport 2"
     },
     {
       "file": "1_0_19_FB4_AF4_BB_E080000_0_0_0.png",
       "service_reference": "1:0:19:FB4:AF4:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_19_FB4_AF4_BB_E080000_0_0_0.png",
       "sha256": "5e7b9ca4f7292c84e20dfb83a5fdd11080a6b1fe41b39736799627c650f4113f",
-      "name": "PREMIER SPORT 1 CZ HD"
+      "name": "Premier Sport 1"
     },
     {
       "file": "1_0_1_177C_AF6_BB_E080000_0_0_0.png",
@@ -214,7 +214,7 @@
       "service_reference": "1:0:1:FAE:AF4:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_1_FAE_AF4_BB_E080000_0_0_0.png",
       "sha256": "e1789c63f337adf77a7522a5bf34fe45d178729bf30e7c226197346586eeafbe",
-      "name": "Barrandov Krimi"
+      "name": "Barrandov Krimi HD"
     },
     {
       "file": "1_0_1_FAF_AF4_BB_E080000_0_0_0.png",
@@ -249,7 +249,7 @@
       "service_reference": "1:0:1:FBC:AF4:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/magiosat/white/1_0_1_FBC_AF4_BB_E080000_0_0_0.png",
       "sha256": "85b8106451e94c083c27797549efb413845e0e8893cd97920dbe5da551487219",
-      "name": "Premier Sport 3 HD"
+      "name": "Premier Sport 3"
     }
   ]
 }

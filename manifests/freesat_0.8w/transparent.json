@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "package_id": "freesat_0.8w",
-  "name": "FreeSAT 0.8°W",
+  "name": "FreeSAT 0.8W",
   "style": "transparent",
   "resolution": "220x132",
   "membership": "Provided SRP set; FastScan not yet verified",
@@ -32,7 +32,7 @@
       "service_reference": "1:0:16:1785:AF6:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_16_1785_AF6_BB_E080000_0_0_0.png",
       "sha256": "7598f33982676d85c8e13f50c7844cf3213d04f8ac3ee0d502ce32f97beb2c93",
-      "name": "Prima SK"
+      "name": "Prima SK HD"
     },
     {
       "file": "1_0_16_1786_AF6_BB_E080000_0_0_0.png",
@@ -53,7 +53,7 @@
       "service_reference": "1:0:16:1F4C:AF8:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_16_1F4C_AF8_BB_E080000_0_0_0.png",
       "sha256": "525c265d07f3a48c489124de2d01bfc4ea74e659fb44b28e6ed9f7ddb7b08804",
-      "name": "Minimax"
+      "name": "Prima COOL SK HD"
     },
     {
       "file": "1_0_16_2337_AF9_BB_E080000_0_0_0.png",
@@ -74,35 +74,35 @@
       "service_reference": "1:0:16:233F:AF9:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_16_233F_AF9_BB_E080000_0_0_0.png",
       "sha256": "eff70268c2461a0551059cdfdd3bb6d8aa31e29b20c1c5699590c37828425f73",
-      "name": "Investigation Discovery"
+      "name": "Discovery ID HD"
     },
     {
       "file": "1_0_16_2342_AF9_BB_E080000_0_0_0.png",
       "service_reference": "1:0:16:2342:AF9:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_16_2342_AF9_BB_E080000_0_0_0.png",
       "sha256": "15a6d42cd0958ac38728b8b428ce34c67b4b852b07bcf8c9bf3d7f20cebc85ff",
-      "name": "RiC"
+      "name": "TV Rik HD"
     },
     {
       "file": "1_0_16_2B03_AFB_BB_E080000_0_0_0.png",
       "service_reference": "1:0:16:2B03:AFB:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_16_2B03_AFB_BB_E080000_0_0_0.png",
       "sha256": "085fb4947f0220edabfda6a5158cea6b4211cbc490fbebc182b10e8d571b4996",
-      "name": "Auto Motor und Sport"
+      "name": "Auto Motor Sport"
     },
     {
       "file": "1_0_16_2B0C_AFB_BB_E080000_0_0_0.png",
       "service_reference": "1:0:16:2B0C:AFB:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_16_2B0C_AFB_BB_E080000_0_0_0.png",
       "sha256": "b95cd5b32c46ca2fdb84cf51042493bb0294fd61d11cf77291d117a29077335b",
-      "name": "Lala TV"
+      "name": "Lala TV HD"
     },
     {
       "file": "1_0_16_2B0E_AFB_BB_E080000_0_0_0.png",
       "service_reference": "1:0:16:2B0E:AFB:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_16_2B0E_AFB_BB_E080000_0_0_0.png",
       "sha256": "42ee3573c426595f345a1ea6c9664aee1ae5489e4942745082b1a11e46b2c991",
-      "name": "Óčko"
+      "name": "Ocko HD"
     },
     {
       "file": "1_0_16_7A48_2CB_600_E080000_0_0_0.png",
@@ -158,21 +158,21 @@
       "service_reference": "1:0:16:7E5:AF2:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_16_7E5_AF2_BB_E080000_0_0_0.png",
       "sha256": "90fba95a19f5056b0f465c7674c58a47b390e3341636956d55601646a096e9ba",
-      "name": "FightBox"
+      "name": "FightBox HD"
     },
     {
       "file": "1_0_16_7E7_AF2_BB_E080000_0_0_0.png",
       "service_reference": "1:0:16:7E7:AF2:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_16_7E7_AF2_BB_E080000_0_0_0.png",
       "sha256": "95a2a0be2efe052e36d4d8e073d57f43d21d49e45fe673caf9a193de10684147",
-      "name": "Eroxxx"
+      "name": "Eroxxx HD"
     },
     {
       "file": "1_0_16_FAD_AF4_BB_E080000_0_0_0.png",
       "service_reference": "1:0:16:FAD:AF4:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_16_FAD_AF4_BB_E080000_0_0_0.png",
       "sha256": "f5bb36ee072b8ed0252ad99cfd7bd21df3869c10208c5a14d882745cd78838d5",
-      "name": "Markiza Krimi HD"
+      "name": "Markiza KRIMI HD"
     },
     {
       "file": "1_0_16_FB1_AF4_BB_E080000_0_0_0.png",
@@ -207,14 +207,14 @@
       "service_reference": "1:0:19:1783:AF6:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_19_1783_AF6_BB_E080000_0_0_0.png",
       "sha256": "fe5c507138a0d69754fea82a866da42118ebd2c3d32c3a9dbbbd1787b4bef4f1",
-      "name": "Prima KRIMI HD SK"
+      "name": "Prima Krimi SK"
     },
     {
       "file": "1_0_19_1788_AF6_BB_E080000_0_0_0.png",
       "service_reference": "1:0:19:1788:AF6:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_19_1788_AF6_BB_E080000_0_0_0.png",
       "sha256": "d9888063dbebf8f0b16a3a65d0835908d3e9fae8d6d119bcfd0285fd805660de",
-      "name": "JOJ Krimi HD"
+      "name": "JOJ Krimi"
     },
     {
       "file": "1_0_19_1789_AF6_BB_E080000_0_0_0.png",
@@ -263,14 +263,14 @@
       "service_reference": "1:0:19:1F4E:AF8:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_19_1F4E_AF8_BB_E080000_0_0_0.png",
       "sha256": "06e1ac3c1f6fd7172196af7fc68cd3a1842207b2b4d25c4c2074eb746ccd1441",
-      "name": "AMC Slovakia HD"
+      "name": "AMC HD"
     },
     {
       "file": "1_0_19_1F4F_AF8_BB_E080000_0_0_0.png",
       "service_reference": "1:0:19:1F4F:AF8:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_19_1F4F_AF8_BB_E080000_0_0_0.png",
       "sha256": "b8077d5be23b316008754c52f200f40ca033d8f09a4637b00928e13e96364eaa",
-      "name": "Nova Sport 6"
+      "name": "Nova Sport 6 HD"
     },
     {
       "file": "1_0_19_2334_AF9_BB_E080000_0_0_0.png",
@@ -291,14 +291,14 @@
       "service_reference": "1:0:19:2343:AF9:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_19_2343_AF9_BB_E080000_0_0_0.png",
       "sha256": "7c979ad9cacacb6cffa3593e576e9ac176a9b21c5e55fe29f74af0784f0ef050",
-      "name": "TV2 Sef"
+      "name": "Jojko HD"
     },
     {
       "file": "1_0_19_2B06_AFB_BB_E080000_0_0_0.png",
       "service_reference": "1:0:19:2B06:AFB:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_19_2B06_AFB_BB_E080000_0_0_0.png",
       "sha256": "f2bebf91750d61d8df1ff4a58ab274cbd82e9b81ac52a4e5016c5ecea45ba1d7",
-      "name": "CANAL+ Sport"
+      "name": "CANAL+ Sport HD"
     },
     {
       "file": "1_0_19_3F3_AF1_BB_E080000_0_0_0.png",
@@ -312,7 +312,7 @@
       "service_reference": "1:0:19:3F8:AF1:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_19_3F8_AF1_BB_E080000_0_0_0.png",
       "sha256": "c28f23ba7cbe3b6101211582b6f52f438137f43c508e2cb46ba399575cdfde42",
-      "name": "JOJ Plus HD"
+      "name": "Plus HD"
     },
     {
       "file": "1_0_19_5C8_4_1_E080000_0_0_0.png",
@@ -375,14 +375,14 @@
       "service_reference": "1:0:19:7DB:AF2:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_19_7DB_AF2_BB_E080000_0_0_0.png",
       "sha256": "856cfae15ca44a5f500587b6d210c51548b189bf8b69e98143fcbff114eedacf",
-      "name": "CT 2 HD"
+      "name": "CT2 HD"
     },
     {
       "file": "1_0_19_7DC_AF2_BB_E080000_0_0_0.png",
       "service_reference": "1:0:19:7DC:AF2:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_19_7DC_AF2_BB_E080000_0_0_0.png",
       "sha256": "7af6d98e09908bcafbafd32f94c9e8d774cd587bb16b66a222ec3ba49a561d16",
-      "name": "PREMIER SPORT 2 SK HD"
+      "name": "Premier Sport 2"
     },
     {
       "file": "1_0_19_7DE_AF2_BB_E080000_0_0_0.png",
@@ -424,7 +424,7 @@
       "service_reference": "1:0:19:FB4:AF4:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_19_FB4_AF4_BB_E080000_0_0_0.png",
       "sha256": "2143d64157b2a83b4166208b5273036fa538783787f37d66e607a81532ca15e5",
-      "name": "PREMIER SPORT 1 CZ HD"
+      "name": "Premier Sport 1"
     },
     {
       "file": "1_0_19_FBA_AF4_BB_E080000_0_0_0.png",
@@ -459,7 +459,7 @@
       "service_reference": "1:0:1:177B:AF6:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_1_177B_AF6_BB_E080000_0_0_0.png",
       "sha256": "752907b6200779dc3edd9f16882c601603abbe70e9a5b7196146029625ed7ebe",
-      "name": "Cartoon Network"
+      "name": "Cartoon Network HD"
     },
     {
       "file": "1_0_1_177C_AF6_BB_E080000_0_0_0.png",
@@ -1348,7 +1348,7 @@
       "service_reference": "1:0:1:A96:3:1:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_1_A96_3_1_E080000_0_0_0.png",
       "sha256": "a4c15ce4a2de3ca5e46f9e5bb11791db7a867e339d8ae9733ecabd7271ec66cd",
-      "name": "Galaxy4"
+      "name": "Galaxy 4"
     },
     {
       "file": "1_0_1_B22_C_1_E082E7C_0_0_0.png",
@@ -1425,7 +1425,7 @@
       "service_reference": "1:0:1:CEE:3:1:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_1_CEE_3_1_E080000_0_0_0.png",
       "sha256": "418d65c7cc336160e8b467195dcb73baea29402f1e08dda5cf0b07af84c64865",
-      "name": "Film4"
+      "name": "Film 4"
     },
     {
       "file": "1_0_1_D16_3_1_E080000_0_0_0.png",
@@ -1516,7 +1516,7 @@
       "service_reference": "1:0:1:FAE:AF4:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_1_FAE_AF4_BB_E080000_0_0_0.png",
       "sha256": "09d74b6322ab844d47fafe7a85f111afd91360600ec628115a32716a81c87bdc",
-      "name": "Barrandov Krimi"
+      "name": "Barrandov Krimi HD"
     },
     {
       "file": "1_0_1_FAF_AF4_BB_E080000_0_0_0.png",
@@ -1537,7 +1537,7 @@
       "service_reference": "1:0:1:FB6:AF4:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_1_FB6_AF4_BB_E080000_0_0_0.png",
       "sha256": "330a02f53d113963469afbe72404c0b7323b4b831759c6223e9ef1270805bbd5",
-      "name": "Viasat Explore"
+      "name": "Viasat Explorer HD"
     },
     {
       "file": "1_0_1_FB8_AF4_BB_E080000_0_0_0.png",
@@ -1565,7 +1565,7 @@
       "service_reference": "1:0:1:FBC:AF4:BB:E080000:0:0:0:",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/picons/0.8w/freesat/transparent/1_0_1_FBC_AF4_BB_E080000_0_0_0.png",
       "sha256": "1e9d2bf462d78f4fd11735e4a045fbd94d3013578ddd311214d6dea1d92353a4",
-      "name": "Premier Sport 3 HD"
+      "name": "Premier Sport 3"
     },
     {
       "file": "1_0_1_FC1_AF4_BB_E080000_0_0_0.png",

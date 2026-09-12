@@ -1,9 +1,0 @@
-{
-  "schema": 1,
-  "package_id": "sat_22.0w",
-  "name": "Satellite 22W",
-  "style": "white",
-  "resolution": "220x132",
-  "membership": "Ciefp Motor 75E-34W supplied SRP set; existing PiconHub set merged where available",
-  "picons": []
-}
